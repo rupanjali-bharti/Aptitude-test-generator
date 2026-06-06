@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+backend/yarn-error.log
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.log
+mongodb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Testing
+coverage/
+.nyc_output/

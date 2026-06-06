@@ -1,0 +1,82 @@
+.tests-list-container {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tests-header {
+  margin-bottom: 2rem;
+}
+
+.tests-header h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.tests-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.tests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.test-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.test-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.test-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.test-info {
+  margin: 1.5rem 0;
+}
+
+.test-info p {
+  margin: 0.5rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.test-card .btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.no-tests {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #999;
+}
+
+.no-tests p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .tests-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tests-header h1 {
+    font-size: 1.8rem;
+  }
+}
