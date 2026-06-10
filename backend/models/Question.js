@@ -1,43 +1,18 @@
 const mongoose = require('mongoose');
 
-const questionSchema = new mongoose.Schema(
-  {
-    text: {
-      type: String,
-      required: true,
-    },
+const questionSchema = new mongoose.Schema({
+    topic: { type: String, required: true },
+    question: { type: String, required: true },
     options: {
-      type: [String],
-      required: true,
+        a: { type: String, required: true },
+        b: { type: String, required: true },
+        c: { type: String, required: true },
+        d: { type: String, required: true },
+        e: { type: String } // Optional, as some questions only go up to 'd'
     },
-    correctAnswer: {
-      type: String,
-      required: true,
-    },
-    topic: {
-      type: String,
-      required: true, // e.g., "Quantitative Aptitude", "Logical Reasoning", "Verbal"
-    },
-    difficulty: {
-      type: String,
-      enum: ['easy', 'medium', 'hard'],
-      default: 'medium',
-    },
-    explanation: {
-      type: String,
-    },
-    source: {
-      type: String, // e.g., "indiabix", "gemini_generated"
-    },
-    company: {
-      type: String,
-    }, // Specific company if generated for that company
-    timeLimit: {
-      type: Number,
-      default: 60, // seconds
-    },
-  },
-  { timestamps: true }
-);
+    correct_answer: { type: String, required: true },
+    difficulty: { type: String, required: true, enum: ['Easy', 'Medium', 'Hard'] },
+    explanation: { type: String }
+}, { timestamps: true });
 
 module.exports = mongoose.model('Question', questionSchema);

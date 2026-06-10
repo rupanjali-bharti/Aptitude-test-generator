@@ -1,34 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import TestsList from './pages/TestsList';
-import './App.css';
+import Test from './components/Test'; // Assuming Test.js is in src/components/
+import TestResults from './components/TestResults'; // Assuming TestResults.js is in src/components/
 
 function App() {
   return (
     <Router>
-      <div className="app">
-        <header className="app-header">
-          <nav className="navbar">
-            <div className="nav-container">
-              <a href="/" className="nav-logo">
-                📝 Aptitude Test Generator
-              </a>
-            </div>
-          </nav>
-        </header>
-
-        <main className="app-main">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/tests/:company" element={<TestsList />} />
-          </Routes>
-        </main>
-
-        <footer className="app-footer">
-          <p>&copy; 2026 Aptitude Test Generator. Powered by Gemini AI.</p>
-        </footer>
-      </div>
+      <Routes>
+        {/* Your existing Home route */}
+        <Route path="/" element={<Home />} />
+        
+        {/* ADD THESE TWO LINES */}
+        <Route path="/test" element={<Test />} />
+        <Route path="/results" element={<TestResults />} />
+      </Routes>
     </Router>
   );
 }

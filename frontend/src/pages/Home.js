@@ -1,102 +1,49 @@
 import React, { useState } from 'react';
-import { generateTests } from '../utils/api';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Home.css';
 
-function Home() {
-  const [company, setCompany] = useState('');
-  const [jobDescription, setJobDescription] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
+const Home = () => {
+    const [level, setLevel] = useState('Medium');
+    const [duration, setDuration] = useState(30); // Default to 30 minutes
+    const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError('');
-    setSuccessMessage('');
-    setLoading(true);
+    const handleStartTest = () => {
+        // Navigate to the test route and pass the configuration in state
+        navigate('/test', { state: { level, duration } });
+    };
 
-    try {
-      const response = await generateTests(company, jobDescription);
-      setSuccessMessage(`Successfully generated ${response.data.data.length} tests for ${company}!`);
-      setCompany('');
-      setJobDescription('');
-      
-      // Redirect to company tests page after short delay
-      setTimeout(() => {
-        window.location.href = `/tests/${company}`;
-      }, 2000);
-    } catch (err) {
-      setError(err.response?.data?.message || 'Error generating tests. Please try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
+    return (
+        <div className="home-container">
+            <h1>Aptitude Test Generator</h1>
+            <p>Customize your practice session.</p>
 
-  return (
-    <div className="home-container">
-      <div className="home-content">
-        <h1>Aptitude Test Generator</h1>
-        <p className="subtitle">Generate customized aptitude tests for your dream company</p>
+            <div className="config-card">
+                <div className="form-group">
+                    <label>Select Difficulty Level:</label>
+                    <select value={level} onChange={(e) => setLevel(e.target.value)}>
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
+                        <option value="Mixed">Mixed (All Levels)</option>
+                    </select>
+                </div>
 
-        <form onSubmit={handleSubmit} className="test-form">
-          <div className="form-group">
-            <label htmlFor="company">Company Name *</label>
-            <input
-              type="text"
-              id="company"
-              value={company}
-              onChange={(e) => setCompany(e.target.value)}
-              placeholder="e.g., Google, Microsoft, Amazon"
-              required
-              disabled={loading}
-            />
-          </div>
+                <div className="form-group">
+                    <label>Select Time Limit (Minutes):</label>
+                    <select value={duration} onChange={(e) => setDuration(Number(e.target.value))}>
+                        <option value={15}>15 Minutes</option>
+                        <option value={30}>30 Minutes</option>
+                        <option value={45}>45 Minutes</option>
+                        <option value={60}>60 Minutes</option>
+                    </select>
+                </div>
 
-          <div className="form-group">
-            <label htmlFor="jobDescription">Job Description *</label>
-            <textarea
-              id="jobDescription"
-              value={jobDescription}
-              onChange={(e) => setJobDescription(e.target.value)}
-              placeholder="Paste the job description here..."
-              rows="8"
-              required
-              disabled={loading}
-            />
-          </div>
-
-          {error && <div className="error-message">{error}</div>}
-          {successMessage && <div className="success-message">{successMessage}</div>}
-
-          <button type="submit" className="btn btn-primary" disabled={loading}>
-            {loading ? 'Generating Tests...' : 'Generate 6 Tests'}
-          </button>
-        </form>
-
-        <div className="features">
-          <h2>Why Use Our Platform?</h2>
-          <div className="features-grid">
-            <div className="feature-card">
-              <h3>AI-Powered</h3>
-              <p>Uses Gemini API to generate questions matching company requirements</p>
+                <button className="start-btn" onClick={handleStartTest}>
+                    Start Test
+                </button>
             </div>
-            <div className="feature-card">
-              <h3>Timed Tests</h3>
-              <p>Real-world testing experience with accurate timers and progress tracking</p>
-            </div>
-            <div className="feature-card">
-              <h3>Smart Analysis</h3>
-              <p>Get detailed analysis of strengths, weaknesses, and improvement areas</p>
-            </div>
-            <div className="feature-card">
-              <h3>Multiple Tests</h3>
-              <p>Generate 5-6 different tests per company to practice thoroughly</p>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
-}
+    );
+};
 
 export default Home;

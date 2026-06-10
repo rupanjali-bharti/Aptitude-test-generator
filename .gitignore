@@ -40,3 +40,7 @@ build/
 # Testing
 coverage/
 .nyc_output/
+
+data-extraction/venv/
+node_modules/
+.env
