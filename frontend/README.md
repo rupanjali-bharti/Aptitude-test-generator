@@ -6,24 +6,95 @@ React.js frontend for the Aptitude Test Generator application.
 ## Project Structure
 
 ```
-src/
-├── components/
-│   ├── Test.js           # Main test interface component
-│   └── TestResults.js    # Results and analysis display
-├── pages/
-│   ├── Home.js           # Home page with test generation form
-│   └── TestsList.js      # List of available tests
-├── styles/
-│   ├── index.css         # Global styles
-│   ├── Home.css
-│   ├── Test.css
-│   ├── TestsList.css
-│   └── TestResults.css
-├── utils/
-│   └── api.js            # API client and endpoints
-├── App.js                # Main app component
-├── App.css
-└── index.js              # React entry point
+Aptitude-test-generator/
+│
+├── .github/
+│   └── copilot-instructions.md
+│
+├── backend/
+│   ├── config/
+│   │   ├── database.js
+│   │   └── index.js
+│   │
+│   ├── controllers/
+│   │   └── testController.js
+│   │
+│   ├── models/
+│   │   ├── Question.js
+│   │   ├── Test.js
+│   │   └── TestResult.js
+│   │
+│   ├── routes/
+│   │   └── test.js
+│   │
+│   ├── services/
+│   │   ├── geminiService.js
+│   │   ├── scraperService.js
+│   │   └── testService.js
+│   │
+│   ├── server.js
+│   ├── seed.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Test.js
+│   │   │   └── TestResults.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   └── TestsList.js
+│   │   │
+│   │   ├── styles/
+│   │   │   ├── Home.css
+│   │   │   ├── Test.css
+│   │   │   ├── TestResults.css
+│   │   │   └── TestsList.css
+│   │   │
+│   │   ├── utils/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   │   └── index.css
+│   │
+│   ├── .env.example
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+├── data-extraction/
+│   ├── pdf_assets/
+│   │   ├── partnership.pdf
+│   │   ├── percentage.pdf
+│   │   ├── profit.pdf
+│   │   └── ratios.pdf
+│   │
+│   ├── outputs/
+│   │   ├── databank.json
+│   │   └── partnership.json
+│   │
+│   ├── 1_parse_pdf_to_json.py
+│   ├── 2_seed_mongo.py
+│   ├── merge_data.py
+│   ├── check_models.py
+│   └── requirements.txt
+│
+├── R. S. Aggarwal.pdf
+├── QUICK_START.md
+├── README.md
+├── setup.bat
+├── setup.sh
+├── package.json
+├── package-lock.json
+└── .gitignore            # React entry point
 ```
 
 ## Pages & Components
