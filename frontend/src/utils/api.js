@@ -3,11 +3,12 @@ import axios from 'axios';
 // Ensure your backend URL is set in your .env file
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
-export const generateTest = async (level, duration) => {
+export const generateTest = async (level, duration, questionCount = 10) => {
     try {
         const response = await axios.post(`${API_URL}/tests/generate`, { 
             level: level, 
-            duration: duration 
+            duration: duration,
+            questionCount: questionCount
         }, {
             headers: {
                 'Content-Type': 'application/json'

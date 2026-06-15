@@ -18,7 +18,7 @@
 
 body {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-  background-color: var(--light-color);
+  background: linear-gradient(180deg, #f8fbff 0%, #f3f6ff 100%);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -30,19 +30,20 @@ body {
 }
 
 .app-header {
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 100;
+  backdrop-filter: blur(14px);
+  background: rgba(255,255,255,0.72);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
 .navbar {
-  padding: 1rem 0;
+  padding: 0.9rem 0;
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
@@ -51,29 +52,45 @@ body {
 }
 
 .nav-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--primary-color);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #1d4ed8;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.nav-logo:hover {
-  color: var(--secondary-color);
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #334155;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+  background: rgba(37,99,235,0.08);
 }
 
 .app-main {
   flex: 1;
-  max-width: 1200px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
 }
 
 .app-footer {
-  background-color: var(--dark-color);
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   color: white;
   text-align: center;
   padding: 2rem;

@@ -9,6 +9,11 @@
     "seed": "node scripts/seedQuestions.js",
     "test": "jest"
   },
+  "jest": {
+    "testMatch": [
+      "**/*.test.js"
+    ]
+  },
   "keywords": [
     "aptitude",
     "test",
