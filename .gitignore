@@ -44,3 +44,9 @@ coverage/
 data-extraction/venv/
 node_modules/
 .env
+
+# Generated PDFs
+data-extraction/pdf_assets/
+
+# Generated JSON outputs
+data-extraction/outputs/
