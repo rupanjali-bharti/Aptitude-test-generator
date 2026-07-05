@@ -1,0 +1,327 @@
+[
+  {
+    "text": "A is 50% more efficient than B. If they together can complete a piece of work in 12 days, in how many days can B alone complete the work?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "20 days",
+      "B": "24 days",
+      "C": "30 days",
+      "D": "36 days"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ratio of efficiency of A to B is 150:100 or 3:2. This means if B does 2 units a day, A does 3 units. Together they do 5 units a day. Total work = 5 units/day * 12 days = 60 units. Time taken by B alone = Total work / B's efficiency = 60 / 2 = 30 days."
+  },
+  {
+    "text": "A can do a piece of work in 10 days and B can do it in 15 days. They work together for 5 days, and then the rest of the work is finished by C in 2 days. If they get Rs. 3000 for the whole work, what is the daily wage of B?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 200",
+      "B": "Rs. 250",
+      "C": "Rs. 300",
+      "D": "Rs. 400"
+    },
+    "correctAnswer": "A",
+    "explanation": "A's 5-day work = 5/10 = 1/2. B's 5-day work = 5/15 = 1/3. Total work done by A and B = 1/2 + 1/3 = 5/6. Remaining work done by C = 1/6. Wages are divided in the ratio of work done: 1/2 : 1/3 : 1/6 = 3 : 2 : 1. Total parts = 6. B's total share = (2/6) * 3000 = Rs. 1000. B worked for 5 days, so daily wage = 1000 / 5 = Rs. 200."
+  },
+  {
+    "text": "Pipe A can fill a tank in 12 minutes and Pipe B in 15 minutes. Both are opened together, but after 3 minutes, Pipe A is turned off. How many more minutes will Pipe B take to fill the rest of the tank?",
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "options": {
+      "A": "7.25 mins",
+      "B": "8.25 mins",
+      "C": "9 mins",
+      "D": "10.5 mins"
+    },
+    "correctAnswer": "B",
+    "explanation": "Part filled by A and B in 1 min = (1/12 + 1/15) = (5+4)/60 = 9/60 = 3/20. In 3 mins, they fill 3 * (3/20) = 9/20 of the tank. Remaining part = 1 - 9/20 = 11/20. Time taken by B to fill the remaining part = (11/20) / (1/15) = (11/20) * 15 = 165/20 = 33/4 = 8.25 minutes."
+  },
+  {
+    "text": "A man travels from A to B at a speed of 40 km/hr and returns from B to A at 60 km/hr. If the total journey takes 10 hours, what is the distance between A and B?",
+    "topic": "Speed, Distance and Time",
+    "difficulty": "Medium",
+    "options": {
+      "A": "200 km",
+      "B": "240 km",
+      "C": "300 km",
+      "D": "480 km"
+    },
+    "correctAnswer": "B",
+    "explanation": "Average speed for the entire journey = (2 * 40 * 60) / (40 + 60) = 4800 / 100 = 48 km/hr. Total distance covered = Average Speed * Total Time = 48 * 10 = 480 km. The distance from A to B is half of the total distance = 480 / 2 = 240 km."
+  },
+  {
+    "text": "A train passes a standing man in 10 seconds and a 200-meter long platform in 20 seconds. What is the length of the train?",
+    "topic": "Trains",
+    "difficulty": "Medium",
+    "options": {
+      "A": "100 meters",
+      "B": "150 meters",
+      "C": "200 meters",
+      "D": "250 meters"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let the length of the train be L. Speed of train = L/10. When crossing the platform, Speed = (L + 200)/20. Since the speed is constant: L/10 = (L + 200)/20 => 2L = L + 200 => L = 200 meters."
+  },
+  {
+    "text": "A boat goes 15 km/hr downstream and 9 km/hr upstream. What is the speed of the boat in still water?",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3 km/hr",
+      "B": "6 km/hr",
+      "C": "12 km/hr",
+      "D": "15 km/hr"
+    },
+    "correctAnswer": "C",
+    "explanation": "Speed in still water = (Downstream Speed + Upstream Speed) / 2 = (15 + 9) / 2 = 24 / 2 = 12 km/hr."
+  },
+  {
+    "text": "A shopkeeper marks his goods 50% above the cost price and then allows a discount of 20% on the marked price. What is his net profit percentage?",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "15%",
+      "B": "20%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let Cost Price = 100. Marked Price = 150. Discount = 20% of 150 = 30. Selling Price = 150 - 30 = 120. Profit = Selling Price - Cost Price = 120 - 100 = 20. Profit % = 20%."
+  },
+  {
+    "text": "A retailer offers a scheme: 'Buy 5, Get 1 Free'. What is the equivalent discount percentage offered by the retailer?",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "15%",
+      "B": "16.66%",
+      "C": "20%",
+      "D": "25%"
+    },
+    "correctAnswer": "B",
+    "explanation": "The customer walks away with 6 items but pays for only 5. The discount is exactly 1 item out of the 6 total items received. Discount % = (Free Items / Total Items) * 100 = (1 / 6) * 100 = 16.66%."
+  },
+  {
+    "text": "A certain sum of money amounts to 5/4 of itself in 5 years at simple interest. Find the rate of interest per annum.",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4%",
+      "B": "5%",
+      "C": "6%",
+      "D": "8%"
+    },
+    "correctAnswer": "B",
+    "explanation": "Amount A = (5/4)P. Simple Interest (SI) = A - P = (5/4)P - P = (1/4)P. Formula: SI = (P * R * T) / 100 => (1/4)P = (P * R * 5) / 100. Canceling P from both sides: 1/4 = 5R / 100 => 25 = 5R => R = 5%."
+  },
+  {
+    "text": "The compound interest on a certain sum for 2 years is Rs. 410 and the simple interest is Rs. 400. What is the rate of interest?",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4%",
+      "B": "5%",
+      "C": "8%",
+      "D": "10%"
+    },
+    "correctAnswer": "B",
+    "explanation": "Simple interest for 2 years is 400, so SI for 1 year = Rs. 200. The difference between CI and SI for 2 years is Rs. 10 (410 - 400). This difference is exactly the interest earned on the first year's SI. Rate = (10 / 200) * 100 = 5%."
+  },
+  {
+    "text": "In an election between two candidates, the losing candidate got 40% of the valid votes and lost by a margin of 298 votes. Find the total number of valid votes cast.",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1400",
+      "B": "1450",
+      "C": "1490",
+      "D": "1520"
+    },
+    "correctAnswer": "C",
+    "explanation": "The losing candidate got 40%, so the winning candidate got 60% of the votes. The margin of victory is 60% - 40% = 20%. Given that 20% of the total votes = 298. Total votes (100%) = 298 * 5 = 1490."
+  },
+  {
+    "text": "If the price of petrol increases by 25%, by what percentage must a car owner reduce their consumption so that the expenditure on petrol remains the same?",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "15%",
+      "B": "20%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reduction % = (Increase % / (100 + Increase %)) * 100 = (25 / 125) * 100 = (1/5) * 100 = 20%."
+  },
+  {
+    "text": "A bag contains coins of Rs. 1, 50 paise, and 25 paise in the ratio of 5:6:8. If the total amount in the bag is Rs. 210, find the number of 50 paise coins.",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "105",
+      "B": "126",
+      "C": "144",
+      "D": "168"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the number of coins be 5x, 6x, and 8x respectively. Convert values to Rupees: Rs. 1 = 1, 50p = 0.5, 25p = 0.25. Total value = 1(5x) + 0.5(6x) + 0.25(8x) = 210. 5x + 3x + 2x = 210 => 10x = 210 => x = 21. Number of 50p coins = 6x = 6 * 21 = 126."
+  },
+  {
+    "text": "A mixture contains milk and water in the ratio 7:2. If 9 liters of water is added to the mixture, the ratio becomes 7:5. What was the initial quantity of milk in the mixture?",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "14 liters",
+      "B": "18 liters",
+      "C": "21 liters",
+      "D": "28 liters"
+    },
+    "correctAnswer": "C",
+    "explanation": "The ratio of milk remains the same (7 parts). The water ratio changes from 2 parts to 5 parts. The increase is 3 parts. We know this increase equals 9 liters. So, 3 parts = 9 liters => 1 part = 3 liters. Initial milk = 7 parts = 7 * 3 = 21 liters."
+  },
+  {
+    "text": "A father is currently 3 times as old as his son. Eight years from now, the father's age will be 2.5 times the son's age. What is the father's present age?",
+    "topic": "Problems on Ages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "48 years",
+      "B": "60 years",
+      "C": "72 years",
+      "D": "84 years"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let son's present age = S. Father's present age = 3S. After 8 years: (3S + 8) = 2.5(S + 8) => 3S + 8 = 2.5S + 20 => 0.5S = 12 => S = 24. Father's present age = 3 * 24 = 72 years."
+  },
+  {
+    "text": "The average of 5 consecutive odd numbers is 61. What is the difference between the highest and lowest numbers in this set?",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let the 5 consecutive odd numbers be x, x+2, x+4, x+6, and x+8. The highest is (x+8) and the lowest is x. The difference is always (x+8) - x = 8, regardless of the average."
+  },
+  {
+    "text": "A number when divided by 899 leaves a remainder of 63. If the same number is divided by 29, what will be the remainder?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "7",
+      "D": "11"
+    },
+    "correctAnswer": "B",
+    "explanation": "Because 899 is perfectly divisible by 29 (29 * 31 = 899), we can directly divide the first remainder (63) by 29. 63 / 29 gives a quotient of 2 and a remainder of 5. Thus, the new remainder is 5."
+  },
+  {
+    "text": "What is the unit digit of the expression 3^40?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "7",
+      "D": "9"
+    },
+    "correctAnswer": "A",
+    "explanation": "The unit digit of powers of 3 repeats in a cycle of 4: 3^1=3, 3^2=9, 3^3=7, 3^4=1. Divide the exponent 40 by 4. The remainder is 0, which means it lands exactly on the end of the cycle (the 4th position). The unit digit is 1."
+  },
+  {
+    "text": "The LCM of two numbers is 48. If the numbers are in the ratio 2:3, what is the sum of the numbers?",
+    "topic": "HCF and LCM",
+    "difficulty": "Medium",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "50",
+      "D": "60"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the numbers be 2x and 3x. Their LCM will be 6x. We are given 6x = 48, so x = 8. The numbers are 2(8) = 16 and 3(8) = 24. Their sum is 16 + 24 = 40."
+  },
+  {
+    "text": "In how many ways can the letters of the word 'LEADER' be arranged?",
+    "topic": "Permutation and Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "120",
+      "B": "360",
+      "C": "720",
+      "D": "1440"
+    },
+    "correctAnswer": "B",
+    "explanation": "The word 'LEADER' has 6 letters. The letter 'E' repeats 2 times. Total permutations = 6! / 2! = (6 * 5 * 4 * 3 * 2 * 1) / (2 * 1) = 720 / 2 = 360 ways."
+  },
+  {
+    "text": "Two unbiased dice are rolled. What is the probability that the sum of the numbers on the dice is exactly 8?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/6",
+      "B": "5/36",
+      "C": "1/9",
+      "D": "7/36"
+    },
+    "correctAnswer": "B",
+    "explanation": "Total possible outcomes when two dice are rolled = 36. Favorable outcomes for a sum of 8 are (2,6), (3,5), (4,4), (5,3), and (6,2). There are 5 favorable outcomes. Probability = 5/36."
+  },
+  {
+    "text": "What is the probability that a randomly selected leap year will contain 53 Fridays?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/7",
+      "B": "2/7",
+      "C": "3/7",
+      "D": "4/7"
+    },
+    "correctAnswer": "B",
+    "explanation": "A leap year has 366 days, which equals 52 full weeks and 2 extra days. These 2 extra days can be (Sun,Mon), (Mon,Tue), (Tue,Wed), (Wed,Thu), (Thu,Fri), (Fri,Sat), or (Sat,Sun). Out of these 7 possible combinations, 2 contain a Friday. Thus, the probability is 2/7."
+  },
+  {
+    "text": "The area of an equilateral triangle is 25*sqrt(3) sq cm. What is the length of its side?",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "options": {
+      "A": "5 cm",
+      "B": "10 cm",
+      "C": "15 cm",
+      "D": "20 cm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Area of equilateral triangle = (sqrt(3)/4) * a^2. We are given (sqrt(3)/4) * a^2 = 25*sqrt(3). Canceling sqrt(3) from both sides: a^2 / 4 = 25 => a^2 = 100 => a = 10 cm."
+  },
+  {
+    "text": "The length of the longest pole that can be placed in a cubical room is 6*sqrt(3) meters. What is the volume of the room?",
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "options": {
+      "A": "108 cubic meters",
+      "B": "216 cubic meters",
+      "C": "256 cubic meters",
+      "D": "512 cubic meters"
+    },
+    "correctAnswer": "B",
+    "explanation": "The longest pole corresponds to the main diagonal of the cube. The formula for the diagonal of a cube is a*sqrt(3), where 'a' is the side length. So, a*sqrt(3) = 6*sqrt(3) => a = 6 meters. Volume of the cube = a^3 = 6^3 = 216 cubic meters."
+  },
+  {
+    "text": "If x + 1/x = 5, find the value of x^3 + 1/x^3.",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "options": {
+      "A": "110",
+      "B": "120",
+      "C": "125",
+      "D": "140"
+    },
+    "correctAnswer": "A",
+    "explanation": "Using the algebraic identity: x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x). Substitute x + 1/x = 5 into the equation: (5)^3 - 3(5) = 125 - 15 = 110."
+  }
+]

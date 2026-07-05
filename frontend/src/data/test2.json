@@ -1,1318 +1,327 @@
 [
-    {
-        "topic": "simple_interest",
-        "question": "What would be the simple interest obtained on an amount of \u20b9 5760 at the rate of 6 p.c.p.a. after 3 years.?",
-        "options": {
-            "a": "\u20b9 1036.80",
-            "b": "\u20b9 1063.80",
-            "c": "\u20b9 1336.80",
-            "d": "\u20b9 1666.80",
-            "e": "None of these"
-        },
-        "correct_answer": "a",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 5760, Rate (R) = 6%, Time (T) = 3 years.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (5760 \u00d7 6 \u00d7 3) / 100\nS.I. = 103680 / 100\nS.I. = \u20b9 1036.80"
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A farmer borrowed \u20b9 3600 at 15% simple interest per annum. At the end of 4 years, he cleared this account by paying \u20b9 4000 and a cow. The cost of the cow is",
-        "options": {
-            "a": "\u20b9 1000",
-            "b": "\u20b9 1200",
-            "c": "\u20b9 1550",
-            "d": "\u20b9 1760"
-        },
-        "correct_answer": "d",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 3600, Rate (R) = 15%, Time (T) = 4 years.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (3600 \u00d7 15 \u00d7 4) / 100\nS.I. = 216000 / 100\nS.I. = \u20b9 2160.\nAmount to be paid after 4 years = Principal + S.I. = \u20b9 3600 + \u20b9 2160 = \u20b9 5760.\nThe farmer paid \u20b9 4000 and a cow. So, the cost of the cow = Total amount to be paid - Amount paid in cash\nCost of the cow = \u20b9 5760 - \u20b9 4000 = \u20b9 1760."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Ram borrows \u20b9 520 from Gaurav at a simple interest of 13% per annum. What amount of money should Ram pay to Gaurav after 6 months to be absolved of the debt?",
-        "options": {
-            "a": "\u20b9 353.80",
-            "b": "\u20b9 453.80",
-            "c": "\u20b9 552.80",
-            "d": "\u20b9 553.80"
-        },
-        "correct_answer": "d",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 520, Rate (R) = 13% per annum, Time (T) = 6 months = 6/12 years = 1/2 year.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (520 \u00d7 13 \u00d7 1/2) / 100\nS.I. = (520 \u00d7 13) / (100 \u00d7 2)\nS.I. = 6760 / 200\nS.I. = \u20b9 33.80.\nAmount to be paid = Principal + S.I. = \u20b9 520 + \u20b9 33.80 = \u20b9 553.80."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "At the rate of 8 1/2 % p.a. simple interest, a sum of \u20b9 4800 will earn how much interest in 2 years 3 months?",
-        "options": {
-            "a": "\u20b9 796",
-            "b": "\u20b9 816",
-            "c": "\u20b9 918",
-            "d": "\u20b9 956"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 4800, Rate (R) = 8 1/2% p.a. = 17/2% p.a.\nTime (T) = 2 years 3 months = 2 + 3/12 years = 2 + 1/4 years = 9/4 years.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (4800 \u00d7 (17/2) \u00d7 (9/4)) / 100\nS.I. = (4800 \u00d7 17 \u00d7 9) / (2 \u00d7 4 \u00d7 100)\nS.I. = (4800 \u00d7 153) / 800\nS.I. = 734400 / 800\nS.I. = \u20b9 918."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "What will be the simple interest earned on an amount of \u20b9 16,800 in 9 months at the rate of 6 1/4% p.a.?",
-        "options": {
-            "a": "\u20b9 787.50",
-            "b": "\u20b9 812.50",
-            "c": "\u20b9 860",
-            "d": "\u20b9 887.50"
-        },
-        "correct_answer": "a",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 16,800, Rate (R) = 6 1/4% p.a. = 25/4% p.a.\nTime (T) = 9 months = 9/12 years = 3/4 year.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (16800 \u00d7 (25/4) \u00d7 (3/4)) / 100\nS.I. = (16800 \u00d7 25 \u00d7 3) / (4 \u00d7 4 \u00d7 100)\nS.I. = (16800 \u00d7 75) / 1600\nS.I. = 1260000 / 1600\nS.I. = \u20b9 787.50."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest on \u20b9 1820 from March 9, 2012 to May 21, 2012 at 7 1/2% rate will be",
-        "options": {
-            "a": "\u20b9 22.50",
-            "b": "\u20b9 27.30",
-            "c": "\u20b9 28.80",
-            "d": "\u20b9 29"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 1820, Rate (R) = 7 1/2% = 15/2%.\nTime period from March 9, 2012 to May 21, 2012:\nDays in March = 31 - 9 = 22 days\nDays in April = 30 days\nDays in May = 21 days\nTotal days = 22 + 30 + 21 = 73 days.\nTime (T) in years = 73/365 years = 1/5 year.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (1820 \u00d7 (15/2) \u00d7 (1/5)) / 100\nS.I. = (1820 \u00d7 15 \u00d7 1) / (2 \u00d7 5 \u00d7 100)\nS.I. = 27300 / 1000\nS.I. = \u20b9 27.30."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A shopkeeper with an overdraft facility at 18 percent with a bank borrowed \u20b915000 on Jan 8, 2011 and returned the money on June 3, 2011 so as to clear the debt. The amount that he paid was",
-        "options": {
-            "a": "\u20b9 16080",
-            "b": "\u20b9 16280",
-            "c": "\u20b9 16400",
-            "d": "None of these"
-        },
-        "correct_answer": "a",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 15000, Rate (R) = 18%.\nTime period from Jan 8, 2011 to June 3, 2011:\nDays in January = 31 - 8 = 23 days\nDays in February = 28 days (2011 is not a leap year)\nDays in March = 31 days\nDays in April = 30 days\nDays in May = 31 days\nDays in June = 3 days\nTotal days = 23 + 28 + 31 + 30 + 31 + 3 = 146 days.\nTime (T) in years = 146/365 years = 2/5 years.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (15000 \u00d7 18 \u00d7 (2/5)) / 100\nS.I. = (15000 \u00d7 18 \u00d7 2) / (5 \u00d7 100)\nS.I. = 540000 / 500\nS.I. = \u20b9 1080.\nAmount paid = Principal + S.I. = \u20b9 15000 + \u20b9 1080 = \u20b9 16080."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A person borrows \u20b9 5000 for 2 years at 4% p.a. simple interest. He immediately lends it to another person at 6 1/4% p.a. for 2 years. Find his gain in the transaction per year.",
-        "options": {
-            "a": "\u20b9 112.50",
-            "b": "\u20b9 125",
-            "c": "\u20b9 150",
-            "d": "\u20b9 167.50"
-        },
-        "correct_answer": "a",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 5000, Time (T) = 2 years.\nInterest paid (S.I.1) = (P \u00d7 R1 \u00d7 T) / 100, where R1 = 4%\nS.I.1 = (5000 \u00d7 4 \u00d7 2) / 100 = 40000 / 100 = \u20b9 400.\nInterest received (S.I.2) = (P \u00d7 R2 \u00d7 T) / 100, where R2 = 6 1/4% = 25/4%\nS.I.2 = (5000 \u00d7 (25/4) \u00d7 2) / 100\nS.I.2 = (5000 \u00d7 25 \u00d7 2) / (4 \u00d7 100)\nS.I.2 = 250000 / 400 = \u20b9 625.\nTotal gain in 2 years = S.I.2 - S.I.1 = \u20b9 625 - \u20b9 400 = \u20b9 225.\nGain per year = Total gain / Time = \u20b9 225 / 2 = \u20b9 112.50."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Ramakant invested amounts in two different schemes A and B for five years in the ratio of 5: 4 respectively. Scheme A offers 8% simple interest and bonus equal to 20% of the amount of interest earned in 5 years on maturity. Scheme B offers 9% simple interest. If the amount invested in scheme A was \u20b9 20000, what was the total amount received on maturity from both the schemes?",
-        "options": {
-            "a": "\u20b9 50800",
-            "b": "\u20b9 51200",
-            "c": "\u20b9 52800",
-            "d": "\u20b9 58200",
-            "e": "None of these"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Let the amount invested in Scheme A be PA and in Scheme B be PB.\nGiven PA : PB = 5 : 4. And PA = \u20b9 20000.\nSo, 5 units = \u20b9 20000, which means 1 unit = \u20b9 4000.\nAmount invested in Scheme B (PB) = 4 units = 4 \u00d7 \u20b9 4000 = \u20b9 16000.\n\nFor Scheme A:\nPrincipal (PA) = \u20b9 20000, Rate (RA) = 8%, Time (T) = 5 years.\nInterest from Scheme A (S.IA) = (PA \u00d7 RA \u00d7 T) / 100\nS.IA = (20000 \u00d7 8 \u00d7 5) / 100 = 800000 / 100 = \u20b9 8000.\nBonus from Scheme A = 20% of S.IA = 0.20 \u00d7 \u20b9 8000 = \u20b9 1600.\nTotal interest from Scheme A = S.IA + Bonus = \u20b9 8000 + \u20b9 1600 = \u20b9 9600.\nAmount received from Scheme A = PA + Total Interest A = \u20b9 20000 + \u20b9 9600 = \u20b9 29600.\n\nFor Scheme B:\nPrincipal (PB) = \u20b9 16000, Rate (RB) = 9%, Time (T) = 5 years.\nInterest from Scheme B (S.IB) = (PB \u00d7 RB \u00d7 T) / 100\nS.IB = (16000 \u00d7 9 \u00d7 5) / 100 = 720000 / 100 = \u20b9 7200.\nAmount received from Scheme B = PB + S.IB = \u20b9 16000 + \u20b9 7200 = \u20b9 23200.\n\nTotal amount received on maturity from both schemes = Amount A + Amount B\nTotal = \u20b9 29600 + \u20b9 23200 = \u20b9 52800."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "\u20b9 1000 is invested at 5% per annum simple interest. If the interest is added to the principal after every 10 years, the amount will become \u20b9 2000 after",
-        "options": {
-            "a": "15 years",
-            "b": "16 2/3 years",
-            "c": "18 years",
-            "d": "20 years"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Given: Initial Principal (P) = \u20b9 1000, Rate (R) = 5%.\nInterest is added to the principal after every 10 years.\n\nAfter first 10 years:\nSimple Interest (S.I.1) = (P \u00d7 R \u00d7 T1) / 100\nS.I.1 = (1000 \u00d7 5 \u00d7 10) / 100 = \u20b9 500.\nNew Principal after 10 years = Initial Principal + S.I.1 = \u20b9 1000 + \u20b9 500 = \u20b9 1500.\n\nWe need the amount to become \u20b9 2000. So, the remaining interest needed is \u20b9 2000 - \u20b9 1500 = \u20b9 500.\nNow, the principal for the next period is P' = \u20b9 1500, Rate (R) = 5%.\nLet T2 be the time required to earn the remaining \u20b9 500 interest.\nS.I.2 = (P' \u00d7 R \u00d7 T2) / 100\n500 = (1500 \u00d7 5 \u00d7 T2) / 100\n500 = (7500 \u00d7 T2) / 100\n500 = 75 \u00d7 T2\nT2 = 500 / 75 = 20 / 3 years = 6 2/3 years.\n\nTotal time = T1 + T2 = 10 years + 6 2/3 years = 16 2/3 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "How much time will it take for an amount of \u20b9450 to yield \u20b981 as interest at 4.5% per annum of simple interest ?",
-        "options": {
-            "a": "3.5 years",
-            "b": "4 years",
-            "c": "4.5 years",
-            "d": "5 years"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 450, Simple Interest (S.I.) = \u20b9 81, Rate (R) = 4.5%.\nTime (T) = (S.I. \u00d7 100) / (P \u00d7 R)\nT = (81 \u00d7 100) / (450 \u00d7 4.5)\nT = 8100 / 2025\nT = 4 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Asmita invests an amount of \u20b9 9534 @ 4 p.c.p.a. to obtain a total amount of \u20b9 11442 on simple interest after a certain period. For how many years did she invest the amount to obtain the total sum?",
-        "options": {
-            "a": "2 years",
-            "b": "4 years",
-            "c": "5 years",
-            "d": "10 years"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 9534, Amount (A) = \u20b9 11442, Rate (R) = 4%.\nSimple Interest (S.I.) = Amount - Principal = \u20b9 11442 - \u20b9 9534 = \u20b9 1908.\nTime (T) = (S.I. \u00d7 100) / (P \u00d7 R)\nT = (1908 \u00d7 100) / (9534 \u00d7 4)\nT = 190800 / 38136\nT = 5 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Deepak invested an amount of \u20b9 21250 for 6 years. At what rate of simple interest will be obtain the total amount of \u20b926350 at the end of 6 years?",
-        "options": {
-            "a": "5 p.c.p.a",
-            "b": "6 p.c.p.a",
-            "c": "8 p.c.p.a",
-            "d": "12 p.c.p.a",
-            "e": "None these"
-        },
-        "correct_answer": "e",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 21250, Amount (A) = \u20b9 26350, Time (T) = 6 years.\nSimple Interest (S.I.) = Amount - Principal = \u20b9 26350 - \u20b9 21250 = \u20b9 5100.\nRate (R) = (S.I. \u00d7 100) / (P \u00d7 T)\nR = (5100 \u00d7 100) / (21250 \u00d7 6)\nR = 510000 / 127500\nR = 4% p.c.p.a.\nSince 4% is not listed in options (a), (b), (c), or (d), the correct answer is (e) None of these."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 1600 gives a simple interest of \u20b9 252 in 2 years and 4 months. The rate of interest per annum is",
-        "options": {
-            "a": "6%",
-            "b": "6 1/4 %",
-            "c": "6 1/2 %",
-            "d": "6 3/4 %"
-        },
-        "correct_answer": "d",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 1600, Simple Interest (S.I.) = \u20b9 252.\nTime (T) = 2 years 4 months = 2 + 4/12 years = 2 + 1/3 years = 7/3 years.\nRate (R) = (S.I. \u00d7 100) / (P \u00d7 T)\nR = (252 \u00d7 100) / (1600 \u00d7 7/3)\nR = (25200 \u00d7 3) / (1600 \u00d7 7)\nR = 75600 / 11200\nR = 6.75% = 6 3/4%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "At what rate of simple interest per annum can an amount of \u20b9 1553.40 be obtained on the principal amount of \u20b9 8630 after 3 years?",
-        "options": {
-            "a": "4 p.c.p.a",
-            "b": "5 p.c.p.a",
-            "c": "7 p.c.p.a",
-            "d": "8 p.c.p.a",
-            "e": "None of these"
-        },
-        "correct_answer": "e",
-        "difficulty": "Easy",
-        "explanation": "Given: Principal (P) = \u20b9 8630, Simple Interest (S.I.) = \u20b9 1553.40, Time (T) = 3 years.\nRate (R) = (S.I. \u00d7 100) / (P \u00d7 T)\nR = (1553.40 \u00d7 100) / (8630 \u00d7 3)\nR = 155340 / 25890\nR = 6% p.c.p.a.\nSince 6% is not listed in options (a), (b), (c), or (d), the correct answer is (e) None of these."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If simple interest on \u20b9 600 for 4 years and on \u20b9 600 for 2 years combined together is \u20b9 180, find the rate of interest.",
-        "options": {
-            "a": "4%",
-            "b": "5%",
-            "c": "5.5%",
-            "d": "6.25%"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Let the rate of interest be R% p.a.\nThen, (600 * R * 4) / 100 + (600 * R * 2) / 100 = 180\n=> 2400R + 1200R = 18000\n=> 3600R = 18000\n=> R = 18000 / 3600 = 5%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Veena obtained an amount of \u20b9 8376 as simple interest on a certain amount at 8 p.c.p.a. after 6 years. What is the amount invested by Veena?",
-        "options": {
-            "a": "\u20b9 16660",
-            "b": "\u20b9 17180",
-            "c": "\u20b9 17450",
-            "d": "\u20b9 18110",
-            "e": "None of these"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Given, Simple Interest (S.I.) = \u20b9 8376, Rate (R) = 8%, Time (T) = 6 years.\nSum (Principal, P) = (100 * S.I.) / (R * T)\n= (100 * 8376) / (8 * 6)\n= 837600 / 48 = \u20b9 17450."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "At which sum the simple interest at the rate of 3(3/4)% per annum will be \u20b9 210 in 2(1/3) years?",
-        "options": {
-            "a": "\u20b9 1580",
-            "b": "\u20b9 2400",
-            "c": "\u20b9 2800",
-            "d": "None of these"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Given, Simple Interest (S.I.) = \u20b9 210, Rate (R) = 3(3/4)% = 15/4%, Time (T) = 2(1/3) years = 7/3 years.\nSum (Principal, P) = (100 * S.I.) / (R * T)\n= (100 * 210) / ((15/4) * (7/3))\n= (100 * 210 * 4 * 3) / (15 * 7)\n= 252000 / 105 = \u20b9 2400."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "What is the present worth of \u20b9 132 due in 2 years at 5% simple interest per annum?",
-        "options": {
-            "a": "\u20b9 112",
-            "b": "\u20b9 118.80",
-            "c": "\u20b9 120",
-            "d": "\u20b9 122"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Let the present worth be x. Then, Simple Interest (S.I.) = \u20b9 (132 \u2013 x).\nGiven, Rate (R) = 5%, Time (T) = 2 years.\nS.I. = (P * R * T) / 100\n132 \u2013 x = (x * 5 * 2) / 100\n132 \u2013 x = 10x / 100\n132 \u2013 x = x / 10\n1320 \u2013 10x = x\n1320 = 11x\nx = 1320 / 11 = \u20b9 120.\nSo, the present worth is \u20b9 120."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum fetched a total simple interest of \u20b9 4016.25 at the rate of 9 p.c.p.a. in 5 years. What is the sum?",
-        "options": {
-            "a": "\u20b9 4462.50",
-            "b": "\u20b9 8032.50",
-            "c": "\u20b9 8900",
-            "d": "\u20b9 8925",
-            "e": "None of these"
-        },
-        "correct_answer": "d",
-        "difficulty": "Easy",
-        "explanation": "Given, Simple Interest (S.I.) = \u20b9 4016.25, Rate (R) = 9%, Time (T) = 5 years.\nPrincipal (P) = (100 * S.I.) / (R * T)\n= (100 * 4016.25) / (9 * 5)\n= 401625 / 45 = \u20b9 8925."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest at x% for x years will be x on a sum of:",
-        "options": {
-            "a": "x",
-            "b": "(100/x)",
-            "c": "\u20b9 100x",
-            "d": "(100/x^2)"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Let the sum be P. Given, S.I. = x, Rate (R) = x%, Time (T) = x years.\nS.I. = (P * R * T) / 100\nx = (P * x * x) / 100\nP = (100 * x) / (x * x)\nP = 100 / x."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "In 4 years, \u20b9 6000 amounts to \u20b9 8000. In what time at the same rate will \u20b9 525 amount to \u20b9 700?",
-        "options": {
-            "a": "2 years",
-            "b": "3 years",
-            "c": "4 years",
-            "d": "5 years"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "First case:\nPrincipal (P) = \u20b9 6000, Amount (A) = \u20b9 8000, Time (T) = 4 years.\nS.I. = A - P = 8000 - 6000 = \u20b9 2000.\nRate (R) = (100 * S.I.) / (P * T) = (100 * 2000) / (6000 * 4) = 200000 / 24000 = 200/24 = 25/3% = 8(1/3)%\n\nSecond case:\nPrincipal (P) = \u20b9 525, Amount (A) = \u20b9 700.\nS.I. = A - P = 700 - 525 = \u20b9 175.\nRate (R) = 25/3%.\nTime (T) = (100 * S.I.) / (P * R) = (100 * 175) / (525 * (25/3))\n= (100 * 175 * 3) / (525 * 25)\n= 52500 / 13125 = 4 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "\u20b9 6200 amounts to \u20b9 9176 in 4 years at simple interest. If the interest rate is increased by 3% it would amount to how much?",
-        "options": {
-            "a": "\u20b9 8432",
-            "b": "\u20b9 9820",
-            "c": "\u20b9 9920",
-            "d": "\u20b9 10920"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Given, Principal (P) = \u20b9 6200, Amount (A) = \u20b9 9176, Time (T) = 4 years.\nS.I. = A - P = 9176 - 6200 = \u20b9 2976.\nOriginal Rate (R) = (100 * S.I.) / (P * T) = (100 * 2976) / (6200 * 4) = 297600 / 24800 = 12%.\nNew rate (R') = 12% + 3% = 15%.\nNew S.I. = (P * R' * T) / 100 = (6200 * 15 * 4) / 100 = 372000 / 100 = \u20b9 3720.\nNew Amount = P + New S.I. = 6200 + 3720 = \u20b9 9920."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Simple interest on \u20b9 500 for 4 years at 6.25% per annum is equal to the simple interest on \u20b9 400 at 5% per annum for a certain period of time. The period of time is",
-        "options": {
-            "a": "4 years",
-            "b": "5 years",
-            "c": "6(1/4) years",
-            "d": "8(2/3) years"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Let the required time be T years.\nS.I. (case 1) = (500 * 6.25 * 4) / 100 = 5 * 6.25 * 4 = \u20b9 125.\nS.I. (case 2) = (400 * 5 * T) / 100 = 4 * 5 * T = 20T.\nGiven, S.I. (case 1) = S.I. (case 2)\n125 = 20T\nT = 125 / 20 = 25 / 4 = 6(1/4) years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A certain amount earns simple interest of \u20b9 1750 after 7 years. Had the interest been 2% more, how much more interest would it have earned?",
-        "options": {
-            "a": "\u20b9 35",
-            "b": "\u20b9 245",
-            "c": "\u20b9 350",
-            "d": "Cannot be determined",
-            "e": "None of these"
-        },
-        "correct_answer": "d",
-        "difficulty": "Easy",
-        "explanation": "To find the additional interest earned due to a 2% increase in rate, we need to know the principal amount. Since the principal is not given, the data is inadequate to determine the additional interest."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "\u20b9 6000 becomes \u20b9 7200 in 4 years at a certain rate of simple interest. If the rate becomes 1.5 times of itself, the amount of the same principal in 5 years will be",
-        "options": {
-            "a": "\u20b9 8000",
-            "b": "\u20b9 8250",
-            "c": "\u20b9 9000",
-            "d": "\u20b9 9250"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Given, Principal (P) = \u20b9 6000, Amount (A) = \u20b9 7200, Time (T) = 4 years.\nS.I. = A - P = 7200 - 6000 = \u20b9 1200.\nOriginal Rate (R) = (100 * S.I.) / (P * T) = (100 * 1200) / (6000 * 4) = 120000 / 24000 = 5%.\nNew rate (R') = 1.5 * Original Rate = 1.5 * 5% = 7.5%.\nNow, for 5 years:\nPrincipal (P) = \u20b9 6000, Rate (R') = 7.5%, Time (T) = 5 years.\nNew S.I. = (P * R' * T) / 100 = (6000 * 7.5 * 5) / 100 = 60 * 7.5 * 5 = \u20b9 2250.\nNew Amount = P + New S.I. = 6000 + 2250 = \u20b9 8250."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "In how many years, \u20b9 150 will produce the same interest @ 8% as \u20b9 800 produce in 3 years @ 4(1/2)%?",
-        "options": {
-            "a": "6",
-            "b": "8",
-            "c": "9",
-            "d": "12"
-        },
-        "correct_answer": "c",
-        "difficulty": "Easy",
-        "explanation": "Let the required time be T years.\nInterest from the first case (S.I.1) = (150 * 8 * T) / 100 = 12T.\nInterest from the second case (S.I.2) = (800 * 4.5 * 3) / 100 = 8 * 4.5 * 3 = \u20b9 108.\nGiven, S.I.1 = S.I.2\n12T = 108\nT = 108 / 12 = 9 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest accrued on a certain principal in 5 years at the rate of 12 p.c.p.a. is \u20b9 1536. What amount of simple interest would one get if one invests \u20b9 1000 more than the previous principal for 2 years and at the same rate p.c.p.a.?",
-        "options": {
-            "a": "\u20b9 614.40",
-            "b": "\u20b9 845.40",
-            "c": "\u20b9 1536",
-            "d": "\u20b9 2136",
-            "e": "None of these"
-        },
-        "correct_answer": "e",
-        "difficulty": "Easy",
-        "explanation": "Given, S.I. = \u20b9 1536, Rate (R) = 12%, Time (T) = 5 years.\nOriginal Principal (P) = (100 * S.I.) / (R * T) = (100 * 1536) / (12 * 5) = 153600 / 60 = \u20b9 2560.\nNew Principal (P') = P + 1000 = 2560 + 1000 = \u20b9 3560.\nNow, calculate S.I. for the new principal:\nNew Principal (P') = \u20b9 3560, Rate (R) = 12%, Time (T') = 2 years.\nNew S.I. = (P' * R * T') / 100 = (3560 * 12 * 2) / 100 = 85440 / 100 = \u20b9 854.40."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If \u20b9 64 amounts to \u20b9 83.20 in 2 years, what will \u20b9 86 amount to in 4 years at the same rate percent per annum?",
-        "options": {
-            "a": "\u20b9 114.80",
-            "b": "\u20b9 124.70",
-            "c": "\u20b9 127.40",
-            "d": "\u20b9 137.60"
-        },
-        "correct_answer": "d",
-        "difficulty": "Easy",
-        "explanation": "First case:\nPrincipal (P) = \u20b9 64, Amount (A) = \u20b9 83.20, Time (T) = 2 years.\nS.I. = A - P = 83.20 - 64 = \u20b9 19.20.\nRate (R) = (100 * S.I.) / (P * T) = (100 * 19.20) / (64 * 2) = 1920 / 128 = 15%.\n\nSecond case:\nPrincipal (P') = \u20b9 86, Rate (R) = 15%, Time (T') = 4 years.\nS.I. = (P' * R * T') / 100 = (86 * 15 * 4) / 100 = 5160 / 100 = \u20b9 51.60.\nAmount = P' + S.I. = 86 + 51.60 = \u20b9 137.60."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest on a certain sum of money at the rate of 5% p.a. for 8 years is \u20b9 840. At what rate of interest the same amount of interest can be received on the same sum after 5 years?",
-        "options": {
-            "a": "6%",
-            "b": "8%",
-            "c": "9%",
-            "d": "10%"
-        },
-        "correct_answer": "b",
-        "difficulty": "Easy",
-        "explanation": "Given, S.I. = \u20b9 840, Rate (R1) = 5%, Time (T1) = 8 years.\nPrincipal (P) = (100 * S.I.) / (R1 * T1) = (100 * 840) / (5 * 8) = 84000 / 40 = \u20b9 2100.\n\nNow, for the second scenario:\nSame sum (P) = \u20b9 2100, Same interest (S.I.) = \u20b9 840, Time (T2) = 5 years.\nNew Rate (R2) = (100 * S.I.) / (P * T2) = (100 * 840) / (2100 * 5) = 84000 / 10500 = 8%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The interest on a certain deposit at 4.5% p.a. is \u20b9 202.50 in one year. How much will the additional interest in one year be on the same deposit at 5% p.a. ?",
-        "options": {
-            "a": "\u20b9 20.25",
-            "b": "\u20b9 22.50",
-            "c": "\u20b9 25",
-            "d": "\u20b9 42.75"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "S.I. = \u20b9 202.50, R = 4.5%, T = 1 year.\nPrincipal = (100 \u00d7 S.I.) / (R \u00d7 T) = (100 \u00d7 202.50) / (4.5 \u00d7 1) = \u20b9 4500.\nNow, Principal (P) = \u20b9 4500, Rate (R) = 5%, Time (T) = 1 year.\nS.I. = (P \u00d7 R \u00d7 T) / 100 = (4500 \u00d7 5 \u00d7 1) / 100 = \u20b9 225.\nDifference in interest = (\u20b9 225 \u2013 \u20b9 202.50) = \u20b9 22.50."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum invested at 5% simple interest per annum grows to \u20b9 504 in 4 years. The same amount at 10% simple interest per annum in 2 1/2 years will grow to :",
-        "options": {
-            "a": "\u20b9 420",
-            "b": "\u20b9 450",
-            "c": "\u20b9 525",
-            "d": "\u20b9 550"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be x. Then, S.I. = \u20b9 (504 \u2013 x).\nWe know S.I. = (P \u00d7 R \u00d7 T) / 100.\n(x \u00d7 5 \u00d7 4) / 100 = 504 \u2013 x\n20x = 50400 \u2013 100x\n120x = 50400\nx = 420.\nNow, Principal (P) = \u20b9 420, Rate (R) = 10%, Time (T) = 2 1/2 years = 5/2 years.\nS.I. = (P \u00d7 R \u00d7 T) / 100 = (420 \u00d7 10 \u00d7 5/2) / 100 = \u20b9 105.\nAmount = (P + S.I.) = (\u20b9 420 + \u20b9 105) = \u20b9 525."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If x, y, z are three sums of money such that y is the simple interest on x, z is the simple interest on y for the same time and at the same rate of interest, then we have",
-        "options": {
-            "a": "x\u00b2 = yz",
-            "b": "y\u00b2 = xz",
-            "c": "z\u00b2 = xy",
-            "d": "xyz = 1"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let time be T years and rate be R% p.a.\nThen, y is the S.I. on x \u21d2 y = (x \u00d7 R \u00d7 T) / 100  ...(i)\nAnd, z is the S.I. on y \u21d2 z = (y \u00d7 R \u00d7 T) / 100  ...(ii)\nFrom (i) and (ii) we have:\n(y / x) = (R \u00d7 T) / 100\n(z / y) = (R \u00d7 T) / 100\nSo, (y / x) = (z / y) \u21d2 y\u00b2 = xz."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "What will be the ratio of simple interest earned by certain amount at the same rate of interest for 6 years and that for 9 years ?",
-        "options": {
-            "a": "1 : 3",
-            "b": "1 : 4",
-            "c": "2 : 3",
-            "d": "Data inadequate"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Let the principal be P and rate of interest be R%.\nS.I. for 6 years = (P \u00d7 R \u00d7 6) / 100\nS.I. for 9 years = (P \u00d7 R \u00d7 9) / 100\nRequired ratio = [(P \u00d7 R \u00d7 6) / 100] : [(P \u00d7 R \u00d7 9) / 100]\n= 6PR : 9PR = 6 : 9 = 2 : 3."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Arun borrowed a sum of money from Jayant at the rate of 8% per annum simple interest for the first four years, 10% per annum for the next 6 years and 12% per annum for the period beyond 10 years. If he pays a total of \u20b9 12160 as interest only at the end of 15 years, how much money did be borrow?",
-        "options": {
-            "a": "\u20b9 8000",
-            "b": "\u20b9 9000",
-            "c": "\u20b9 10000",
-            "d": "\u20b9 12000"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be x. The total time is 15 years.\nInterest for the first 4 years (8% p.a.): (x \u00d7 8 \u00d7 4) / 100\nInterest for the next 6 years (10% p.a.): (x \u00d7 10 \u00d7 6) / 100\nInterest for the remaining 5 years (12% p.a.) [15 - (4+6) = 5 years]: (x \u00d7 12 \u00d7 5) / 100\nTotal interest = \u20b9 12160\n(32x / 100) + (60x / 100) + (60x / 100) = 12160\n(32x + 60x + 60x) / 100 = 12160\n152x = 1216000\nx = 1216000 / 152 = \u20b9 8000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Kruti took a loan at simple interest rate of 6 p.c.p.a. in the first year and it increased by 1.5 p.c.p.a. every year. If she pays \u20b9 8190 as interest at the end of 3 years, what was her loan amount?",
-        "options": {
-            "a": "\u20b9 35400",
-            "b": "\u20b9 36000",
-            "c": "\u20b9 36800",
-            "d": "Cannot be determined",
-            "e": "None of these"
-        },
-        "correct_answer": "e",
-        "difficulty": "Medium",
-        "explanation": "Let the loan amount be x.\nRate for the 1st year = 6%\nRate for the 2nd year = 6% + 1.5% = 7.5%\nRate for the 3rd year = 7.5% + 1.5% = 9%\nTotal S.I. = (x \u00d7 6 \u00d7 1) / 100 + (x \u00d7 7.5 \u00d7 1) / 100 + (x \u00d7 9 \u00d7 1) / 100 = 8190\n(6x / 100) + (7.5x / 100) + (9x / 100) = 8190\n(6x + 7.5x + 9x) / 100 = 8190\n22.5x = 819000\nx = 819000 / 22.5 = \u20b9 36400.\nThus, the correct answer is \u20b9 36400, which is not among the options (a), (b), (c), (d). So, (e) None of these."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A person deposited \u20b9 400 for 2 years, \u20b9 550 for 4 years and \u20b9 1200 for 6 years. He received the total simple interest of \u20b9 1020. The rate of interest per annum is",
-        "options": {
-            "a": "5%",
-            "b": "10%",
-            "c": "15%",
-            "d": "20%"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let the rate of interest be R% p.a.\nTotal S.I. = S.I. on \u20b9 400 + S.I. on \u20b9 550 + S.I. on \u20b9 1200 = \u20b9 1020\n(400 \u00d7 R \u00d7 2) / 100 + (550 \u00d7 R \u00d7 4) / 100 + (1200 \u00d7 R \u00d7 6) / 100 = 1020\n800R + 2200R + 7200R = 102000\n10200R = 102000\nR = 102000 / 10200 = 10.\nSo, the rate of interest is 10%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest on a sum of money will be \u20b9 600 after 10 years. If the principal is trebled after 5 years, what will be the total interest at the end of the tenth year?",
-        "options": {
-            "a": "\u20b9 600",
-            "b": "\u20b9 900",
-            "c": "\u20b9 1200",
-            "d": "\u20b9 1500",
-            "e": "Data inadequate"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be x. S.I. = \u20b9 600, Time (T) = 10 years.\nRate (R) = (100 \u00d7 S.I.) / (P \u00d7 T) = (100 \u00d7 600) / (x \u00d7 10) = 6000 / x %.\nS.I. for the first 5 years (P = x) = (x \u00d7 (6000/x) \u00d7 5) / 100 = \u20b9 300.\nAfter 5 years, the principal is trebled, so new principal = 3x.\nS.I. for the last 5 years (P = 3x) = (3x \u00d7 (6000/x) \u00d7 5) / 100 = \u20b9 900.\nTotal interest = S.I. (first 5 years) + S.I. (last 5 years) = \u20b9 300 + \u20b9 900 = \u20b9 1200."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest on \u20b9 10 for 4 months at the rate of 3 paise per rupee per month is",
-        "options": {
-            "a": "\u20b9 1.20",
-            "b": "\u20b9 1.60",
-            "c": "\u20b9 2.40",
-            "d": "\u20b9 3.60"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Principal (P) = \u20b9 10.\nTime (T) = 4 months.\nRate (R) = 3 paise per rupee per month = (3/100) per month. Or, 3% per month.\nS.I. = (P \u00d7 R \u00d7 T) / 100 = (10 \u00d7 3 \u00d7 4) / 100 = \u20b9 1.20."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "An automobile financier claims to be lending money at simple interest, but he includes the interest every six months for calculating the principal. If he is charging an interest of 10%, the effective rate of interest becomes",
-        "options": {
-            "a": "10%",
-            "b": "10.25%",
-            "c": "10.5%",
-            "d": "None of these"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be \u20b9 100.\nNominal rate = 10% p.a.\nInterest is compounded semi-annually.\nS.I. for first 6 months = (100 \u00d7 10 \u00d7 1/2) / 100 = \u20b9 5.\nPrincipal for next 6 months = 100 + 5 = \u20b9 105.\nS.I. for next 6 months = (105 \u00d7 10 \u00d7 1/2) / 100 = \u20b9 5.25.\nAmount at the end of 1 year = \u20b9 (100 + 5 + 5.25) = \u20b9 110.25.\nEffective rate = (Amount - Principal) / Principal \u00d7 100 = (110.25 \u2013 100) = 10.25%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money at simple interest amounts to \u20b9 815 in 3 years and to \u20b9 854 in 4 years. The sum is",
-        "options": {
-            "a": "\u20b9 650",
-            "b": "\u20b9 690",
-            "c": "\u20b9 698",
-            "d": "\u20b9 700"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Amount in 4 years = \u20b9 854\nAmount in 3 years = \u20b9 815\nS.I. for 1 year = Amount in 4 years - Amount in 3 years = \u20b9 (854 \u2013 815) = \u20b9 39.\nS.I. for 3 years = 3 \u00d7 S.I. for 1 year = 3 \u00d7 \u20b9 39 = \u20b9 117.\nPrincipal = Amount in 3 years - S.I. for 3 years = \u20b9 (815 \u2013 117) = \u20b9 698."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money lent out at simple interest amounts to \u20b9 720 after 2 years and to \u20b9 1020 after a further period of 5 years. The sum is",
-        "options": {
-            "a": "\u20b9 500",
-            "b": "\u20b9 600",
-            "c": "\u20b9 700",
-            "d": "\u20b9 710"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Amount after 2 years = \u20b9 720.\nAmount after (2 + 5) = 7 years = \u20b9 1020.\nS.I. for 5 years = Amount in 7 years - Amount in 2 years = \u20b9 (1020 \u2013 720) = \u20b9 300.\nS.I. for 2 years = (S.I. for 5 years / 5) \u00d7 2 = (\u20b9 300 / 5) \u00d7 2 = \u20b9 120.\nPrincipal = Amount in 2 years - S.I. for 2 years = \u20b9 (720 \u2013 120) = \u20b9 600."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money amounts to \u20b9 5200 in 5 years and to \u20b9 5680 in 7 years at simple interest. The rate of interest per annum is :",
-        "options": {
-            "a": "3%",
-            "b": "4%",
-            "c": "5%",
-            "d": "6%"
-        },
-        "correct_answer": "d",
-        "difficulty": "Medium",
-        "explanation": "S.I. for (7 \u2013 5) = 2 years = Amount in 7 years - Amount in 5 years = \u20b9 (5680 \u2013 5200) = \u20b9 480.\nS.I. for 5 years = (S.I. for 2 years / 2) \u00d7 5 = (\u20b9 480 / 2) \u00d7 5 = \u20b9 1200.\nPrincipal (P) = Amount in 5 years - S.I. for 5 years = \u20b9 (5200 \u2013 1200) = \u20b9 4000.\nRate (R) = (100 \u00d7 S.I.) / (P \u00d7 T) = (100 \u00d7 1200) / (4000 \u00d7 5) = 6%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money becomes \u20b9 20925 in 2 years and \u20b9 24412.50 in 5 years. Find the rate of interest and the sum of money.",
-        "options": {
-            "a": "6.25%, \u20b9 18600",
-            "b": "6.75%, \u20b9 17775",
-            "c": "7%, \u20b9 18000",
-            "d": "8%, \u20b9 17560"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "S.I. for (5 \u2013 2) = 3 years = Amount in 5 years - Amount in 2 years = \u20b9 (24412.50 \u2013 20925) = \u20b9 3487.50.\nS.I. for 2 years = (S.I. for 3 years / 3) \u00d7 2 = (\u20b9 3487.50 / 3) \u00d7 2 = \u20b9 2325.\nPrincipal (P) = Amount in 2 years - S.I. for 2 years = \u20b9 (20925 \u2013 2325) = \u20b9 18600.\nRate (R) = (100 \u00d7 S.I.) / (P \u00d7 T) = (100 \u00d7 2325) / (18600 \u00d7 2) = 6.25%.\nSo, the rate of interest is 6.25% and the sum of money is \u20b9 18600."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A certain sum of money at simple interest amounts to \u20b9 1012 in 2 1/2 years and to \u20b9 1067.20 in 4 years. The rate of interest per annum is",
-        "options": {
-            "a": "2.5%",
-            "b": "3%",
-            "c": "4%",
-            "d": "5%"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Amount in 2 1/2 years = Amount in 5/2 years = \u20b9 1012.\nAmount in 4 years = \u20b9 1067.20.\nS.I. for (4 \u2013 5/2) = 3/2 years = Amount in 4 years - Amount in 5/2 years = \u20b9 (1067.20 \u2013 1012) = \u20b9 55.20.\nS.I. for 5/2 years = (S.I. for 3/2 years / (3/2)) \u00d7 (5/2) = (\u20b9 55.20 / (3/2)) \u00d7 (5/2) = (\u20b9 55.20 \u00d7 2/3) \u00d7 (5/2) = \u20b9 92.\nPrincipal (P) = Amount in 5/2 years - S.I. for 5/2 years = \u20b9 (1012 \u2013 92) = \u20b9 920.\nRate (R) = (100 \u00d7 S.I.) / (P \u00d7 T) = (100 \u00d7 92) / (920 \u00d7 5/2) = (100 \u00d7 92 \u00d7 2) / (920 \u00d7 5) = 4%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "In how many years will a sum of money double itself at 18.75% per annum simple interest?",
-        "options": {
-            "a": "4 years 5 months",
-            "b": "5 years 4 months",
-            "c": "6 years 2 months",
-            "d": "6 years 5 months"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = x.\nTime = (100 * x) / (x * 18.75) = 100 / (75/4) = 400/75 = 16/3 years.\n16/3 years = 5 1/3 years = 5 years and (1/3 * 12) months = 5 years 4 months."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "At what rate percent of simple interest will a sum of money double itself in 12 years?",
-        "options": {
-            "a": "8 1/4 %",
-            "b": "8 1/3 %",
-            "c": "8 1/2 %",
-            "d": "9 1/2 %"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = x.\nRate = (100 * S.I.) / (P * T) = (100 * x) / (x * 12) % = 100 / 12 % = 25 / 3 % = 8 1/3 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The rate at which a sum becomes four times of itself in 15 years at S.I., will be",
-        "options": {
-            "a": "15%",
-            "b": "17 1/2 %",
-            "c": "20%",
-            "d": "25%"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = 3x.\nRate = (100 * S.I.) / (P * T) = (100 * 3x) / (x * 15) % = 300 / 15 % = 20 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money at a simple rate of interest i\u2081, doubles in 5 years. At another simple rate of interest i\u2082, it becomes three times in 12 years. Then, the two rates of interest i\u2081 and i\u2082 respectively are",
-        "options": {
-            "a": "10%, 16 2/3 %",
-            "b": "10%, 20%",
-            "c": "20%, 16 2/3 %",
-            "d": "20%, 30%"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Case I. Let sum = x. Then, S.I. = x.\nRate (i\u2081) = (100 * S.I.) / (P * T) = (100 * x) / (x * 5) % = 100 / 5 % = 20 %.\nCase II. Let sum = x. Then, S.I. = 2x.\nRate (i\u2082) = (100 * S.I.) / (P * T) = (100 * 2x) / (x * 12) % = 200 / 12 % = 50 / 3 % = 16 2/3 %.\nThus, i\u2081 = 20% and i\u2082 = 16 2/3 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money at simple interest doubles in 7 years. It will become four times in: (R.R.B., 2006)",
-        "options": {
-            "a": "18 years",
-            "b": "21 years",
-            "c": "38 years",
-            "d": "42 years"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = x.\nRate = (100 * x) / (x * 7) % = 100 / 7 %.\nNow, for the sum to become four times, S.I. = 3x, Rate = 100/7 %.\nTime = (100 * 3x) / (x * 100/7) = (100 * 3x * 7) / (x * 100) = 3 * 7 = 21 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money trebles itself in 15 years 6 months. In how many years would it double itself ?",
-        "options": {
-            "a": "6 years 3 months",
-            "b": "7 years 9 months",
-            "c": "8 years 3 months",
-            "d": "9 years 6 months"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = 2x (for trebling).\nTime = 15 1/2 years = 31/2 years.\nRate = (100 * 2x) / (x * 31/2) % = (100 * 2 * 2) / 31 % = 400/31 %.\nNow, for the sum to double, S.I. = x, Rate = 400/31 %.\nTime = (100 * x) / (x * 400/31) = (100 * 31) / 400 = 31/4 years.\n31/4 years = 7 3/4 years = 7 years and (3/4 * 12) months = 7 years 9 months."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If a sum doubles in 6 years, how much will it be in 8 years? (R.R.B., 2006)",
-        "options": {
-            "a": "1 1/2 times",
-            "b": "1 1/3 times",
-            "c": "1 1/4 times",
-            "d": "1 3/4 times"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let sum = \u20b9 x. Then, S.I. = \u20b9 x, Time = 6 years.\nRate = (100 * x) / (x * 6) % = 100 / 6 % = 50 / 3 % = 16 2/3 %.\nNow, sum = \u20b9 x, Time = 8 years, Rate = 50/3 %.\nS.I. = (x * 50/3 * 8) / 100 = (x * 50 * 8) / (3 * 100) = 400x / 300 = 4x/3.\nSo, amount = x + 4x/3 = 7x/3. = 3x/2 = 1 1/2 times."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Consider the following statements\nIf a sum of money is lent at simple interest, then the\n1. money gets doubled in 5 years if the rate of interest is 16 2/3 %\n2. money gets doubled in 5 years if the rate of interest is 20%.\n3. money becomes four times in 10 years if it gets doubled in 5 years.\nOf these statements,",
-        "options": {
-            "a": "1 and 3 are correct",
-            "b": "2 alone is correct",
-            "c": "3 alone is correct",
-            "d": "2 and 3 are correct"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let sum be x. Then, S.I. = x.\n1. Time = (100 * x) / (x * 16 2/3) = 100 / (50/3) = 300 / 50 = 6 years (False)\n2. Time = (100 * x) / (x * 20) = 100 / 20 = 5 years (True)\n3. Suppose sum = x. Then, S.I. = x and Time = 5 years.\nRate = (100 * x) / (x * 5) % = 20 %.\nNow, sum = x, S.I. = 3x and Rate = 20%.\nTime = (100 * 3x) / (x * 20) = 300 / 20 = 15 years (False)\nSo, 2 alone is correct."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The simple interest on a sum of money at 8% per annum for 6 years is half the sum. The sum is :",
-        "options": {
-            "a": "\u20b9 4800",
-            "b": "\u20b9 6000",
-            "c": "\u20b9 8000",
-            "d": "Data inadequate"
-        },
-        "correct_answer": "d",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = x/2.\nS.I. = (P * R * T) / 100 => x/2 = (x * 8 * 6) / 100 => 50x = 48x => 2x = 0 => x = 0.\nClearly, data is inadequate."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "At what rate percent per annum will the simple interest on a sum of money be 2/5 of the amount in 10 years ?",
-        "options": {
-            "a": "4%",
-            "b": "5%",
-            "c": "6%",
-            "d": "6 2/3 %"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = 2x/5.\nTime = 10 years.\nRate = (100 * S.I.) / (P * T) = (100 * 2x/5) / (x * 10) % = (100 * 2x) / (5 * x * 10) % = 200 / 50 % = 4 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "In how much time would the simple interest on a certain sum be 0.125 times the principal at 10% per annum ? (Assistant Grade, 1997)",
-        "options": {
-            "a": "1 1/4 years",
-            "b": "1 3/4 years",
-            "c": "2 1/4 years",
-            "d": "2 3/4 years"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = 0.125x = x/8, R = 10%.\nTime = (100 * S.I.) / (P * R) = (100 * x/8) / (x * 10) = (100x) / (8 * 10x) = 100 / 80 = 10 / 8 = 5 / 4 years.\n5/4 years = 1 1/4 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "How long will it take a sum of money invested at 5% p.a. S.I. to increase its value by 40%?",
-        "options": {
-            "a": "5 years",
-            "b": "6 years",
-            "c": "7 years",
-            "d": "8 years"
-        },
-        "correct_answer": "d",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be x.\nThen, S.I. = 40% of x = 2x/5; Rate = 5%.\nTime = (100 * S.I.) / (P * R) = (100 * 2x/5) / (x * 5) = (100 * 2x) / (5 * x * 5) = 200 / 25 = 8 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of money becomes 7/6 of itself in 3 years at a certain rate of simple interest. The rate per annum is",
-        "options": {
-            "a": "5 5/9 %",
-            "b": "6 5/9 %",
-            "c": "18%",
-            "d": "25%"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, amount = 7x/6.\nS.I. = Amount - Principal = 7x/6 - x = x/6.\nTime = 3 years.\nRate = (100 * S.I.) / (P * T) = (100 * x/6) / (x * 3) % = 100 / (6 * 3) % = 100 / 18 % = 50 / 9 % = 5 5/9 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If the simple interest for 6 years be equal to 30% of the principal, it will be equal to the principal after (Bank P.O., 2006)",
-        "options": {
-            "a": "10 years",
-            "b": "20 years",
-            "c": "22 years",
-            "d": "30 years"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let sum = \u20b9 x. Then, S.I. = 30% of \u20b9 x = 3x/10.\nRate = (100 * S.I.) / (P * T) = (100 * 3x/10) / (x * 6) % = (100 * 3x) / (10 * x * 6) = 300 / 60 = 5 %.\nNow, for the S.I. to be equal to the principal, S.I. = x, Rate = 5%.\nTime = (100 * S.I.) / (P * R) = (100 * x) / (x * 5) = 100 / 5 = 20 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Simple interest on a certain sum at a certain annual rate of interest is 1/9 of the sum. If the numbers representing rate percent and time in years be equal, then the rate of interest is",
-        "options": {
-            "a": "3 1/3 %",
-            "b": "5%",
-            "c": "6 2/3 %",
-            "d": "10%"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let sum = x. Then, S.I. = x/9.\nLet rate = R% and time = R years (since they are equal).\nS.I. = (P * R * T) / 100 => x/9 = (x * R * R) / 100 => 1/9 = R^2 / 100 (x cancels out).\nR^2 = 100 / 9 => R = sqrt(100/9) = 10/3 %.\n10/3 % = 3 1/3 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Simple interest on a certain amount is 9/16 of the principal. If the numbers representing the rate of interest in percent and time in years be equal, then time, for which the principal is lent out, is",
-        "options": {
-            "a": "5 1/2 years",
-            "b": "6 1/2 years",
-            "c": "7 years",
-            "d": "7 1/2 years"
-        },
-        "correct_answer": "d",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be x. Then, S.I. = (9/16)x.\nLet rate = R% and time = R years.\nAccording to the simple interest formula:\nS.I. = (P * R * T) / 100\n(9/16)x = (x * R * R) / 100\n(9/16) = R^2 / 100\nR^2 = (9 * 100) / 16 = 900 / 16\nR = sqrt(900 / 16) = 30 / 4 = 7.5\nHence, the rate R = 7.5% and time T = 7.5 years, which is 7 1/2 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A lends \u20b9 2500 to B and a certain sum to C at the same time at 7% p.a. simple interest. If after 4 years, A altogether receives \u20b9 1120 as interest from B and C, then the sum lent to C is :",
-        "options": {
-            "a": "\u20b9 700",
-            "b": "\u20b9 1500",
-            "c": "\u20b9 4000",
-            "d": "6500"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let the sum lent to C be x.\nThe simple interest earned from B is SI_B = (2500 * 7 * 4) / 100 = 700.\nThe simple interest earned from C is SI_C = (x * 7 * 4) / 100 = 28x / 100.\nTotal interest received = SI_B + SI_C = 1120.\n700 + 28x/100 = 1120\n28x/100 = 1120 - 700\n28x/100 = 420\nx = (420 * 100) / 28\nx = 15 * 100\nx = 1500.\nThus, the sum lent to C is \u20b9 1500."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Two equal sums of money were lent at simple interest at 11% p.a. for 3 1/2 years and 4 1/2 years respectively. If the difference in interests for two periods was \u20b9 412.50, then each sum is:",
-        "options": {
-            "a": "\u20b9 3250",
-            "b": "\u20b9 3500",
-            "c": "3750",
-            "d": "\u20b9 4250"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Let each sum be x.\nFirst period (T1) = 3 1/2 years = 7/2 years.\nSecond period (T2) = 4 1/2 years = 9/2 years.\nRate of interest (R) = 11% p.a.\nSimple interest for the first period (SI1) = (x * 11 * (7/2)) / 100 = 77x / 200.\nSimple interest for the second period (SI2) = (x * 11 * (9/2)) / 100 = 99x / 200.\nThe difference in interests is \u20b9 412.50.\nSI2 - SI1 = 412.50\n99x/200 - 77x/200 = 412.50\n(99x - 77x) / 200 = 412.50\n22x / 200 = 412.50\n11x / 100 = 412.50\nx = (412.50 * 100) / 11\nx = 41250 / 11\nx = 3750.\nThus, each sum is \u20b9 3750."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If the simple interest on a certain sum for 15 months at 7 1/2% per annum exceeds the simple interest on the same sum for 8 months at 12 1/2% per annum by \u20b9 32.50, then the sum (in \u20b9) is :",
-        "options": {
-            "a": "\u20b9 3000",
-            "b": "\u20b9 3060",
-            "c": "\u20b9 3120",
-            "d": "\u20b9 3250"
-        },
-        "correct_answer": "c",
-        "difficulty": "Medium",
-        "explanation": "Let the sum be x.\nFirst case:\nTime (T1) = 15 months = 15/12 years.\nRate (R1) = 7 1/2% = 15/2 %.\nSimple interest (SI1) = (x * (15/2) * (15/12)) / 100 = (x * 15 * 15) / (2 * 12 * 100) = 225x / 2400.\nSecond case:\nTime (T2) = 8 months = 8/12 years.\nRate (R2) = 12 1/2% = 25/2 %.\nSimple interest (SI2) = (x * (25/2) * (8/12)) / 100 = (x * 25 * 8) / (2 * 12 * 100) = 200x / 2400.\nThe difference in interests is \u20b9 32.50.\nSI1 - SI2 = 32.50\n225x/2400 - 200x/2400 = 32.50\n25x/2400 = 32.50\nx = (32.50 * 2400) / 25\nx = 32.50 * 96\nx = 3120.\nThus, the sum is \u20b9 3120."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Sujata invested \u20b9 7500 at simple interest @ 11 p.c.p.a. She further invested some amount at simple interest @ 15 p.c.p.a. Total interest earned at the end of the year became 12 p.c.p.a. Find the amount invested at the rate of 15 p.c.p.a.",
-        "options": {
-            "a": "\u20b9 2000",
-            "b": "\u20b9 2500",
-            "c": "\u20b9 3000",
-            "d": "\u20b9 3500",
-            "e": "None of these"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let the amount invested at 15% p.c.p.a. be x.\nTotal principal invested = 7500 + x.\nTime = 1 year.\nInterest from the first investment = (7500 * 11 * 1) / 100 = 825.\nInterest from the second investment = (x * 15 * 1) / 100 = 15x / 100.\nTotal interest earned = 825 + 15x/100.\nOverall interest rate = 12% p.c.p.a.\nTotal interest using overall rate = ((7500 + x) * 12 * 1) / 100 = (90000 + 12x) / 100.\nEquating the total interests:\n825 + 15x/100 = (90000 + 12x) / 100\nMultiply by 100:\n82500 + 15x = 90000 + 12x\n15x - 12x = 90000 - 82500\n3x = 7500\nx = 7500 / 3\nx = 2500.\nThus, the amount invested at 15% p.c.p.a. is \u20b9 2500."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A man invests a certain sum of money at 6% p.a. simple interest and another sum at 7% p.a. simple interest. His income from interest after 2 years was \u20b9 354. One-fourth of the first sum is equal to one-fifth of the second sum. The total sum invested was:",
-        "options": {
-            "a": "\u20b9 2600",
-            "b": "\u20b9 2700",
-            "c": "\u20b9 2880",
-            "d": "2900"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let the first sum be x and the second sum be y.\nTime (T) = 2 years.\nInterest from the first sum = (x * 6 * 2) / 100 = 12x / 100.\nInterest from the second sum = (y * 7 * 2) / 100 = 14y / 100.\nTotal income from interest = 12x/100 + 14y/100 = 354.\n12x + 14y = 35400 (Equation 1)\nOne-fourth of the first sum is equal to one-fifth of the second sum:\nx/4 = y/5\n5x = 4y\ny = 5x/4 (Equation 2)\nSubstitute (Equation 2) into (Equation 1):\n12x + 14(5x/4) = 35400\n12x + 35x/2 = 35400\nMultiply by 2:\n24x + 35x = 70800\n59x = 70800\nx = 70800 / 59\nx = 1200.\nNow find y using Equation 2:\ny = 5 * 1200 / 4 = 5 * 300 = 1500.\nTotal sum invested = x + y = 1200 + 1500 = 2700.\nThus, the total sum invested was \u20b9 2700."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Rahul borrowed a sum of \u20b9 1150 from Amit at the simple interest rate of 6 p.c.p.a. for 3 years. He then added some more money to the borrowed sum and lent it to Sachin for the same time at 9 p.c.p.a. simple interest. If Rahul gains \u20b9 274.95 by way of interest on borrowed sum as well as his own amount from the whole transaction, then what is the sum lent by him to Sachin?",
-        "options": {
-            "a": "\u20b9 1200",
-            "b": "\u20b9 1285",
-            "c": "\u20b9 1690",
-            "d": "1785",
-            "e": "None of these"
-        },
-        "correct_answer": "d",
-        "difficulty": "Medium",
-        "explanation": "Amount borrowed by Rahul from Amit = \u20b9 1150.\nRate from Amit (R_A) = 6% p.c.p.a.\nTime (T) = 3 years.\nInterest Rahul pays to Amit = (1150 * 6 * 3) / 100 = 207.\nLet the additional money Rahul added be x.\nTotal amount Rahul lent to Sachin = 1150 + x.\nRate to Sachin (R_S) = 9% p.c.p.a.\nTime (T) = 3 years.\nInterest Rahul receives from Sachin = ((1150 + x) * 9 * 3) / 100 = (27 * (1150 + x)) / 100.\nRahul's gain = (Interest from Sachin) - (Interest to Amit).\n(27 * (1150 + x)) / 100 - 207 = 274.95\n(27 * 1150 + 27x) / 100 = 274.95 + 207\n(31050 + 27x) / 100 = 481.95\n31050 + 27x = 48195\n27x = 48195 - 31050\n27x = 17145\nx = 17145 / 27\nx = 635.\nThe sum lent by Rahul to Sachin = 1150 + x = 1150 + 635 = 1785.\nThus, the sum lent by him to Sachin was \u20b9 1785."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A person invested some amount at the rate of 12% simple interest and a certain amount at the rate of 10% simple interest. He received yearly interest of \u20b9 130. But if he had interchanged the amounts invested, he would have received \u20b9 4 more as interest. How much did he invest at 12% simple interest?",
-        "options": {
-            "a": "\u20b9 400",
-            "b": "\u20b9 500",
-            "c": "\u20b9 700",
-            "d": "\u20b9 800"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let x be the amount invested at 12% and y be the amount invested at 10%.\nTime (T) = 1 year.\nCase 1: (x * 12 * 1) / 100 + (y * 10 * 1) / 100 = 130\n12x/100 + 10y/100 = 130\n12x + 10y = 13000 (Equation 1)\nCase 2 (Interchanged amounts): (x * 10 * 1) / 100 + (y * 12 * 1) / 100 = 130 + 4 = 134\n10x/100 + 12y/100 = 134\n10x + 12y = 13400 (Equation 2)\nFrom Equation 1: 6x + 5y = 6500 (Equation 3)\nFrom Equation 2: 5x + 6y = 6700 (Equation 4)\nMultiply Equation 3 by 6 and Equation 4 by 5:\n36x + 30y = 39000\n25x + 30y = 33500\nSubtract the second new equation from the first new equation:\n(36x + 30y) - (25x + 30y) = 39000 - 33500\n11x = 5500\nx = 5500 / 11\nx = 500.\nThus, the amount invested at 12% simple interest is \u20b9 500."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A person borrowed \u20b9 500 @ 3% per annum S.I. and \u20b9 600 @ 4 1/2% per annum on the agreement that the whole sum will be returned only when the total interest becomes \u20b9 126. The number of years, after which the borrowed sum is to be returned, is :",
-        "options": {
-            "a": "2 years",
-            "b": "3 years",
-            "c": "4 years",
-            "d": "5 years"
-        },
-        "correct_answer": "b",
-        "difficulty": "Medium",
-        "explanation": "Let the time in years be T.\nFirst loan: Principal (P1) = \u20b9 500, Rate (R1) = 3% p.a.\nSimple Interest (SI1) = (500 * 3 * T) / 100 = 15T.\nSecond loan: Principal (P2) = \u20b9 600, Rate (R2) = 4 1/2% = 9/2 % p.a.\nSimple Interest (SI2) = (600 * (9/2) * T) / 100 = (600 * 9 * T) / 200 = 3 * 9 * T = 27T.\nTotal interest = SI1 + SI2 = 126.\n15T + 27T = 126\n42T = 126\nT = 126 / 42\nT = 3.\nThus, the borrowed sum is to be returned after 3 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Two equal sums of money are lent at the same time at 8% and 7% per annum simple interest. The former is recovered 6 months earlier than the latter and the amount in each case is \u20b9 2560. The sum and the time for which the sums of money are lent out are",
-        "options": {
-            "a": "\u20b9 2000, 3.5 years \u00d7 4 years",
-            "b": "\u20b9 1500, 3.5 years \u00d7 4 years",
-            "c": "\u20b9 2000, 4 years \u00d7 5.5 years",
-            "d": "\u20b9 3000, 4 years \u00d7 4.5 years"
-        },
-        "correct_answer": "a",
-        "difficulty": "Medium",
-        "explanation": "Let the equal sum of money be P.\nLet the time for which the second sum (at 7%) is lent out be T years.\nSince the first sum (at 8%) is recovered 6 months (0.5 years) earlier, its time period is (T - 0.5) years.\nAmount in each case is \u20b9 2560.\nFor the first sum:\nAmount = Principal + Simple Interest\n2560 = P + (P * 8 * (T - 0.5)) / 100\n256000 = 100P + 8P(T - 0.5)\n256000 = 100P + 8PT - 4P\n256000 = 96P + 8PT (Equation 1)\nFor the second sum:\nAmount = Principal + Simple Interest\n2560 = P + (P * 7 * T) / 100\n256000 = 100P + 7PT (Equation 2)\nEquating (Equation 1) and (Equation 2) since both equal 256000:\n96P + 8PT = 100P + 7PT\n8PT - 7PT = 100P - 96P\nPT = 4P\nSince P cannot be 0, we can divide by P:\nT = 4.\nSubstitute T = 4 into Equation 2:\n256000 = 100P + 7P(4)\n256000 = 100P + 28P\n256000 = 128P\nP = 256000 / 128\nP = 2000.\nSo, the sum is \u20b9 2000.\nThe time for the first sum (8%) is T - 0.5 = 4 - 0.5 = 3.5 years.\nThe time for the second sum (7%) is T = 4 years.\nThus, the answer is \u20b9 2000, 3.5 years \u00d7 4 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A lent \u20b9 5000 to B for 2 years and \u20b9 3000 to C for 4 years on simple interest at the same rate of interest and received \u20b9 2200 in all from both of them as interest. The rate of interest per annum is",
-        "options": {
-            "a": "5%",
-            "b": "7%",
-            "c": "7 1/8%",
-            "d": "10%"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the rate of interest per annum be R%.\nSimple interest from B = (5000 * R * 2) / 100 = 100R.\nSimple interest from C = (3000 * R * 4) / 100 = 120R.\nTotal interest received = 2200.\n100R + 120R = 2200\n220R = 2200\nR = 2200 / 220\nR = 10.\nThus, the rate of interest per annum is 10%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 725 is lent in the beginning of a year at a certain rate of interest. After 8 months, a sum of \u20b9 362.50 more is lent but at the rate twice the former. At the end of the year, \u20b9 33.50 is earned as interest from both the loans. What was the original rate of interest ?",
-        "options": {
-            "a": "3.6%",
-            "b": "4.5%",
-            "c": "5%",
-            "d": "6%",
-            "e": "None of these"
-        },
-        "correct_answer": "e",
-        "difficulty": "Difficult",
-        "explanation": "Let the original rate of interest be R% per annum.\nThe second rate of interest is 2R% per annum.\nFirst loan: Principal (P1) = \u20b9 725, Time (T1) = 1 year.\nSimple interest (SI1) = (725 * R * 1) / 100 = 7.25R.\nSecond loan: Principal (P2) = \u20b9 362.50.\nThis loan is made after 8 months, so it is lent for (12 - 8) = 4 months = 4/12 = 1/3 year.\nRate (R2) = 2R%.\nSimple interest (SI2) = (362.50 * 2R * (1/3)) / 100 = (725R / 3) / 100 = 7.25R / 3.\nTotal interest earned = 33.50.\nSI1 + SI2 = 33.50\n7.25R + 7.25R / 3 = 33.50\nMultiply by 3 to clear the fraction:\n21.75R + 7.25R = 100.50\n29R = 100.50\nR = 100.50 / 29\nR = 3.4655...%\nThis value is not among the given options (a) to (d).\nTherefore, the correct option is (e) None of these."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The difference between the simple interest received from two different sources on \u20b91500 for 3 years is \u20b9 13.50. The difference between their rates of interest is",
-        "options": {
-            "a": "0.1%",
-            "b": "0.2%",
-            "c": "0.3%",
-            "d": "0.4%",
-            "e": "None of these"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the two rates of interest be R1% and R2% per annum.\nPrincipal (P) = \u20b9 1500.\nTime (T) = 3 years.\nSimple interest from the first source (SI1) = (P * R1 * T) / 100 = (1500 * R1 * 3) / 100 = 45R1.\nSimple interest from the second source (SI2) = (P * R2 * T) / 100 = (1500 * R2 * 3) / 100 = 45R2.\nThe difference in simple interest is \u20b9 13.50.\nSI1 - SI2 = 13.50\n45R1 - 45R2 = 13.50\n45(R1 - R2) = 13.50\nR1 - R2 = 13.50 / 45\nR1 - R2 = 0.3.\nThus, the difference between their rates of interest is 0.3%."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Peter invested an amount of \u20b9 12,000 at the rate of 10 p.c.p.a. simple interest and another amount at the rate of 20 p.c.p.a. simple interest. The total interest earned at the end of one year on the total amount invested became 14 p.c.p.a. Find the total amount invested.",
-        "options": {
-            "a": "\u20b9 20,000",
-            "b": "22,000",
-            "c": "\u20b9 24,000",
-            "d": "25,000",
-            "e": "None of these"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Let the second amount invested be x.\nFirst investment: Principal (P1) = \u20b9 12,000, Rate (R1) = 10% p.a., Time (T) = 1 year.\nInterest from first investment (SI1) = (12000 * 10 * 1) / 100 = 1200.\nSecond investment: Principal (P2) = x, Rate (R2) = 20% p.a., Time (T) = 1 year.\nInterest from second investment (SI2) = (x * 20 * 1) / 100 = 20x / 100.\nTotal amount invested (P_total) = 12000 + x.\nOverall interest rate (R_overall) = 14% p.a.\nTotal interest earned (SI_total) = ((12000 + x) * 14 * 1) / 100.\nWe know that SI_total = SI1 + SI2.\n((12000 + x) * 14) / 100 = 1200 + 20x / 100\nMultiply by 100:\n14 * (12000 + x) = 120000 + 20x\n168000 + 14x = 120000 + 20x\n168000 - 120000 = 20x - 14x\n48000 = 6x\nx = 48000 / 6\nx = 8000.\nThe amount invested at 20% p.a. is \u20b9 8000.\nTotal amount invested = P1 + P2 = 12000 + 8000 = 20000.\nThus, the total amount invested was \u20b9 20,000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A man invested \u20b9 5000 at some rate of simple interest and \u20b9 4000 at 1 percent higher rate of interest. If the interest in both the cases after 4 years is same, the rate of interest in the former case is",
-        "options": {
-            "a": "4% p.a.",
-            "b": "5% p.a.",
-            "c": "6 1/4% p.a.",
-            "d": "8 5/3% p.a."
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Let the rate of interest in the former case be R% p.a.\nThen, the rate of interest in the latter case is (R + 1)% p.a.\nTime (T) = 4 years for both cases.\nFirst investment: Principal (P1) = \u20b9 5000, Rate = R%.\nSimple interest (SI1) = (5000 * R * 4) / 100 = 200R.\nSecond investment: Principal (P2) = \u20b9 4000, Rate = (R + 1)%.\nSimple interest (SI2) = (4000 * (R + 1) * 4) / 100 = 160(R + 1).\nGiven that the interest in both cases is the same:\nSI1 = SI2\n200R = 160(R + 1)\nDivide by 40:\n5R = 4(R + 1)\n5R = 4R + 4\n5R - 4R = 4\nR = 4.\nThus, the rate of interest in the former case is 4% p.a."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "What should be the least number of years in which the simple interest on \u20b9 2600 at 6 2/3% will be an exact number of rupees ?",
-        "options": {
-            "a": "2 years",
-            "b": "3 years",
-            "c": "4 years",
-            "d": "5 years"
-        },
-        "correct_answer": "b",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum be P = \u20b9 2600, Rate (R) = 6 2/3% = 20/3 %.\nSimple Interest (S.I.) = (P \u00d7 R \u00d7 T) / 100\nS.I. = (2600 \u00d7 (20/3) \u00d7 T) / 100 = (26 \u00d7 20 \u00d7 T) / 3 = 520T / 3.\nFor S.I. to be an exact number of rupees, T must be a multiple of 3. The least number of years is 3 years."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The rates of simple interest in two banks A and B are in the ratio 5 : 4. A person wants to deposit his total savings in two banks in such a way that he received equal half-yearly interest from both. He should deposit the savings in banks A and B in the ratio:",
-        "options": {
-            "a": "2:5",
-            "b": "4:5",
-            "c": "5:2",
-            "d": "5:4"
-        },
-        "correct_answer": "b",
-        "difficulty": "Difficult",
-        "explanation": "Let the savings be X and Y for banks A and B respectively.\nLet the rates of simple interest be 5r and 4r respectively (since the ratio is 5:4).\nTime (T) = 6 months = 1/2 year.\nInterest from Bank A = (X \u00d7 5r \u00d7 (1/2)) / 100\nInterest from Bank B = (Y \u00d7 4r \u00d7 (1/2)) / 100\nSince interests are equal:\n(X \u00d7 5r \u00d7 (1/2)) / 100 = (Y \u00d7 4r \u00d7 (1/2)) / 100\n5X = 4Y\nX/Y = 4/5\nSo, the ratio X:Y = 4:5."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum was put at simple interest at a certain rate for 3 years. Had it been put at 1% higher rate, it would have fetched \u20b9 5100 more. The sum is",
-        "options": {
-            "a": "\u20b9 1,20,000",
-            "b": "\u20b9 1,25,000",
-            "c": "\u20b9 1,50,000",
-            "d": "\u20b9 1,70,000"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum be x and the original rate be R%.\nTime (T) = 3 years.\nOriginal S.I. = (x \u00d7 R \u00d7 3) / 100\nNew rate = (R+1)%\nNew S.I. = (x \u00d7 (R+1) \u00d7 3) / 100\nAccording to the problem, New S.I. - Original S.I. = \u20b9 5100\n(x \u00d7 (R+1) \u00d7 3) / 100 - (x \u00d7 R \u00d7 3) / 100 = 5100\n(3xR + 3x - 3xR) / 100 = 5100\n3x / 100 = 5100\n3x = 510000\nx = 170000.\nHence, the sum is \u20b9 170000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If the annual rate of simple interest increases from 10% to 12 1/2%, a man's yearly income increases by \u20b91250. His principal (in \u20b9) is",
-        "options": {
-            "a": "\u20b9 45,000",
-            "b": "\u20b9 50,000",
-            "c": "\u20b9 60,000",
-            "d": "\u20b9 65,000"
-        },
-        "correct_answer": "b",
-        "difficulty": "Difficult",
-        "explanation": "Let the principal be x.\nOriginal rate = 10%, New rate = 12 1/2% = 25/2 %.\nTime (T) = 1 year.\nIncrease in income (interest) = \u20b9 1250.\n(x \u00d7 (25/2) \u00d7 1) / 100 - (x \u00d7 10 \u00d7 1) / 100 = 1250\n(25x / 200) - (10x / 100) = 1250\n(25x - 20x) / 200 = 1250\n5x / 200 = 1250\n5x = 1250 \u00d7 200\n5x = 250000\nx = 50000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A moneylender finds that due to a fall in the annual rate of interest from 8% to 7 3/4%, his yearly income diminishes by \u20b9 61.50. His capital is",
-        "options": {
-            "a": "\u20b9 22,400",
-            "b": "\u20b9 23,800",
-            "c": "\u20b9 24,600",
-            "d": "\u20b9 26,000"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the capital be x.\nOriginal rate = 8%, New rate = 7 3/4% = 31/4 %.\nTime (T) = 1 year.\nDiminished income (interest) = \u20b9 61.50.\n(x \u00d7 8 \u00d7 1) / 100 - (x \u00d7 (31/4) \u00d7 1) / 100 = 61.50\n(8x / 100) - (31x / 400) = 61.50\n(32x - 31x) / 400 = 61.50\nx / 400 = 61.50\nx = 61.50 \u00d7 400\nx = 24600."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "What equal instalment of annual payment will discharge a debt which is due as \u20b9 848 at the end of 4 years at 4% per annum simple interest ?",
-        "options": {
-            "a": "\u20b9 200",
-            "b": "\u20b9 212",
-            "c": "\u20b9 225",
-            "d": "\u20b9 250"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Using the short cut method formula for annual payment to discharge a debt:\nAnnual instalment = (100A) / (100t + rt(t-1)/2)\nWhere A = total debt = \u20b9 848, t = time in years = 4, r = rate of interest = 4%.\nAnnual instalment = (100 \u00d7 848) / (100 \u00d7 4 + (4 \u00d7 4 \u00d7 (4-1))/2)\n= (84800) / (400 + (4 \u00d7 4 \u00d7 3)/2)\n= (84800) / (400 + 24)\n= 84800 / 424\n= 200.\nThus, the annual instalment is \u20b9 200."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 10 is lent to be returned in 11 monthly instalments of \u20b91 each, interest being simple. The rate of interest is :",
-        "options": {
-            "a": "9 1/11%",
-            "b": "10%",
-            "c": "11%",
-            "d": "21 9/11%"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Initial debt = \u20b9 10.\nTotal amount paid = 11 instalments \u00d7 \u20b9 1/instalment = \u20b9 11.\nTotal interest = 11 - 10 = \u20b9 1.\nThis is an installment problem where interest is calculated on the principal outstanding each month.\nThe sum of principals for 1 month equivalent is:\n10 (for 1st month) + (10-1) (for 2nd month) + (10-2) (for 3rd month) + ... + (10-10) (for 11th month)\n= 10 + 9 + 8 + ... + 1 + 0 (this would be if the 11th instalment clears the debt after 10 months)\nThe problem states 11 monthly instalments of \u20b91 each. The sum is 10. So after 11 payments of 1, total paid is 11. Initial loan is 10. Interest is 1.\nThis problem is interpreted as: The total amount due (principal + interest on principal) must equal the sum of payments plus interest on these payments.\nLet R be the annual rate of interest.\nTotal amount due on \u20b910 at rate R for 11 months = 10 + (10 \u00d7 R \u00d7 11/12) / 100.\nValue of 11 payments of \u20b91 each, with interest accumulated by the lender (using the declining principal method for simple interest):\nThe 1st \u20b91 payment is made at the end of the 1st month, earning interest for 10 months.\nThe 2nd \u20b91 payment is made at the end of the 2nd month, earning interest for 9 months.\n... The 10th \u20b91 payment is made at the end of the 10th month, earning interest for 1 month.\nThe 11th \u20b91 payment is made at the end of the 11th month, earning no interest.\nThis is equivalent to: total interest on \u20b91 for (10+9+...+1+0) months = 55 months.\nSo, the interest on \u20b91 for 55 months at R% p.a. is \u20b91 (since total interest is \u20b91).\nS.I. = (P \u00d7 R \u00d7 T) / 100\n1 = (1 \u00d7 R \u00d7 55/12) / 100\n1 = (55R) / 1200\nR = 1200 / 55 = 240 / 11 = 21 9/11 %."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A person takes a loan of \u20b9 200 at 5% simple interest. He returns \u20b9 100 at the end of 1 year. In order to clear his dues at the end of 2 years, he would pay :",
-        "options": {
-            "a": "\u20b9 105",
-            "c": "\u20b9 115",
-            "b": "\u20b9 110",
-            "d": "\u20b9 115.50"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "The OCR solution for this question states:\nAmount to be paid = 100 + ((200 \u00d7 5 \u00d7 1) / 100) + ((100 \u00d7 5 \u00d7 1) / 100)\n= 100 + 10 + 5 = 115."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "The price of a T.V. set worth \u20b9 20,000 is to be paid in 20 instalments of \u20b9 1000 each. If the rate of interest be 6% per annum, and the first instalment be paid at the time of purchase, then the value of the last instalment covering the interest as well will be :",
-        "options": {
-            "a": "\u20b9 1050",
-            "c": "\u20b9 3000",
-            "b": "\u20b9 2050",
-            "d": "None of these"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Cash price of T.V. = \u20b9 20000.\nCash down payment = \u20b9 1000.\nBalance payment = \u20b9 (20000 - 1000) = \u20b9 19000.\nRate of interest = 6% per annum.\nNumber of remaining instalments = 19 (since one is paid at purchase, and there are 20 total).\nThe problem asks for the value of the *last* instalment, implying variable instalments or an adjustment in the last one. The provided solution is incomplete for the calculation of the final instalment."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A computer is available for \u20b9 39000 cash or \u20b9 17000 as cash down payment followed by five monthly instalments of \u20b9 4800 each. What is the rate of interest under the instalment plan?",
-        "options": {
-            "a": "35.71% p.a",
-            "b": "36.71% p.a.",
-            "c": "37.71% p.a.",
-            "d": "38.71% p.a."
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Total cash price = \u20b9 39000.\nCash down payment = \u20b9 17000.\nBalance amount (loan) = \u20b9 (39000 - 17000) = \u20b9 22000.\nFive monthly instalments of \u20b9 4800 each are paid.\nTotal amount paid in instalments = 5 \u00d7 \u20b9 4800 = \u20b9 24000.\nTotal interest paid = \u20b9 (24000 - 22000) = \u20b9 2000.\nLet R be the annual rate of interest.\nThe loan amount of \u20b9 22000 for 5 months, with interest, should equal the value of the accumulated instalments.\nValue of debt at the end of 5 months = 22000 + (22000 \u00d7 R \u00d7 5/12) / 100 = 22000 + 1100R / 12 = 22000 + 275R / 3.\nValue of accumulated instalments (each payment earning interest for the remaining period):\n1st instalment (after 1 month) earns interest for 4 months.\n2nd instalment (after 2 months) earns interest for 3 months.\n3rd instalment (after 3 months) earns interest for 2 months.\n4th instalment (after 4 months) earns interest for 1 month.\n5th instalment (after 5 months) earns no interest.\nTotal value of payments = (4800 \u00d7 5) + (4800 \u00d7 R \u00d7 (4+3+2+1)/12) / 100\n= 24000 + (4800 \u00d7 R \u00d7 10/12) / 100\n= 24000 + (48000R / 1200) = 24000 + 40R.\nEquating the two values:\n22000 + 275R / 3 = 24000 + 40R\n275R / 3 - 40R = 24000 - 22000\n(275R - 120R) / 3 = 2000\n155R / 3 = 2000\nR = (2000 \u00d7 3) / 155 = 6000 / 155 = 38.709... %\nR \u2248 38.71% p.a."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "If the rate increases by 2%, the simple interest received on a sum of money increases by \u20b9 108. If the time period is increased by 2 years, the simple interest on the same sum increases by \u20b9 180. The sum is:",
-        "options": {
-            "a": "\u20b9 1800",
-            "b": "\u20b9 3600",
-            "c": "\u20b9 5400",
-            "d": "Data inadequate"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum be x, the original rate be R% p.a., and the original time be T years.\nCase 1: Rate increases by 2%.\n(x \u00d7 (R+2) \u00d7 T) / 100 - (x \u00d7 R \u00d7 T) / 100 = 108\n(xRT + 2xT - xRT) / 100 = 108\n2xT / 100 = 108 \u21d2 2xT = 10800 (Equation i)\nCase 2: Time period increases by 2 years.\n(x \u00d7 R \u00d7 (T+2)) / 100 - (x \u00d7 R \u00d7 T) / 100 = 180\n(xRT + 2xR - xRT) / 100 = 180\n2xR / 100 = 180 \u21d2 2xR = 18000 (Equation ii)\nFrom equations (i) and (ii), we have two equations with three unknowns (x, R, T). We cannot find a unique value for x. Therefore, the data is inadequate."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Vishwas borrowed a total amount of \u20b930000, part of it on simple interest rate of 12 p.c.p.a. and remaining on simple interest rate of 10 p.c.p.a. If at the end of 2 years he paid in all \u20b9 36480 to settle the loan amount, what was the amount borrowed at 12 p.c.p.a?",
-        "options": {
-            "a": "\u20b9 12000",
-            "b": "\u20b9 16000",
-            "c": "\u20b9 17500",
-            "d": "\u20b9 18000"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Total amount borrowed = \u20b9 30000.\nTotal amount paid after 2 years = \u20b9 36480.\nTotal Simple Interest (S.I.) = \u20b9 (36480 - 30000) = \u20b9 6480.\nLet the amount borrowed at 12% p.c.p.a. be x.\nThen, the amount borrowed at 10% p.c.p.a. is \u20b9 (30000 - x).\nTime (T) = 2 years.\nS.I. from 12% = (x \u00d7 12 \u00d7 2) / 100 = 24x / 100.\nS.I. from 10% = ((30000 - x) \u00d7 10 \u00d7 2) / 100 = (600000 - 20x) / 100.\nTotal S.I. = (24x + 600000 - 20x) / 100 = 6480.\n4x + 600000 = 648000\n4x = 648000 - 600000\n4x = 48000\nx = 12000.\nThus, the amount borrowed at 12% p.c.p.a. was \u20b9 12000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A man divided his share between his sons A and B in such a way that the interest received by A at 15% p.a. for 3 years is double the interest received by B at 12% p.a. for 5 years. In what ratio was his share divided?",
-        "options": {
-            "a": "2/3",
-            "b": "3/2",
-            "c": "3/8",
-            "d": "8/3"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let A's share be \u20b9 x and B's share be \u20b9 y.\nInterest received by A = (x \u00d7 15 \u00d7 3) / 100 = 45x / 100.\nInterest received by B = (y \u00d7 12 \u00d7 5) / 100 = 60y / 100.\nAccording to the problem, Interest by A = 2 \u00d7 Interest by B.\n45x / 100 = 2 \u00d7 (60y / 100)\n45x = 120y\nx / y = 120 / 45\nx / y = 8 / 3.\nThe ratio of shares (x:y) is 8:3."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 18750 is left by a will by a father to be divided between the two sons, 12 and 14 years of age, so that when they attain maturity at 18, the amount (principal + interest) received by each at 5 per cent simple interest will be the same. Find the sum allotted at present to each son.",
-        "options": {
-            "a": "\u20b9 9500, \u20b9 9250",
-            "b": "\u20b9 8000, \u20b9 1750",
-            "c": "\u20b9 9000, \u20b9 9750",
-            "d": "None of these"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Total sum = \u20b9 18750.\nLet the sum allotted to the 12-year-old son be x, and to the 14-year-old son be (18750 - x).\nRate of interest = 5% p.a.\nMaturity age = 18 years.\nTime for 12-year-old son to mature = 18 - 12 = 6 years.\nTime for 14-year-old son to mature = 18 - 14 = 4 years.\nAmount received by 12-year-old son = Principal + S.I. = x + (x \u00d7 5 \u00d7 6) / 100 = x + 30x / 100 = 130x / 100.\nAmount received by 14-year-old son = (18750 - x) + ((18750 - x) \u00d7 5 \u00d7 4) / 100 = (18750 - x) + 20(18750 - x) / 100.\nSince the amounts received are the same:\n130x / 100 = (18750 - x) + (20 \u00d7 18750 - 20x) / 100\n130x = 100(18750 - x) + 20(18750 - x)\n130x = 1875000 - 100x + 375000 - 20x\n130x = 2250000 - 120x\n130x + 120x = 2250000\n250x = 2250000\nx = 2250000 / 250 = 9000.\nSo, the share of the 12-year-old son is \u20b9 9000.\nThe share of the 14-year-old son = \u20b9 (18750 - 9000) = \u20b9 9750.\nThe sums allotted are \u20b9 9000 and \u20b9 9750."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A certain sum of money is invested at an interest rate of 5% per annum and a second sum, twice as large as the first, is invested at 5.5% p.a. The total amount of interest earned from the two investments together is \u20b9 1000 per year and the interest is withdrawn every year. The second sum invested is",
-        "options": {
-            "a": "\u20b9 6250",
-            "b": "\u20b9 10500",
-            "c": "\u20b9 12500",
-            "d": "\u20b9 15000"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the first sum of money be x.\nThe second sum of money is twice as large as the first, so it is 2x.\nRate for first sum = 5% p.a.\nRate for second sum = 5.5% p.a.\nTime (T) = 1 year (as interest is earned per year).\nTotal interest earned = \u20b9 1000.\nS.I. from first sum = (x \u00d7 5 \u00d7 1) / 100 = 5x / 100.\nS.I. from second sum = (2x \u00d7 5.5 \u00d7 1) / 100 = 11x / 100.\nTotal S.I. = 5x / 100 + 11x / 100 = 16x / 100.\n16x / 100 = 1000\n16x = 100000\nx = 100000 / 16 = 6250.\nThe second sum invested is 2x = 2 \u00d7 6250 = \u20b9 12500."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "I had \u20b910000 with me. Out of this money I lent some money to A for 2 years @ 15% simple interest. I lent the remaining money to B for an equal number of years @ 18% simple interest. After 2 years, I found that A had given me \u20b9 360 more as interest as compared to B. The amount of money which I had lent to B must have been",
-        "options": {
-            "a": "\u20b9 2000",
-            "b": "\u20b9 3000",
-            "c": "\u20b9 4000",
-            "d": "\u20b9 5000"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum lent to A be x and that lent to B be \u20b9 (10000 \u2013 x).\nThen, the difference in simple interest received from A and B is given by:\n(x \u00d7 15 \u00d7 2 / 100) - ((10000 \u2013 x) \u00d7 18 \u00d7 2 / 100) = 360\n(30x / 100) - (360000 - 36x) / 100 = 360\n30x - 360000 + 36x = 36000\n66x = 36000 + 360000\n66x = 396000\nx = 396000 / 66\nx = 6000\nHence, the sum lent to B = \u20b9 (10000 - x) = \u20b9 (10000 - 6000) = \u20b9 4000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 2600 is lent out in two parts in such a way that the interest on one part at 10% for 5 years is equal to that on another at 9% for 6 years. The sum lent out at 10% is:",
-        "options": {
-            "a": "\u20b9 1150",
-            "b": "\u20b9 1250",
-            "c": "\u20b9 1350",
-            "d": "\u20b9 1450"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum lent at 10% be x and the sum lent at 9% be (2600 \u2013 x).\nAccording to the problem, the simple interest on both parts is equal:\n(x \u00d7 10 \u00d7 5 / 100) = ((2600 \u2013 x) \u00d7 9 \u00d7 6 / 100)\n50x / 100 = (54 \u00d7 (2600 - x)) / 100\n50x = 54 \u00d7 2600 - 54x\n50x + 54x = 54 \u00d7 2600\n104x = 140400\nx = 140400 / 104\nx = 1350\nThe sum lent at 10% is \u20b9 1350."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 1550 was lent partly at 5% and partly at 8% p.a. simple interest. The total interest received after 3 years was \u20b9 300. The ratio of the money lent at 5% to that lent at 8% is:",
-        "options": {
-            "a": "5:8",
-            "b": "8:5",
-            "c": "16:15",
-            "d": "31:6"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum lent at 5% be x and the sum lent at 8% be \u20b9 (1550 \u2013 x).\nThe total simple interest received after 3 years is \u20b9 300.\n(x \u00d7 5 \u00d7 3 / 100) + ((1550 \u2013 x) \u00d7 8 \u00d7 3 / 100) = 300\n(15x / 100) + (24 \u00d7 (1550 - x)) / 100 = 300\n15x + 37200 - 24x = 30000\n-9x = 30000 - 37200\n-9x = -7200\nx = 7200 / 9\nx = 800\nThe sum lent at 5% is \u20b9 800.\nThe sum lent at 8% is \u20b9 (1550 - 800) = \u20b9 750.\nThe ratio of the money lent at 5% to that lent at 8% is 800 : 750.\nDividing both by 50, we get 16 : 15."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A man lends \u20b9 10,000 in four parts. If he gets 8% on \u20b9 2000; 7 1/2% on \u20b9 4000 and 8 1/2% on \u20b9 1400; what percent must he get for the remainder, if his average annual interest is 8.13% ?",
-        "options": {
-            "a": "7%",
-            "b": "9%",
-            "c": "9 1/4%",
-            "d": "10 1/2%"
-        },
-        "correct_answer": "b",
-        "difficulty": "Difficult",
-        "explanation": "Total capital = \u20b9 10000.\nFirst part: P1 = \u20b9 2000, R1 = 8%.\nSecond part: P2 = \u20b9 4000, R2 = 7 1/2% = 15/2%.\nThird part: P3 = \u20b9 1400, R3 = 8 1/2% = 17/2%.\nRemainder (P4) = 10000 - (2000 + 4000 + 1400) = 10000 - 7400 = \u20b9 2600.\nLet the rate for the remainder be R%.\nTime (T) = 1 year (since it's annual interest).\nTotal average annual interest = 8.13%.\nTotal simple interest = (P1R1T + P2R2T + P3R3T + P4RT) / 100\nThis total interest must also be equal to (Total Capital \u00d7 Average Rate \u00d7 T) / 100.\nTotal Interest = (10000 \u00d7 8.13 \u00d7 1) / 100 = \u20b9 813.\nNow, calculate interest from each part:\nI1 = (2000 \u00d7 8 \u00d7 1) / 100 = 160\nI2 = (4000 \u00d7 (15/2) \u00d7 1) / 100 = (4000 \u00d7 15) / 200 = 20 \u00d7 15 = 300\nI3 = (1400 \u00d7 (17/2) \u00d7 1) / 100 = (1400 \u00d7 17) / 200 = 7 \u00d7 17 = 119\nI4 = (2600 \u00d7 R \u00d7 1) / 100 = 26R\nSum of interests = I1 + I2 + I3 + I4 = 813\n160 + 300 + 119 + 26R = 813\n579 + 26R = 813\n26R = 813 - 579\n26R = 234\nR = 234 / 26\nR = 9.\nThe man must get 9% for the remainder."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "An amount of \u20b9 1,00,000 is invested in two types of shares. The first yields an interest of 9% p.a. and the second, 11% p.a. If the total interest at the end of one year is 9 3/4%, then the amount invested in each share was",
-        "options": {
-            "a": "\u20b9 52,500; \u20b9 47,500",
-            "b": "\u20b9 62,500; \u20b9 37,500",
-            "c": "\u20b9 72,500; \u20b9 27,500",
-            "d": "\u20b9 82,500; \u20b9 17,500"
-        },
-        "correct_answer": "b",
-        "difficulty": "Difficult",
-        "explanation": "Let the sum invested at 9% be x and that invested at 11% be \u20b9 (100000 \u2013 x).\nTotal interest rate = 9 3/4% = 39/4%.\nTotal interest earned in one year = (100000 \u00d7 39/4 \u00d7 1) / 100 = \u20b9 (1000 \u00d7 39/4) = \u20b9 9750.\nAccording to the problem:\n(x \u00d7 9 \u00d7 1 / 100) + ((100000 \u2013 x) \u00d7 11 \u00d7 1 / 100) = 9750\n(9x / 100) + (1100000 - 11x) / 100 = 9750\n9x + 1100000 - 11x = 975000\n-2x = 975000 - 1100000\n-2x = -125000\nx = 125000 / 2\nx = 62500\nSo, the amount invested at 9% is \u20b9 62500.\nThe amount invested at 11% is \u20b9 (100000 - 62500) = \u20b9 37500.\nThus, the amounts invested are \u20b9 62,500 and \u20b9 37,500 respectively."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "David invested certain amount in three different schemes A, B and C with the rate of interest 10% p.a., 12% p.a. and 15% p.a. respectively. If the total interest accrued in one year was \u20b9 3200 and the amount invested in Scheme C was 150% of the amount invested in Scheme A and 240% of the amount invested in Scheme B, what was the amount invested in Scheme B?",
-        "options": {
-            "a": "\u20b9 5000",
-            "b": "\u20b9 6500",
-            "c": "\u20b9 8000",
-            "d": "Cannot be determined",
-            "e": "None of these"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Let x, y and z be the amounts invested in schemes A, B and C respectively.\nTotal interest accrued in one year = \u20b9 3200.\n(x \u00d7 10 \u00d7 1 / 100) + (y \u00d7 12 \u00d7 1 / 100) + (z \u00d7 15 \u00d7 1 / 100) = 3200\n10x + 12y + 15z = 320000 ...(1)\nGiven conditions:\nAmount invested in Scheme C (z) = 150% of Scheme A (x)\nz = (150/100)x = (3/2)x ...(2)\nAmount invested in Scheme C (z) = 240% of Scheme B (y)\nz = (240/100)y = (12/5)y ...(3)\nFrom (2) and (3):\n(3/2)x = (12/5)y\nx = (12/5)y \u00d7 (2/3) = (24/15)y = (8/5)y ...(4)\nSubstitute x and z in equation (1):\n10((8/5)y) + 12y + 15((12/5)y) = 320000\n16y + 12y + 36y = 320000\n64y = 320000\ny = 320000 / 64\ny = 5000\nThe amount invested in Scheme B was \u20b9 5000."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A sum of \u20b9 1440 is lent out in three parts in such a way that the interests on first part at 2% for 3 years, second part at 3% for 4 years and third part at 4% for 5 years are equal. Then the difference between the largest and the smallest sum is",
-        "options": {
-            "a": "\u20b9 200",
-            "b": "\u20b9 400",
-            "c": "\u20b9 460",
-            "d": "\u20b9 560"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the three parts be P1, P2, and P3.\nGiven that P1 + P2 + P3 = \u20b9 1440.\nAlso, the interests on these parts are equal:\nInterest1 = (P1 \u00d7 2 \u00d7 3) / 100 = 6P1 / 100\nInterest2 = (P2 \u00d7 3 \u00d7 4) / 100 = 12P2 / 100\nInterest3 = (P3 \u00d7 4 \u00d7 5) / 100 = 20P3 / 100\nSo, 6P1 / 100 = 12P2 / 100 = 20P3 / 100\n6P1 = 12P2 = 20P3\nFrom 6P1 = 12P2, we get P1 = 2P2.\nFrom 12P2 = 20P3, we get P3 = 12P2 / 20 = 3P2 / 5.\nNow substitute P1 and P3 in terms of P2 into the total sum equation:\nP1 + P2 + P3 = 1440\n2P2 + P2 + (3P2 / 5) = 1440\n3P2 + (3P2 / 5) = 1440\n(15P2 + 3P2) / 5 = 1440\n18P2 / 5 = 1440\nP2 = (1440 \u00d7 5) / 18 = 80 \u00d7 5 = \u20b9 400.\nNow find P1 and P3:\nP1 = 2P2 = 2 \u00d7 400 = \u20b9 800.\nP3 = (3 \u00d7 400) / 5 = 3 \u00d7 80 = \u20b9 240.\nThe three parts are \u20b9 800, \u20b9 400, and \u20b9 240.\nThe largest sum is \u20b9 800 and the smallest sum is \u20b9 240.\nThe difference between the largest and the smallest sum = 800 - 240 = \u20b9 560."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A person invests money in three different schemes for 6 years, 10 years and 12 years at 10 percent, 12 percent and 15 percent simple interest respectively. At the completion of each scheme, he gets the same interest. The ratio of his investments is",
-        "options": {
-            "a": "2:3:4",
-            "b": "4:3:2",
-            "c": "3:4:6",
-            "d": "6:3:2"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the investments in the three schemes be P1, P2, and P3.\nFor Scheme 1: Time T1 = 6 years, Rate R1 = 10%.\nFor Scheme 2: Time T2 = 10 years, Rate R2 = 12%.\nFor Scheme 3: Time T3 = 12 years, Rate R3 = 15%.\nGiven that the interest at the completion of each scheme is the same.\nInterest1 = Interest2 = Interest3\n(P1 \u00d7 R1 \u00d7 T1) / 100 = (P2 \u00d7 R2 \u00d7 T2) / 100 = (P3 \u00d7 R3 \u00d7 T3) / 100\nP1 \u00d7 10 \u00d7 6 = P2 \u00d7 12 \u00d7 10 = P3 \u00d7 15 \u00d7 12\n60P1 = 120P2 = 180P3\nTo find the ratio P1:P2:P3, we can divide by the Least Common Multiple (LCM) of 60, 120, and 180, which is 360.\n(60P1 / 360) = (120P2 / 360) = (180P3 / 360)\nP1 / 6 = P2 / 3 = P3 / 2\nSo, P1:P2:P3 = 6:3:2."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "Divide \u20b9 2379 into 3 parts so that their amounts after 2, 3 and 4 years respectively may be equal, the rate of interest being 5% per annum at simple interest. The first part is",
-        "options": {
-            "a": "\u20b9 759",
-            "b": "\u20b9 792",
-            "c": "\u20b9 818",
-            "d": "\u20b9 828"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the three parts be P1, P2, and P3.\nGiven P1 + P2 + P3 = \u20b9 2379.\nRate of interest (R) = 5% p.a.\nTime for P1 (T1) = 2 years.\nTime for P2 (T2) = 3 years.\nTime for P3 (T3) = 4 years.\nThe amounts after their respective periods are equal.\nAmount = Principal + Simple Interest = P + (P \u00d7 R \u00d7 T) / 100 = P (1 + RT/100)\nAmount1 = P1 (1 + 5 \u00d7 2 / 100) = P1 (1 + 10/100) = P1 (110/100) = 1.1P1\nAmount2 = P2 (1 + 5 \u00d7 3 / 100) = P2 (1 + 15/100) = P2 (115/100) = 1.15P2\nAmount3 = P3 (1 + 5 \u00d7 4 / 100) = P3 (1 + 20/100) = P3 (120/100) = 1.2P3\nSince Amount1 = Amount2 = Amount3:\n1.1P1 = 1.15P2 = 1.2P3\nTo find the ratio P1:P2:P3, we can write:\nP1 = (1.15/1.1)P2 = (115/110)P2 = (23/22)P2\nP3 = (1.15/1.2)P2 = (115/120)P2 = (23/24)P2\nSubstitute these into the total sum equation:\nP1 + P2 + P3 = 2379\n(23/22)P2 + P2 + (23/24)P2 = 2379\nTo solve for P2, find the LCM of 22 and 24, which is 264.\nMultiply the entire equation by 264:\n(23 \u00d7 12)P2 + 264P2 + (23 \u00d7 11)P2 = 2379 \u00d7 264\n276P2 + 264P2 + 253P2 = 2379 \u00d7 264\n793P2 = 2379 \u00d7 264\nP2 = (2379 \u00d7 264) / 793\nNote that 2379 / 793 = 3.\nP2 = 3 \u00d7 264 = \u20b9 792.\nNow find P1:\nP1 = (23/22)P2 = (23/22) \u00d7 792 = 23 \u00d7 36 = \u20b9 828.\n(Also, P3 = (23/24)P2 = (23/24) \u00d7 792 = 23 \u00d7 33 = \u20b9 759.)\nThe first part is \u20b9 828."
-    },
-    {
-        "topic": "simple_interest",
-        "question": "A man invested 1/3 of his capital at 7%; 1/4 at 8% and the remainder at 10%. If his annual income is \u20b9 561, the capital is",
-        "options": {
-            "a": "\u20b9 5400",
-            "b": "\u20b9 6000",
-            "c": "\u20b9 6600",
-            "d": "\u20b9 7200"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the total capital be x.\nPart 1: (1/3) of capital at 7%.\nPart 2: (1/4) of capital at 8%.\nRemainder: 1 - (1/3 + 1/4) = 1 - (4/12 + 3/12) = 1 - 7/12 = 5/12 of capital at 10%.\nAnnual income (total interest for 1 year) = \u20b9 561.\nInterest from Part 1 = (x/3 \u00d7 7 \u00d7 1) / 100 = 7x / 300\nInterest from Part 2 = (x/4 \u00d7 8 \u00d7 1) / 100 = 8x / 400 = 2x / 100 = x / 50\nInterest from Remainder = (5x/12 \u00d7 10 \u00d7 1) / 100 = 50x / 1200 = 5x / 120 = x / 24\nTotal annual income:\n(7x / 300) + (x / 50) + (x / 24) = 561\nTo sum these fractions, find the LCM of 300, 50, and 24. The LCM is 600.\n(14x / 600) + (12x / 600) + (25x / 600) = 561\n(14x + 12x + 25x) / 600 = 561\n51x / 600 = 561\nx = (561 \u00d7 600) / 51\nx = 11 \u00d7 600 (since 561 / 51 = 11)\nx = 6600.\nThe capital is \u20b9 6600."
-    }
+  {
+    "text": "If a + b = 5 and ab = 6, find the value of a^3 + b^3.",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "options": {
+      "A": "35",
+      "B": "65",
+      "C": "91",
+      "D": "125"
+    },
+    "correctAnswer": "A",
+    "explanation": "Formula: a^3 + b^3 = (a + b)^3 - 3ab(a + b). Substituting the values: (5)^3 - 3(6)(5) = 125 - 90 = 35."
+  },
+  {
+    "text": "If x + (1/x) = 4, what is the value of x^2 + (1/x^2)?",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18"
+    },
+    "correctAnswer": "B",
+    "explanation": "Squaring both sides of the equation x + 1/x = 4 gives (x + 1/x)^2 = 16. Expanding gives x^2 + 2(x)(1/x) + 1/x^2 = 16, which simplifies to x^2 + 2 + 1/x^2 = 16. Therefore, x^2 + 1/x^2 = 14."
+  },
+  {
+    "text": "The sum of two numbers is 20 and their difference is 4. Find the product of the two numbers.",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "options": {
+      "A": "84",
+      "B": "96",
+      "C": "100",
+      "D": "120"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the numbers be x and y. x + y = 20 and x - y = 4. Adding the equations gives 2x = 24, so x = 12. y = 8. Their product is 12 * 8 = 96."
+  },
+  {
+    "text": "The average of 5 consecutive even numbers is 26. Find the largest number among them.",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "28",
+      "B": "30",
+      "C": "32",
+      "D": "34"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the numbers be x, x+2, x+4, x+6, and x+8. Their average is the middle number (x+4). So, x+4 = 26. The largest number is x+8 = (x+4)+4 = 26+4 = 30."
+  },
+  {
+    "text": "The average weight of A, B, and C is 45 kg. If the average weight of A and B is 40 kg and that of B and C is 43 kg, find the weight of B.",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "17 kg",
+      "B": "26 kg",
+      "C": "31 kg",
+      "D": "35 kg"
+    },
+    "correctAnswer": "C",
+    "explanation": "Total weight of A+B+C = 45 * 3 = 135 kg. Total A+B = 40 * 2 = 80 kg. So, C = 135 - 80 = 55 kg. Total B+C = 43 * 2 = 86 kg. Therefore, B = 86 - 55 = 31 kg."
+  },
+  {
+    "text": "A batsman makes a score of 87 runs in his 17th inning and thus increases his average by 3. Find his average after the 17th inning.",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "36",
+      "B": "39",
+      "C": "42",
+      "D": "45"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the old average be x. Total runs in 16 innings = 16x. New average = x + 3. Equation: 16x + 87 = 17(x + 3). 16x + 87 = 17x + 51. x = 36. New average = 36 + 3 = 39."
+  },
+  {
+    "text": "A sum becomes Rs. 1352 in 2 years at 4% per annum compound interest. Find the principal sum.",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 1200",
+      "B": "Rs. 1250",
+      "C": "Rs. 1300",
+      "D": "Rs. 1320"
+    },
+    "correctAnswer": "B",
+    "explanation": "Formula: A = P(1 + R/100)^T. 1352 = P(1 + 4/100)^2. 1352 = P(26/25)^2. 1352 = P * (676/625). P = (1352 * 625) / 676 = 2 * 625 = 1250."
+  },
+  {
+    "text": "The simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. Find the sum placed on simple interest.",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 1500",
+      "B": "Rs. 1750",
+      "C": "Rs. 2000",
+      "D": "Rs. 2250"
+    },
+    "correctAnswer": "B",
+    "explanation": "CI on 4000 for 2 yrs = 4000 * [(1.1)^2 - 1] = 4000 * 0.21 = Rs. 840. Half of CI = Rs. 420. So, SI = 420. Formula: SI = (P*R*T)/100. 420 = (P * 8 * 3) / 100. 24P = 42000, so P = 1750."
+  },
+  {
+    "text": "At what rate of simple interest per annum will a sum double itself in 8 years?",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10%",
+      "B": "12%",
+      "C": "12.5%",
+      "D": "15%"
+    },
+    "correctAnswer": "C",
+    "explanation": "If the sum doubles, Simple Interest (SI) = Principal (P). SI = (P * R * T) / 100. P = (P * R * 8) / 100. 100 = 8R. R = 100 / 8 = 12.5%."
+  },
+  {
+    "text": "Two numbers are respectively 20% and 50% more than a third number. What is the ratio of the first two numbers?",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2:5",
+      "B": "4:5",
+      "C": "5:4",
+      "D": "6:7"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the third number be 100. The first number is 120 and the second is 150. Ratio = 120:150 = 12:15 = 4:5."
+  },
+  {
+    "text": "If the numerator of a fraction is increased by 20% and its denominator is diminished by 10%, the value of the fraction becomes 16/21. What is the original fraction?",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3/5",
+      "B": "4/7",
+      "C": "5/7",
+      "D": "3/4"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let the fraction be x/y. (1.20x) / (0.90y) = 16/21. (12/9)(x/y) = 16/21. (4/3)(x/y) = 16/21. x/y = (16/21) * (3/4) = 4/7."
+  },
+  {
+    "text": "In an election between two candidates, the winner got 55% of the valid votes. 20% of the total votes were invalid. If the total number of votes was 7500, how many valid votes did the losing candidate get?",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2700",
+      "B": "2900",
+      "C": "3100",
+      "D": "3300"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total votes = 7500. Invalid votes = 20%. Valid votes = 80% of 7500 = 6000. Winner got 55% of valid votes, so loser got 45% of valid votes. 45% of 6000 = (45/100) * 6000 = 2700."
+  },
+  {
+    "text": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "12 days",
+      "B": "15 days",
+      "C": "16 days",
+      "D": "18 days"
+    },
+    "correctAnswer": "B",
+    "explanation": "Work per day: A = 1/20, B = 1/30, C = 1/60. Total work per 3-day cycle = (A) + (A) + (A+B+C) = 1/20 + 1/20 + (1/20 + 1/30 + 1/60). The sum is 2/20 + 6/60 = 1/10 + 1/10 = 1/5 of the work every 3 days. To do full work, it takes 5 cycles. 5 * 3 = 15 days."
+  },
+  {
+    "text": "10 women can complete a work in 7 days and 10 children take 14 days to complete the same work. How many days will 5 women and 10 children take to complete the work?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "5 days",
+      "B": "7 days",
+      "C": "9 days",
+      "D": "12 days"
+    },
+    "correctAnswer": "B",
+    "explanation": "10W * 7 = 10C * 14. Therefore, 1W = 2C (1 woman equals 2 children in efficiency). Total work = 70 Woman-days. (5W + 10C) is equivalent to (5W + 5W) = 10W. Time = 70W / 10W = 7 days."
+  },
+  {
+    "text": "Two pipes A and B can fill a tank in 15 minutes and 20 minutes respectively. Both pipes are opened together, but after 4 minutes, pipe A is turned off. What is the total time required to fill the tank?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10 min 40 sec",
+      "B": "12 min 20 sec",
+      "C": "14 min 40 sec",
+      "D": "16 min 30 sec"
+    },
+    "correctAnswer": "C",
+    "explanation": "Assume total capacity = 60 units. A fills 4 units/min, B fills 3 units/min. Together they fill 7 units/min. In 4 mins, they fill 28 units. Remaining = 60 - 28 = 32 units. B fills 32 units in 32/3 = 10.66 minutes (10 min 40 sec). Total time = 4 min + 10 min 40 sec = 14 min 40 sec."
+  },
+  {
+    "text": "A is 30% more efficient than B. How much time will they, working together, take to complete a job which A alone could have done in 23 days?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "11 days",
+      "B": "13 days",
+      "C": "15 days",
+      "D": "17 days"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ratio of efficiency A:B = 130:100 = 13:10. Total work = Efficiency of A * Time taken by A = 13 * 23 = 299 units. Combined efficiency = 13 + 10 = 23 units/day. Time taken together = 299 / 23 = 13 days."
+  },
+  {
+    "text": "If the length of a rectangle is halved and its breadth is tripled, what is the percentage change in its area?",
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "options": {
+      "A": "25% decrease",
+      "B": "50% increase",
+      "C": "75% increase",
+      "D": "No change"
+    },
+    "correctAnswer": "B",
+    "explanation": "Original area = L * B. New Area = (L/2) * (3B) = 1.5 * L * B. The area increases from 1 to 1.5, which is a 50% increase."
+  },
+  {
+    "text": "The curved surface area of a cylindrical pillar is 264 sq. meters and its volume is 924 cubic meters. Find the ratio of its diameter to its height.",
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3:7",
+      "B": "7:3",
+      "C": "6:7",
+      "D": "7:6"
+    },
+    "correctAnswer": "B",
+    "explanation": "CSA = 2 * pi * r * h = 264. Volume = pi * r^2 * h = 924. Dividing Volume by CSA gives r/2 = 924/264 = 3.5, so r = 7 m. Diameter = 14 m. Substitute r back: 2 * (22/7) * 7 * h = 264 => 44h = 264 => h = 6 m. Ratio of D:h = 14:6 = 7:3."
+  },
+  {
+    "text": "A metallic sphere of radius 10.5 cm is melted and recast into small cones, each of radius 3.5 cm and height 3 cm. How many cones are formed?",
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "options": {
+      "A": "112",
+      "B": "120",
+      "C": "126",
+      "D": "132"
+    },
+    "correctAnswer": "C",
+    "explanation": "Volume of sphere = (4/3) * pi * R^3. Volume of one cone = (1/3) * pi * r^2 * h. Number of cones = [(4/3) * pi * (10.5)^3] / [(1/3) * pi * (3.5)^2 * 3]. Solving this yields 4 * (3 * 3 * 3) / 3 = 126 cones."
+  },
+  {
+    "text": "The lengths of two parallel chords of a circle are 6 cm and 8 cm. If they are on opposite sides of the center and the distance between them is 7 cm, find the radius of the circle.",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "options": {
+      "A": "5 cm",
+      "B": "7 cm",
+      "C": "9 cm",
+      "D": "10 cm"
+    },
+    "correctAnswer": "A",
+    "explanation": "Let the distance of the 6cm chord (half = 3cm) from center be x. Then distance of 8cm chord (half = 4cm) is 7-x. By Pythagoras: r^2 = 3^2 + x^2 and r^2 = 4^2 + (7-x)^2. Equating: 9 + x^2 = 16 + 49 - 14x + x^2. 14x = 56, so x = 4. r^2 = 3^2 + 4^2 = 25. r = 5 cm."
+  },
+  {
+    "text": "In triangle ABC, the internal bisectors of angles B and C intersect at point O. If angle A = 80 degrees, find the measure of angle BOC.",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "options": {
+      "A": "100 degrees",
+      "B": "110 degrees",
+      "C": "120 degrees",
+      "D": "130 degrees"
+    },
+    "correctAnswer": "D",
+    "explanation": "The formula for the angle formed by internal bisectors is Angle BOC = 90 + (Angle A / 2). BOC = 90 + (80 / 2) = 90 + 40 = 130 degrees."
+  },
+  {
+    "text": "A regular polygon has 27 diagonals. How many sides does it have?",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correctAnswer": "C",
+    "explanation": "Formula for number of diagonals is n(n-3)/2 = 27. n^2 - 3n = 54. n^2 - 3n - 54 = 0. (n-9)(n+6) = 0. Since n must be positive, n = 9."
+  },
+  {
+    "text": "Which of the following fractions is the largest: 7/8, 13/16, 31/40, 63/80?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "7/8",
+      "B": "13/16",
+      "C": "31/40",
+      "D": "63/80"
+    },
+    "correctAnswer": "A",
+    "explanation": "Convert all to a common denominator of 80. 7/8 = 70/80. 13/16 = 65/80. 31/40 = 62/80. 63/80 is already over 80. The largest numerator is 70, so 7/8 is the largest."
+  },
+  {
+    "text": "Find the sum of all two-digit numbers that are completely divisible by 5.",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "900",
+      "B": "925",
+      "C": "945",
+      "D": "955"
+    },
+    "correctAnswer": "C",
+    "explanation": "The series is 10, 15, 20... up to 95. This is an arithmetic progression. Number of terms (n) = [(95 - 10) / 5] + 1 = 18 terms. Sum = (n/2) * (first term + last term) = (18/2) * (10 + 95) = 9 * 105 = 945."
+  },
+  {
+    "text": "What is the least number which when divided by 8, 12, 15 and 20 leaves the same remainder 5 in each case?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "115",
+      "B": "125",
+      "C": "135",
+      "D": "145"
+    },
+    "correctAnswer": "B",
+    "explanation": "Find the Least Common Multiple (LCM) of the divisors (8, 12, 15, 20). The LCM is 120. Add the required remainder: 120 + 5 = 125."
+  }
 ]

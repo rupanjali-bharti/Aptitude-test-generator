@@ -1,244 +1,63 @@
 # AptiAce - Aptitude Test Generator
 
-An AI-powered aptitude practice platform that generates customized tests and provides detailed performance analytics. Master aptitude questions, track your progress, and build the speed needed to crack placement tests with confidence.
+A clean aptitude testing frontend with a backend-ready structure for AI-generated questions and analytics.
 
-## 🌟 Key Features
+## What this repo contains
 
-- **Custom Test Configuration**: Choose difficulty level (Easy, Medium, Hard, Mixed), number of questions (15-30), and time limits
-- **AI-Powered Question Generation**: Google Gemini API generates unique, placement-relevant questions
-- **Real-Time Test Interface**: Live timer, progress tracking, and question navigation with review functionality
-- **Comprehensive Analytics Dashboard**: 
-  - Accuracy trends across last 10 tests
-  - Questions solved breakdown (Attempted, Correct, Incorrect, Skipped)
-  - Topic-wise strength analysis with color-coded performance (Strong/Needs Improvement/Weak)
-  - Weak areas detection with actionable insights
-  - Average time per question metrics
-  - Readiness score calculation
-- **Test History**: Complete list of all attempted tests with scores, accuracy, and difficulty
-- **Performance Tracking**: Persists all test data for long-term progress monitoring
-- **Responsive Design**: Fully responsive across desktop, tablet, and mobile devices
+- React frontend with glass-style test cards
+- Test list, timed test flow, and results-ready UI
+- Node/Express backend scaffold and MongoDB support
+- Local attempted-state tracking and future-ready test slots
 
-## 🛠 Tech Stack
+## Quick start
 
-### Frontend
-- React.js
-- React Router for navigation
-- Axios for API calls
-- CSS3 for responsive styling
-
-### Backend
-- Node.js with Express.js
-- MongoDB for data persistence
-- Google Generative AI SDK
-- Cheerio + Axios for web scraping
-
-## 📋 Prerequisites
-
-- Node.js (v16 or higher)
-- MongoDB (local installation or MongoDB Atlas account)
-- Google Gemini API key
-- Git
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
 ```bash
 git clone <repository-url>
 cd Aptitude-test-generator
 ```
 
-### 2. Backend Setup
+### Backend
 
 ```bash
 cd backend
-
-# Install dependencies
 npm install
-
-# Create .env file
-cp .env.example .env
-
-# Update .env with your configuration
-# MONGODB_URI=mongodb://localhost:27017/aptitude-test-generator
-# GEMINI_API_KEY=your_gemini_api_key_here
-# PORT=5000
-
-# Start the backend server
+copy .env.example .env
 npm run dev
 ```
 
-The backend will start on `http://localhost:5000`
-
-### 3. Frontend Setup
+### Frontend
 
 ```bash
 cd ../frontend
-
-# Install dependencies
 npm install
-
-# Create .env file
-cp .env.example .env
-
-# Update .env with API URL
-# REACT_APP_API_URL=http://localhost:5000
-
-# Start the frontend development server
+copy .env.example .env
 npm start
 ```
 
-The frontend will start on `http://localhost:3000`
+## Notes
 
-## 📁 Project Structure
+- Backend defaults to `http://localhost:5000`
+- Frontend defaults to `http://localhost:3000`
+- Add `GEMINI_API_KEY` in `backend/.env`
 
-```
-Aptitude-test-generator/
-├── backend/
-│   ├── config/              # Configuration files
-│   │   ├── index.js         # Main config
-│   │   └── database.js      # MongoDB connection
-│   ├── models/              # MongoDB schemas
-│   │   ├── Question.js      # Question schema
-│   │   ├── Test.js          # Test schema
-│   │   └── TestResult.js    # Test result with analytics schema
-│   ├── controllers/          # Request handlers
-│   │   └── testController.js
-│   ├── routes/              # API routes
-│   │   └── test.js          # Test endpoints
-│   ├── services/            # Business logic
-│   │   ├── geminiService.js     # Gemini API integration
-│   │   ├── scraperService.js    # Web scraping logic
-│   │   └── testService.js       # Test generation
-│   ├── utils/               # Utility functions
-│   │   ├── difficulty.js        # Difficulty filtering & normalization
-│   │   └── analytics.js         # Test analysis engine
-│   ├── tests/               # Unit tests
-│   │   └── difficulty.test.js
-│   ├── .env.example         # Environment variables template
-│   ├── package.json
-│   └── server.js            # Server entry point
-│
-├── frontend/
-│   ├── public/
-│   │   └── index.html       # HTML template
-│   ├── src/
-│   │   ├── components/      # React components
-│   │   │   ├── Test.js          # Test-taking interface
-│   │   │   └── TestResults.js   # Post-test results view
-│   │   ├── pages/           # Page components
-│   │   │   ├── Home.js          # Landing & test configuration page
-│   │   │   ├── TestsList.js     # List of available static tests
-│   │   │   ├── TestTaking.js    # Test-taking page with per-question timing
-│   │   │   └── ResultsView.js   # Results / review view for an attempt
-│   │   ├── styles/          # CSS styles
-│   │   │   ├── Home.css         # Landing page styles
-│   │   │   ├── Test.css         # Test interface styles
-│   │   │   └── TestResults.css  # Results page styles
-│   │   │   └── index.css
-│   │   ├── utils/           # Utility functions
-│   │   │   └── api.js       # API client wrapper
-│   │   ├── App.js           # Main app with routing
-│   │   ├── App.css
-│   │   └── index.js         # React entry point
-│   ├── .env.example
-│   └── package.json
-│
-├── .github/
-│   └── copilot-instructions.md
-├── README.md
-└── .gitignore
-```
+## Project layout
 
-## 🔑 Getting Your Gemini API Key
+- `backend/` - API, models, services, routes
+- `frontend/` - React app, pages, styles, utils
+- `data-extraction/` - data import scripts and assets
 
-1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
-2. Click "Create API Key" in a new project
-3. Copy the generated API key
-4. Paste it in your backend `.env` file as `GEMINI_API_KEY=your_key_here`
+## Why this is useful
 
-**Note**: This API key is used for generating intelligent questions and providing personalized recommendations.
+- Ready to extend with more aptitude categories
+- Clean UI separation for cards and page layout
+- Simple setup for development
 
-## 📝 API Endpoints
+## Run commands
 
-### Generate Test
-```
-POST /api/tests/generate
-Body: {
-  "level": "Medium",          # Easy, Medium, Hard, or Mixed
-  "questionCount": 20,        # 15, 20, 25, or 30
-  "duration": 30              # Time limit in minutes
-}
-Response: {
-  "questions": [
-    {
-      "_id": "...",
-      "text": "Question text",
-      "topic": "Quantitative Aptitude",
-      "difficulty": "medium",
-      "options": { "A": "...", "B": "...", "C": "...", "D": "..." },
-      "correctAnswer": "A",
-      "explanation": "..."
-    }
-  ]
-}
-```
+- `npm run dev` in `backend`
+- `npm start` in `frontend`
 
-### Submit Test Result
-```
-POST /api/tests/submit
-Body: {
-  "userId": "...",
-  "answers": { "questionId": "selectedAnswer", ... },
-  "score": 18,
-  "timeTaken": 1800,          # Seconds
-  "questions": [...],         # Full question objects
-  "level": "Medium",
-  "questionCount": 20,
-  "duration": 30
-}
-Response: {
-  "message": "Test submitted successfully",
-  "resultId": "...",
-  "result": { "...": "..." }
-}
-```
-
-### Get All Test Results
-```
-GET /api/tests/results
-Response: [
-  {
-    "_id": "...",
-    "score": 18,
-    "totalQuestions": 20,
-    "percentage": 90,
-    "level": "Medium",
-    "timeTakenSeconds": 1800,
-    "analysis": {
-      "topicPerformance": [
-        { "topic": "Quantitative", "accuracy": 85, "correct": 17, "total": 20 },
-        ...
-      ],
-      "strongTopics": ["Quantitative", "Logical Reasoning"],
-      "weakTopics": ["Verbal Ability"],
-      "recommendations": [...]
-    },
-    "createdAt": "2026-06-15T10:30:00Z"
-  }
-]
-```
-
-### Get Platform Statistics
-```
-GET /api/tests/stats
-Response: {
-  "questionsGenerated": 500,
-  "testsAttempted": 45,
-  "topicsCount": 6,
-  "topics": ["Quantitative Aptitude", "Logical Reasoning", ...]
-}
-```
-
+If you want, I can also turn this into a one-page README with only setup and feature highlights.
 ## 🎯 How to Use
 
 1. **Home Page**: Visit the AptiAce landing page with your profile overview

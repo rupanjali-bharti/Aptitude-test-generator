@@ -1,0 +1,327 @@
+[
+  {
+    "text": "Two fair dice are thrown simultaneously. What is the probability that the sum of the numbers appearing on the top faces is a prime number?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "5/12",
+      "B": "1/2",
+      "C": "7/18",
+      "D": "5/18"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total outcomes = 36. Possible prime sums: 2, 3, 5, 7, 11. The number of ways to get these sums are 1, 2, 4, 6, and 2 respectively. Total favorable outcomes = 1 + 2 + 4 + 6 + 2 = 15. Probability = 15/36 = 5/12."
+  },
+  {
+    "text": "A bag contains 5 red, 4 blue, and 3 green balls. If two balls are drawn at random, what is the probability that both are red?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "5/33",
+      "B": "5/66",
+      "C": "10/33",
+      "D": "1/6"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total balls = 12. Ways to draw 2 balls = 12C2 = (12*11)/2 = 66. Ways to draw 2 red balls from 5 = 5C2 = (5*4)/2 = 10. Probability = 10/66 = 5/33."
+  },
+  {
+    "text": "A card is drawn from a well-shuffled pack of 52 cards. What is the probability of getting a queen of a club or a king of a heart?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/13",
+      "B": "1/26",
+      "C": "1/52",
+      "D": "2/13"
+    },
+    "correctAnswer": "B",
+    "explanation": "There is only 1 Queen of Clubs and 1 King of Hearts in a deck. Favorable outcomes = 2. Total outcomes = 52. Probability = 2/52 = 1/26."
+  },
+  {
+    "text": "A mixture of 80 liters of milk and water contains 70% milk. How much water must be added to this mixture to make it 50% milk?",
+    "topic": "Mixtures and Alligations",
+    "difficulty": "Medium",
+    "options": {
+      "A": "16 liters",
+      "B": "24 liters",
+      "C": "32 liters",
+      "D": "40 liters"
+    },
+    "correctAnswer": "C",
+    "explanation": "Initial milk = 70% of 80 = 56 liters. Initial water = 24 liters. Let x liters of water be added. We want the new mixture to be 50% milk, meaning milk = water. 56 = 24 + x => x = 32 liters."
+  },
+  {
+    "text": "In what ratio must a grocer mix two varieties of tea worth Rs. 60 a kg and Rs. 65 a kg so that by selling the mixture at Rs. 68.20 a kg he may gain 10%?",
+    "topic": "Mixtures and Alligations",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3:2",
+      "B": "3:4",
+      "C": "3:5",
+      "D": "4:5"
+    },
+    "correctAnswer": "A",
+    "explanation": "Selling Price (SP) = 68.20. Profit = 10%. Cost Price (CP) = SP / 1.1 = 68.20 / 1.1 = Rs. 62. By rule of alligation: (65 - 62) : (62 - 60) = 3:2."
+  },
+  {
+    "text": "A vessel is filled with liquid, 3 parts of which are water and 5 parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup?",
+    "topic": "Mixtures and Alligations",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/3",
+      "B": "1/4",
+      "C": "1/5",
+      "D": "1/7"
+    },
+    "correctAnswer": "C",
+    "explanation": "Initial syrup = 5/8 of the volume. We want it to be 1/2 (or 4/8). Let x be the fraction of the mixture drawn off. The remaining syrup is (5/8)*(1 - x). We want this to be 1/2. (5/8)*(1 - x) = 1/2 => 1 - x = 4/5 => x = 1/5."
+  },
+  {
+    "text": "A thief is noticed by a policeman from a distance of 200 meters. The thief starts running and the policeman chases him. The thief and the policeman run at 10 km/hr and 11 km/hr respectively. What is the distance between them after 6 minutes?",
+    "topic": "Speed, Distance and Time",
+    "difficulty": "Medium",
+    "options": {
+      "A": "100 meters",
+      "B": "120 meters",
+      "C": "150 meters",
+      "D": "180 meters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Relative speed = 11 - 10 = 1 km/hr = 1000 meters/hr. Distance covered in relative terms in 6 minutes (which is 1/10 of an hour) = 1000 * (1/10) = 100 meters. Original distance was 200m. Remaining distance = 200 - 100 = 100 meters."
+  },
+  {
+    "text": "A student walking at 4 km/hr reaches his school 5 minutes late. If he walks at 5 km/hr, he reaches 10 minutes early. What is the distance to the school?",
+    "topic": "Speed, Distance and Time",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4 km",
+      "B": "5 km",
+      "C": "6 km",
+      "D": "8 km"
+    },
+    "correctAnswer": "B",
+    "explanation": "Difference in time = 5 min late + 10 min early = 15 minutes = 1/4 hour. Let distance be D. D/4 - D/5 = 1/4. (5D - 4D)/20 = 1/4 => D/20 = 1/4 => D = 5 km."
+  },
+  {
+    "text": "A man covers a distance in 3 equal parts. He travels the first part at 10 km/hr, the second at 15 km/hr, and the third at 30 km/hr. What is his average speed for the whole journey?",
+    "topic": "Speed, Distance and Time",
+    "difficulty": "Medium",
+    "options": {
+      "A": "15 km/hr",
+      "B": "18 km/hr",
+      "C": "20 km/hr",
+      "D": "25 km/hr"
+    },
+    "correctAnswer": "A",
+    "explanation": "Let each part be 30 km (LCM of 10, 15, 30). Total distance = 30 + 30 + 30 = 90 km. Time for part 1 = 30/10 = 3 hrs. Part 2 = 30/15 = 2 hrs. Part 3 = 30/30 = 1 hr. Total time = 6 hrs. Average speed = 90/6 = 15 km/hr."
+  },
+  {
+    "text": "A train 125 m long passes a man running at 5 km/hr in the same direction in which the train is going, in 10 seconds. Find the speed of the train.",
+    "topic": "Trains",
+    "difficulty": "Medium",
+    "options": {
+      "A": "45 km/hr",
+      "B": "50 km/hr",
+      "C": "54 km/hr",
+      "D": "60 km/hr"
+    },
+    "correctAnswer": "B",
+    "explanation": "Relative speed = Distance / Time = 125m / 10s = 12.5 m/s. Convert to km/hr: 12.5 * (18/5) = 45 km/hr. Since man runs in same direction, Relative Speed = (Train Speed - Man Speed). 45 = Train Speed - 5 => Train Speed = 50 km/hr."
+  },
+  {
+    "text": "A train takes 15 seconds to pass a telegraph post and 25 seconds to completely cross a platform 100 meters long. Find the length of the train.",
+    "topic": "Trains",
+    "difficulty": "Medium",
+    "options": {
+      "A": "120 meters",
+      "B": "135 meters",
+      "C": "150 meters",
+      "D": "175 meters"
+    },
+    "correctAnswer": "C",
+    "explanation": "Speed of train = Length/15. Also, Speed = (Length + 100)/25. So, L/15 = (L+100)/25 => 25L = 15L + 1500 => 10L = 1500 => L = 150 meters."
+  },
+  {
+    "text": "Two trains of length 150 m and 200 m are running in the same direction at 90 km/hr and 72 km/hr respectively. How long will the faster train take to cross the slower train?",
+    "topic": "Trains",
+    "difficulty": "Medium",
+    "options": {
+      "A": "50 seconds",
+      "B": "60 seconds",
+      "C": "70 seconds",
+      "D": "80 seconds"
+    },
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 90 - 72 = 18 km/hr = 18 * (5/18) = 5 m/s. Total distance = 150 + 200 = 350 m. Time = Distance / Speed = 350 / 5 = 70 seconds."
+  },
+  {
+    "text": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together?",
+    "topic": "HCF and LCM",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4",
+      "B": "10",
+      "C": "15",
+      "D": "16"
+    },
+    "correctAnswer": "D",
+    "explanation": "Find LCM of (2, 4, 6, 8, 10, 12). LCM is 120. The bells toll together every 120 seconds, which is 2 minutes. Number of times in 30 minutes = (30 / 2) + 1 (for the initial toll at 0 seconds) = 15 + 1 = 16 times."
+  },
+  {
+    "text": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
+    "topic": "HCF and LCM",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4",
+      "B": "7",
+      "C": "9",
+      "D": "13"
+    },
+    "correctAnswer": "A",
+    "explanation": "The greatest number is the HCF of the differences between the numbers: (91 - 43), (183 - 91), and (183 - 43). These are 48, 92, and 140. HCF of 48, 92, and 140 is 4."
+  },
+  {
+    "text": "The HCF of two numbers is 11 and their LCM is 7700. If one of the numbers is 275, find the other.",
+    "topic": "HCF and LCM",
+    "difficulty": "Medium",
+    "options": {
+      "A": "279",
+      "B": "283",
+      "C": "308",
+      "D": "318"
+    },
+    "correctAnswer": "C",
+    "explanation": "Formula: Product of two numbers = Product of their HCF and LCM. Let the other number be x. 275 * x = 11 * 7700. x = (11 * 7700) / 275 = 7700 / 25 = 308."
+  },
+  {
+    "text": "How many 3-digit numbers are completely divisible by 6?",
+    "topic": "Progressions",
+    "difficulty": "Medium",
+    "options": {
+      "A": "149",
+      "B": "150",
+      "C": "151",
+      "D": "166"
+    },
+    "correctAnswer": "B",
+    "explanation": "The lowest 3-digit number divisible by 6 is 102. The highest is 996. This forms an Arithmetic Progression: 102, 108, ... 996 where a=102, d=6. Tn = a + (n-1)d. 996 = 102 + (n-1)6. 894 = (n-1)6. n-1 = 149 => n = 150."
+  },
+  {
+    "text": "The sum of the first 20 terms of an arithmetic progression is 400. If the first term is 1, what is the common difference?",
+    "topic": "Progressions",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctAnswer": "A",
+    "explanation": "Formula for sum of AP: Sn = (n/2)[2a + (n-1)d]. 400 = (20/2)[2*1 + (20-1)d]. 400 = 10[2 + 19d]. 40 = 2 + 19d. 38 = 19d => d = 2."
+  },
+  {
+    "text": "Find the sum of the infinite geometric progression: 9, -3, 1, -1/3, ...",
+    "topic": "Progressions",
+    "difficulty": "Medium",
+    "options": {
+      "A": "6.75",
+      "B": "7.5",
+      "C": "9",
+      "D": "27/4"
+    },
+    "correctAnswer": "D",
+    "explanation": "First term (a) = 9. Common ratio (r) = -3 / 9 = -1/3. Sum of infinite GP = a / (1 - r) = 9 / (1 - (-1/3)) = 9 / (4/3) = 27 / 4."
+  },
+  {
+    "text": "If 3^(x - y) = 27 and 3^(x + y) = 243, find the value of x.",
+    "topic": "Surds and Indices",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctAnswer": "D",
+    "explanation": "3^(x-y) = 3^3 => x-y = 3. Also, 3^(x+y) = 3^5 => x+y = 5. Adding both equations: 2x = 8 => x = 4."
+  },
+  {
+    "text": "Simplify: (256)^(0.16) * (256)^(0.09)",
+    "topic": "Surds and Indices",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4",
+      "B": "16",
+      "C": "64",
+      "D": "256"
+    },
+    "correctAnswer": "A",
+    "explanation": "Using the rule a^m * a^n = a^(m+n): (256)^(0.16 + 0.09) = (256)^0.25 = (256)^(1/4). Since 4^4 = 256, (256)^(1/4) = 4."
+  },
+  {
+    "text": "Which of the following is the largest: sqrt(2), cube_root(3), 4th_root(4)?",
+    "topic": "Surds and Indices",
+    "difficulty": "Medium",
+    "options": {
+      "A": "sqrt(2)",
+      "B": "cube_root(3)",
+      "C": "4th_root(4)",
+      "D": "All are equal"
+    },
+    "correctAnswer": "B",
+    "explanation": "Write as fractional powers: 2^(1/2), 3^(1/3), 4^(1/4). LCM of denominators 2, 3, 4 is 12. Convert powers to have denominator 12: 2^(6/12), 3^(4/12), 4^(3/12). Compare numerators: 2^6 = 64, 3^4 = 81, 4^3 = 64. 81 is the largest, so cube_root(3) is the largest."
+  },
+  {
+    "text": "Evaluate: log2(16) + log3(27) - log5(125)",
+    "topic": "Logarithms",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctAnswer": "C",
+    "explanation": "log2(2^4) + log3(3^3) - log5(5^3) = 4 + 3 - 3 = 4."
+  },
+  {
+    "text": "If log(x) + log(x - 3) = 1, where the base of log is 10, find the value of x.",
+    "topic": "Logarithms",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "4"
+    },
+    "correctAnswer": "B",
+    "explanation": "Using log(a)+log(b) = log(ab): log(x(x-3)) = 1. Convert to exponential form: x(x-3) = 10^1 = 10. x^2 - 3x - 10 = 0. Factors are (x-5)(x+2) = 0. Since x>0 for log, x = 5."
+  },
+  {
+    "text": "If log8(x) = 2/3, find the value of x.",
+    "topic": "Logarithms",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "16"
+    },
+    "correctAnswer": "B",
+    "explanation": "Convert from logarithmic to exponential form: x = 8^(2/3). Rewrite 8 as 2^3: x = (2^3)^(2/3) = 2^2 = 4."
+  },
+  {
+    "text": "A man rows downstream 32 km and 14 km upstream. If he takes 6 hours to cover each distance, then the velocity of the current is:",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1.5 km/hr",
+      "B": "2 km/hr",
+      "C": "2.5 km/hr",
+      "D": "3 km/hr"
+    },
+    "correctAnswer": "A",
+    "explanation": "Downstream speed (D) = 32 / 6 = 16/3 km/hr. Upstream speed (U) = 14 / 6 = 7/3 km/hr. Velocity of current = (D - U) / 2 = (16/3 - 7/3) / 2 = (9/3) / 2 = 3 / 2 = 1.5 km/hr."
+  }
+]

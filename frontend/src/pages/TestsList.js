@@ -92,16 +92,16 @@ function TestsList() {
                 <div className="card-face card-back">
                   <div className="back-card-inner">
                     <div className="overlay-title">Topics included</div>
-                    <div className="overlay-topic-cloud">
+                    <div className="overlay-topic-list">
                       {topics.length > 0 ? (
-                        topics.slice(0, 12).map((topic) => (
-                          <span key={topic} className="topic-chip overlay-chip">{topic}</span>
+                        topics.slice(0, 20).map((topic) => (
+                          <span key={topic} className="topic-neon">{topic}</span>
                         ))
                       ) : (
-                        <span className="topic-chip overlay-chip">General</span>
+                        <span className="topic-neon">General</span>
                       )}
-                      {topics.length > 12 && (
-                        <span className="topic-chip overlay-chip more-chip">+{topics.length - 12} more</span>
+                      {topics.length > 20 && (
+                        <span className="topic-more">+{topics.length - 20} more</span>
                       )}
                     </div>
                   </div>

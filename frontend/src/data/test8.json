@@ -1,0 +1,327 @@
+[
+  {
+    "text": "If 3x + 2y = 12 and xy = 4, find the value of 9x^2 + 4y^2.",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "options": {
+      "A": "72",
+      "B": "96",
+      "C": "120",
+      "D": "144"
+    },
+    "correctAnswer": "B",
+    "explanation": "Using the algebraic identity (a + b)^2 = a^2 + 2ab + b^2. Here, (3x + 2y)^2 = (3x)^2 + 2(3x)(2y) + (2y)^2. So, 12^2 = 9x^2 + 12xy + 4y^2. 144 = 9x^2 + 12(4) + 4y^2. 144 = 9x^2 + 48 + 4y^2. Therefore, 9x^2 + 4y^2 = 144 - 48 = 96."
+  },
+  {
+    "text": "A chord of length 16 cm is drawn at a perpendicular distance of 6 cm from the center of a circle. What is the radius of the circle?",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "options": {
+      "A": "8 cm",
+      "B": "10 cm",
+      "C": "12 cm",
+      "D": "14 cm"
+    },
+    "correctAnswer": "B",
+    "explanation": "A perpendicular from the center to a chord bisects the chord. So, half the chord is 16/2 = 8 cm. This forms a right-angled triangle with the radius as the hypotenuse. Radius = sqrt(8^2 + 6^2) = sqrt(64 + 36) = sqrt(100) = 10 cm."
+  },
+  {
+    "text": "If the radius of a cylinder is doubled and its height is halved, what is the ratio of its new volume to its original volume?",
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1:1",
+      "B": "2:1",
+      "C": "4:1",
+      "D": "1:2"
+    },
+    "correctAnswer": "B",
+    "explanation": "Original volume V1 = pi * r^2 * h. New radius = 2r, new height = h/2. New volume V2 = pi * (2r)^2 * (h/2) = pi * 4r^2 * (h/2) = 2 * pi * r^2 * h. Ratio of V2 to V1 = 2:1."
+  },
+  {
+    "text": "What is the unit digit of the expression (7^95 - 3^58)?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "0",
+      "B": "4",
+      "C": "6",
+      "D": "7"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cyclicity of 7 and 3 is 4. For 7^95: 95/4 leaves remainder 3, so unit digit is same as 7^3, which ends in 3. For 3^58: 58/4 leaves remainder 2, so unit digit is same as 3^2, which ends in 9. Subtracting unit digits: 3 - 9 (carry over 10) = 13 - 9 = 4."
+  },
+  {
+    "text": "A man walks at 5 km/hr and misses a train by 7 minutes. If he walks at 6 km/hr, he reaches the station 5 minutes early. What is the distance to the station?",
+    "topic": "Speed, Distance and Time",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4 km",
+      "B": "5 km",
+      "C": "6 km",
+      "D": "7 km"
+    },
+    "correctAnswer": "C",
+    "explanation": "Difference in time = 7 mins late + 5 mins early = 12 mins = 12/60 hours = 1/5 hours. Let distance be D. Time taken at 5 km/hr - Time taken at 6 km/hr = 1/5. (D/5) - (D/6) = 1/5. (6D - 5D)/30 = 1/5. D/30 = 1/5, so D = 6 km."
+  },
+  {
+    "text": "Two trains, 140 m and 160 m long, are running at 60 km/hr and 40 km/hr in opposite directions on parallel tracks. How much time will they take to completely cross each other?",
+    "topic": "Trains",
+    "difficulty": "Medium",
+    "options": {
+      "A": "9.8 seconds",
+      "B": "10.8 seconds",
+      "C": "11.2 seconds",
+      "D": "12 seconds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Total distance = 140 + 160 = 300 m. Relative speed (opposite directions) = 60 + 40 = 100 km/hr. Convert to m/s: 100 * (5/18) = 500/18 m/s. Time = Distance / Speed = 300 / (500/18) = (300 * 18) / 500 = 54 / 5 = 10.8 seconds."
+  },
+  {
+    "text": "The speed of a boat in still water is 15 km/hr. It can go 30 km upstream and return downstream to the original point in 4 hours 30 minutes. What is the speed of the stream?",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3 km/hr",
+      "B": "4 km/hr",
+      "C": "5 km/hr",
+      "D": "6 km/hr"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let speed of stream be v. Upstream speed = 15 - v, Downstream speed = 15 + v. Total time = 4.5 hours. 30/(15-v) + 30/(15+v) = 4.5. Testing options: If v = 5, 30/10 + 30/20 = 3 + 1.5 = 4.5. Thus, v = 5 km/hr."
+  },
+  {
+    "text": "A and B can complete a work in 20 days and 30 days respectively. They start working together, but A leaves after 4 days. In how many days will B complete the remaining work?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "15 days",
+      "B": "18 days",
+      "C": "20 days",
+      "D": "24 days"
+    },
+    "correctAnswer": "C",
+    "explanation": "Work done by A and B in 1 day = 1/20 + 1/30 = 5/60 = 1/12. Work done in 4 days = 4 * (1/12) = 1/3. Remaining work = 1 - 1/3 = 2/3. Time taken by B to finish remaining work = (2/3) / (1/30) = (2/3) * 30 = 20 days."
+  },
+  {
+    "text": "Pipe A fills a tank in 10 hours, Pipe B fills it in 15 hours, and Pipe C empties the full tank in 20 hours. If all three pipes are opened together, how long will it take to fill the tank?",
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "options": {
+      "A": "6.5 hours",
+      "B": "7 hours",
+      "C": "8.57 hours",
+      "D": "9.2 hours"
+    },
+    "correctAnswer": "C",
+    "explanation": "Net part filled in 1 hour = 1/10 + 1/15 - 1/20 = (6 + 4 - 3)/60 = 7/60. Time to fill the tank = 60/7 hours, which is approximately 8.57 hours."
+  },
+  {
+    "text": "A man sells two articles for Rs. 4000 each. On one, he gains 20%, and on the other, he loses 20%. What is his overall profit or loss percentage?",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "0% (No profit, no loss)",
+      "B": "2% loss",
+      "C": "4% loss",
+      "D": "4% profit"
+    },
+    "correctAnswer": "C",
+    "explanation": "When two items are sold at the same selling price and the profit percentage on one equals the loss percentage on the other (x%), there is always an overall loss. The loss percentage = (x^2)/100. Here, loss = (20^2)/100 = 400/100 = 4% loss."
+  },
+  {
+    "text": "If A's salary is 25% more than B's salary, then by what percentage is B's salary less than A's salary?",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "15%",
+      "B": "20%",
+      "C": "22.5%",
+      "D": "25%"
+    },
+    "correctAnswer": "B",
+    "explanation": "Formula: (R / (100 + R)) * 100. (25 / 125) * 100 = (1/5) * 100 = 20%."
+  },
+  {
+    "text": "The difference between Compound Interest and Simple Interest on a sum of Rs. 5000 for 2 years is Rs. 72. Find the rate of interest per annum.",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "8%",
+      "B": "10%",
+      "C": "12%",
+      "D": "15%"
+    },
+    "correctAnswer": "C",
+    "explanation": "For 2 years, Difference = P(R/100)^2. 72 = 5000 * (R^2 / 10000). 72 = R^2 / 2. R^2 = 144. Therefore, R = 12%."
+  },
+  {
+    "text": "Three unbiased coins are tossed simultaneously. What is the probability of getting at least 2 heads?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/4",
+      "B": "3/8",
+      "C": "1/2",
+      "D": "5/8"
+    },
+    "correctAnswer": "C",
+    "explanation": "Total outcomes = 2^3 = 8. Outcomes with at least 2 heads (2 or 3 heads) = {HHH, HHT, HTH, THH} = 4 outcomes. Probability = 4/8 = 1/2."
+  },
+  {
+    "text": "In how many ways can the letters of the word 'MACHINE' be arranged so that the vowels occupy only the odd positions?",
+    "topic": "Permutation and Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "256",
+      "B": "576",
+      "C": "720",
+      "D": "1440"
+    },
+    "correctAnswer": "B",
+    "explanation": "The word has 7 letters: 3 vowels (A, I, E) and 4 consonants (M, C, H, N). There are 4 odd positions (1st, 3rd, 5th, 7th). The 3 vowels can be arranged in these 4 positions in 4P3 = 24 ways. The 4 consonants fill the remaining 4 positions in 4! = 24 ways. Total arrangements = 24 * 24 = 576."
+  },
+  {
+    "text": "A sum of Rs. 427 is divided among A, B, and C such that 3 times A's share equals 4 times B's share, which equals 7 times C's share. Find C's share.",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 84",
+      "B": "Rs. 112",
+      "C": "Rs. 147",
+      "D": "Rs. 196"
+    },
+    "correctAnswer": "A",
+    "explanation": "Given 3A = 4B = 7C = k. A = k/3, B = k/4, C = k/7. Ratio A:B:C = 1/3 : 1/4 : 1/7. Multiply by LCM (84) to clear fractions: 28 : 21 : 12. Sum of ratio parts = 28 + 21 + 12 = 61. C's share = (12/61) * 427 = 12 * 7 = Rs. 84."
+  },
+  {
+    "text": "The sum of the ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?",
+    "topic": "Problems on Ages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4 years",
+      "B": "6 years",
+      "C": "8 years",
+      "D": "10 years"
+    },
+    "correctAnswer": "A",
+    "explanation": "Let ages be x, x+3, x+6, x+9, and x+12. Sum = 5x + 30 = 50. 5x = 20, so x = 4 years."
+  },
+  {
+    "text": "A container contains 60 liters of milk. From this container, 6 liters of milk was taken out and replaced by water. This process was repeated once more. How much milk is now left in the container?",
+    "topic": "Mixtures and Alligations",
+    "difficulty": "Medium",
+    "options": {
+      "A": "48.6 liters",
+      "B": "49.2 liters",
+      "C": "50.4 liters",
+      "D": "51.8 liters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Formula: Final Quantity = Initial * (1 - volume_removed / total_volume)^n. Milk left = 60 * (1 - 6/60)^2 = 60 * (1 - 1/10)^2 = 60 * (9/10)^2 = 60 * (81/100) = 4860/100 = 48.6 liters."
+  },
+  {
+    "text": "What is the angle between the hour hand and the minute hand of a clock when the time is 3:40?",
+    "topic": "Clock",
+    "difficulty": "Medium",
+    "options": {
+      "A": "110 degrees",
+      "B": "120 degrees",
+      "C": "130 degrees",
+      "D": "140 degrees"
+    },
+    "correctAnswer": "C",
+    "explanation": "Angle = |30*H - 5.5*M| = |30(3) - 5.5(40)| = |90 - 220| = |-130| = 130 degrees."
+  },
+  {
+    "text": "It was Sunday on January 1, 2006. What was the day of the week on January 1, 2010?",
+    "topic": "Calendar",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Wednesday",
+      "B": "Thursday",
+      "C": "Friday",
+      "D": "Saturday"
+    },
+    "correctAnswer": "C",
+    "explanation": "Count odd days from Jan 1, 2006 to Jan 1, 2010. 2006 (ordinary) = 1 odd day, 2007 (ordinary) = 1 odd day, 2008 (leap) = 2 odd days, 2009 (ordinary) = 1 odd day. Total odd days = 1 + 1 + 2 + 1 = 5. Sunday + 5 days = Friday."
+  },
+  {
+    "text": "What is the 10th term of the arithmetic progression: 5, 8, 11, 14...?",
+    "topic": "Progressions",
+    "difficulty": "Medium",
+    "options": {
+      "A": "29",
+      "B": "32",
+      "C": "35",
+      "D": "38"
+    },
+    "correctAnswer": "B",
+    "explanation": "First term a = 5, common difference d = 3. Formula for nth term: Tn = a + (n-1)d. T10 = 5 + (10-1)3 = 5 + 9(3) = 5 + 27 = 32."
+  },
+  {
+    "text": "Simplify: (64)^(2/3) * (27)^(-1/3)",
+    "topic": "Surds and Indices",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4/3",
+      "B": "8/3",
+      "C": "16/3",
+      "D": "32/3"
+    },
+    "correctAnswer": "C",
+    "explanation": "(64)^(2/3) = (4^3)^(2/3) = 4^2 = 16. (27)^(-1/3) = (3^3)^(-1/3) = 3^(-1) = 1/3. Multiplying them together: 16 * 1/3 = 16/3."
+  },
+  {
+    "text": "If log_2(x) + log_2(x - 2) = 3, what is the value of x?",
+    "topic": "Logarithms",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correctAnswer": "B",
+    "explanation": "Using log addition rule: log_2(x(x - 2)) = 3. Convert to exponential form: x(x - 2) = 2^3 = 8. x^2 - 2x - 8 = 0. Factors are (x - 4)(x + 2) = 0. Since log input must be positive, x = 4."
+  },
+  {
+    "text": "Three bells toll at intervals of 9, 12, and 15 minutes respectively. If they start tolling together, after what time will they next toll together?",
+    "topic": "HCF and LCM",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1 hour",
+      "B": "2 hours",
+      "C": "3 hours",
+      "D": "4 hours"
+    },
+    "correctAnswer": "C",
+    "explanation": "Find the LCM of 9, 12, and 15. Prime factors: 9 = 3^2, 12 = 2^2*3, 15 = 3*5. LCM = 2^2 * 3^2 * 5 = 4 * 9 * 5 = 180 minutes. 180 minutes = 3 hours."
+  },
+  {
+    "text": "The average of 11 results is 60. If the average of the first six results is 58 and that of the last six is 63, what is the 6th result?",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "64",
+      "B": "65",
+      "C": "66",
+      "D": "68"
+    },
+    "correctAnswer": "C",
+    "explanation": "Total of 11 results = 11 * 60 = 660. Total of first 6 = 6 * 58 = 348. Total of last 6 = 6 * 63 = 378. The 6th result is counted twice when adding the two subsets. 6th result = (348 + 378) - 660 = 726 - 660 = 66."
+  },
+  {
+    "text": "A and B invest Rs. 3000 and Rs. 4000 in a business. After 8 months, A withdraws Rs. 1000 and B advances Rs. 1000 more. At the end of the year, their total profit is Rs. 6300. Find A's share.",
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 2400",
+      "B": "Rs. 2800",
+      "C": "Rs. 3200",
+      "D": "Rs. 3600"
+    },
+    "correctAnswer": "A",
+    "explanation": "A's effective capital = (3000 * 8) + (2000 * 4) = 24000 + 8000 = 32000. B's effective capital = (4000 * 8) + (5000 * 4) = 32000 + 20000 = 52000. Profit ratio A:B = 32000:52000 = 32:52 = 8:13. Total parts = 21. A's share = (8/21) * 6300 = 8 * 300 = Rs. 2400."
+  }
+]

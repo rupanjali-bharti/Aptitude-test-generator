@@ -1,118 +1,327 @@
-[{
-        "topic": "time_distance",
-        "question": "An aeroplane flies twice as fast as a train which covers 60 miles in 80 minutes. What distance will the aeroplane cover in 20 minutes?",
-        "options": {
-            "a": "30 miles",
-            "b": "35 miles",
-            "c": "40 miles",
-            "d": "50 miles"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Time taken to cover 60 miles = 80 min = (80/60) hrs = 4/3 hrs.\nSpeed of the train = (60 / (4/3)) mph = (60 \u00d7 3/4) mph = 45 mph.\nSpeed of the aeroplane = (2 \u00d7 45) mph = 90 mph.\nDistance covered by the aeroplane in 60 min = 90 miles.\nDistance covered by the aeroplane in 20 min = (90/60 \u00d7 20) miles = 30 miles."
+[
+  {
+    "text": "A shopkeeper sells an article at a loss of 12.5%. Had he sold it for Rs. 51.80 more, he would have earned a profit of 6%. What is the cost price of the article?",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 250",
+      "B": "Rs. 280",
+      "C": "Rs. 300",
+      "D": "Rs. 320"
     },
-    {
-        "topic": "time_distance",
-        "question": "A boy is running at a speed of p kmph to cover a distance of 1 km. But, due to the slippery ground, his speed is reduced by q kmph (p > q). If he takes r hours to cover the distance, then",
-        "options": {
-            "a": "1/r = p-q",
-            "b": "r = p-q",
-            "c": "1/r = p+q",
-            "d": "r = p+q"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Speed = Distance / Time\nGiven, reduced speed = (p - q) kmph.\nDistance = 1 km.\nTime = r hours.\nSo, (p - q) = 1 / r\nTherefore, 1/r = p-q."
+    "correctAnswer": "B",
+    "explanation": "Let the Cost Price (CP) be x. Selling Price 1 = x - 0.125x = 0.875x. Selling Price 2 = x + 0.06x = 1.06x. The difference is 1.06x - 0.875x = 0.185x. We are given 0.185x = 51.80. Therefore, x = 51.80 / 0.185 = 280."
+  },
+  {
+    "text": "By selling 45 lemons for Rs. 40, a man loses 20%. How many lemons should he sell for Rs. 24 to gain 20% in the transaction?",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "20",
+      "D": "22"
     },
-    {
-        "topic": "time_distance",
-        "question": "Ravi can walk a certain distance in 40 days when he rests 9 hours a day. How long will he take to walk twice the distance, twice as fast and rest twice as long each day?",
-        "options": {
-            "a": "40 days",
-            "b": "50 days",
-            "c": "80 days",
-            "d": "100 days"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the required number of days be x.\nMore distance, More days required (Direct Proportion)\nMore speed, Less days required (Indirect Proportion)\nMore resting hours, More days required (Direct Proportion)\nDistance 1 : 2\nSpeed 2 : 1\nResting hours 9 : 18 :: 40 : x\nTherefore, (1 \u00d7 2 \u00d7 9 \u00d7 x) = (2 \u00d7 1 \u00d7 18 \u00d7 40)\nx = (2 \u00d7 1 \u00d7 18 \u00d7 40) / (1 \u00d7 2 \u00d7 9) = (36 \u00d7 40) / 18 = 2 \u00d7 40 = 80."
+    "correctAnswer": "B",
+    "explanation": "SP of 45 lemons = Rs. 40. Loss = 20%. CP of 45 lemons = (40 / 0.8) = Rs. 50. CP of 1 lemon = 50 / 45 = Rs. 10/9. To gain 20%, Target SP of 1 lemon = (10/9) * 1.2 = 12/9 = Rs. 4/3. Number of lemons for Rs. 24 = 24 / (4/3) = (24 * 3) / 4 = 18."
+  },
+  {
+    "text": "A dishonest dealer professes to sell his goods at cost price, but uses a false weight of 900 grams for a kilogram. Find his gain percent.",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10%",
+      "B": "11.11%",
+      "C": "12.5%",
+      "D": "15%"
     },
-    {
-        "topic": "time_distance",
-        "question": "A car is driven at the speed of 100 km/hr and stops for 10 minutes at the end of every 150 km. To cover a distance of 1000 km, it will take",
-        "options": {
-            "a": "9 hours",
-            "b": "10 hours",
-            "c": "11 hours",
-            "d": "12 hours"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Time taken to cover 150 km = (1 hr 30 min + 10 min) = 1 hr 40 min.\nTime taken to cover (150 \u00d7 6) i.e., 900 km = (1 hr 30 min \u00d7 6) hrs. = 10 hrs.\nRemaining 100 km is covered in 1 hour.\nTotal time taken = (10 + 1) hrs = 11 hrs."
+    "correctAnswer": "B",
+    "explanation": "He sells 900g but charges for 1000g. His profit is 100g on his actual investment of 900g. Gain % = (Error / True Value - Error) * 100 = (100 / 900) * 100 = 11.11%."
+  },
+  {
+    "text": "A sum of Rs. 312 is divided among 100 boys and girls such that each boy gets Rs. 3.60 and each girl gets Rs. 2.40. What is the number of girls?",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "35",
+      "B": "40",
+      "C": "60",
+      "D": "65"
     },
-    {
-        "topic": "time_distance",
-        "question": "A man takes 50 minutes to cover a certain distance at a speed of 6 km/hr. If he walks with a speed of 10 km/hr, he covers the same distance in",
-        "options": {
-            "a": "10 minutes",
-            "b": "20 minutes",
-            "c": "30 minutes",
-            "d": "40 minutes"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Distance = Speed x Time = (6 \u00d7 50/60) km = 5 km.\nRequired time = Distance / Speed = (5 / 10) hrs = (1/2) hrs = 30 min."
+    "correctAnswer": "B",
+    "explanation": "Let the number of girls be g. Boys = 100 - g. Total money = 2.40g + 3.60(100 - g) = 312. 2.4g + 360 - 3.6g = 312. 1.2g = 48. g = 40."
+  },
+  {
+    "text": "The ratio of two numbers is 3:4 and their HCF is 4. What is their LCM?",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "12",
+      "B": "16",
+      "C": "24",
+      "D": "48"
     },
-    {
-        "topic": "time_distance",
-        "question": "A truck covers a distance of 550 metres in 1 minute whereas a bus covers a distance of 33 kms in 45 minutes. The ratio of their speeds is",
-        "options": {
-            "a": "3:4",
-            "b": "4:3",
-            "c": "3:5",
-            "d": "50:3"
-        },
-        "correct_answer": "a",
-        "difficulty": "Difficult",
-        "explanation": "Speed of truck = 550 m / 1 min.\nSpeed of bus = 33 km / 45 min = 33000 m / 45 min.\nRatio of speeds = (550 / 1) : (33000 / 45)\n= 550 : (2200 / 3)\n= 550 \u00d7 3 : 2200\n= 1650 : 2200\n= 33 : 44 = 3 : 4."
+    "correctAnswer": "D",
+    "explanation": "If ratio is 3:4, numbers are 3x and 4x. Their HCF is x. Given x = 4. The numbers are 12 and 16. LCM of 12 and 16 is 48."
+  },
+  {
+    "text": "Two numbers are in the ratio 5:7. If 9 is subtracted from each, they are in the ratio 7:11. Find the difference between the two numbers.",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "14"
     },
-    {
-        "topic": "simple_interest",
-        "question": "A person invests money in three different schemes for 6 years, 10 years and 12 years at 10 percent, 12 percent and 15 percent simple interest respectively. At the completion of each scheme, he gets the same interest. The ratio of his investments is",
-        "options": {
-            "a": "2:3:4",
-            "b": "4:3:2",
-            "c": "3:4:6",
-            "d": "6:3:2"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the investments in the three schemes be P1, P2, and P3.\nFor Scheme 1: Time T1 = 6 years, Rate R1 = 10%.\nFor Scheme 2: Time T2 = 10 years, Rate R2 = 12%.\nFor Scheme 3: Time T3 = 12 years, Rate R3 = 15%.\nGiven that the interest at the completion of each scheme is the same.\nInterest1 = Interest2 = Interest3\n(P1 \u00d7 R1 \u00d7 T1) / 100 = (P2 \u00d7 R2 \u00d7 T2) / 100 = (P3 \u00d7 R3 \u00d7 T3) / 100\nP1 \u00d7 10 \u00d7 6 = P2 \u00d7 12 \u00d7 10 = P3 \u00d7 15 \u00d7 12\n60P1 = 120P2 = 180P3\nTo find the ratio P1:P2:P3, we can divide by the Least Common Multiple (LCM) of 60, 120, and 180, which is 360.\n(60P1 / 360) = (120P2 / 360) = (180P3 / 360)\nP1 / 6 = P2 / 3 = P3 / 2\nSo, P1:P2:P3 = 6:3:2."
+    "correctAnswer": "C",
+    "explanation": "Let numbers be 5x and 7x. (5x - 9) / (7x - 9) = 7/11. Cross multiply: 55x - 99 = 49x - 63. 6x = 36. x = 6. The numbers are 30 and 42. Difference = 12."
+  },
+  {
+    "text": "Ten years ago, A was half of B in age. If the ratio of their present ages is 3:4, what is the sum of their present ages?",
+    "topic": "Problems on Ages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "25 years",
+      "B": "30 years",
+      "C": "35 years",
+      "D": "40 years"
     },
-    {
-        "topic": "simple_interest",
-        "question": "Divide \u20b9 2379 into 3 parts so that their amounts after 2, 3 and 4 years respectively may be equal, the rate of interest being 5% per annum at simple interest. The first part is",
-        "options": {
-            "a": "\u20b9 759",
-            "b": "\u20b9 792",
-            "c": "\u20b9 818",
-            "d": "\u20b9 828"
-        },
-        "correct_answer": "d",
-        "difficulty": "Difficult",
-        "explanation": "Let the three parts be P1, P2, and P3.\nGiven P1 + P2 + P3 = \u20b9 2379.\nRate of interest (R) = 5% p.a.\nTime for P1 (T1) = 2 years.\nTime for P2 (T2) = 3 years.\nTime for P3 (T3) = 4 years.\nThe amounts after their respective periods are equal.\nAmount = Principal + Simple Interest = P + (P \u00d7 R \u00d7 T) / 100 = P (1 + RT/100)\nAmount1 = P1 (1 + 5 \u00d7 2 / 100) = P1 (1 + 10/100) = P1 (110/100) = 1.1P1\nAmount2 = P2 (1 + 5 \u00d7 3 / 100) = P2 (1 + 15/100) = P2 (115/100) = 1.15P2\nAmount3 = P3 (1 + 5 \u00d7 4 / 100) = P3 (1 + 20/100) = P3 (120/100) = 1.2P3\nSince Amount1 = Amount2 = Amount3:\n1.1P1 = 1.15P2 = 1.2P3\nTo find the ratio P1:P2:P3, we can write:\nP1 = (1.15/1.1)P2 = (115/110)P2 = (23/22)P2\nP3 = (1.15/1.2)P2 = (115/120)P2 = (23/24)P2\nSubstitute these into the total sum equation:\nP1 + P2 + P3 = 2379\n(23/22)P2 + P2 + (23/24)P2 = 2379\nTo solve for P2, find the LCM of 22 and 24, which is 264.\nMultiply the entire equation by 264:\n(23 \u00d7 12)P2 + 264P2 + (23 \u00d7 11)P2 = 2379 \u00d7 264\n276P2 + 264P2 + 253P2 = 2379 \u00d7 264\n793P2 = 2379 \u00d7 264\nP2 = (2379 \u00d7 264) / 793\nNote that 2379 / 793 = 3.\nP2 = 3 \u00d7 264 = \u20b9 792.\nNow find P1:\nP1 = (23/22)P2 = (23/22) \u00d7 792 = 23 \u00d7 36 = \u20b9 828.\n(Also, P3 = (23/24)P2 = (23/24) \u00d7 792 = 23 \u00d7 33 = \u20b9 759.)\nThe first part is \u20b9 828."
+    "correctAnswer": "C",
+    "explanation": "Present ages: A = 3x, B = 4x. 10 years ago: A = 3x - 10, B = 4x - 10. Given: (3x - 10) = (4x - 10) / 2. 6x - 20 = 4x - 10. 2x = 10, x = 5. Total present age = 7x = 35 years."
+  },
+  {
+    "text": "A father is twice as old as his son. 20 years ago, the age of the father was 12 times the age of the son. What is the present age of the father?",
+    "topic": "Problems on Ages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "40 years",
+      "B": "44 years",
+      "C": "48 years",
+      "D": "52 years"
     },
-    {
-        "topic": "simple_interest",
-        "question": "A man invested 1/3 of his capital at 7%; 1/4 at 8% and the remainder at 10%. If his annual income is \u20b9 561, the capital is",
-        "options": {
-            "a": "\u20b9 5400",
-            "b": "\u20b9 6000",
-            "c": "\u20b9 6600",
-            "d": "\u20b9 7200"
-        },
-        "correct_answer": "c",
-        "difficulty": "Difficult",
-        "explanation": "Let the total capital be x.\nPart 1: (1/3) of capital at 7%.\nPart 2: (1/4) of capital at 8%.\nRemainder: 1 - (1/3 + 1/4) = 1 - (4/12 + 3/12) = 1 - 7/12 = 5/12 of capital at 10%.\nAnnual income (total interest for 1 year) = \u20b9 561.\nInterest from Part 1 = (x/3 \u00d7 7 \u00d7 1) / 100 = 7x / 300\nInterest from Part 2 = (x/4 \u00d7 8 \u00d7 1) / 100 = 8x / 400 = 2x / 100 = x / 50\nInterest from Remainder = (5x/12 \u00d7 10 \u00d7 1) / 100 = 50x / 1200 = 5x / 120 = x / 24\nTotal annual income:\n(7x / 300) + (x / 50) + (x / 24) = 561\nTo sum these fractions, find the LCM of 300, 50, and 24. The LCM is 600.\n(14x / 600) + (12x / 600) + (25x / 600) = 561\n(14x + 12x + 25x) / 600 = 561\n51x / 600 = 561\nx = (561 \u00d7 600) / 51\nx = 11 \u00d7 600 (since 561 / 51 = 11)\nx = 6600.\nThe capital is \u20b9 6600."
-    }
+    "correctAnswer": "B",
+    "explanation": "F = 2S. 20 years ago: (F - 20) = 12(S - 20). Substitute F: (2S - 20) = 12S - 240. 10S = 220, S = 22. Father's age F = 2 * 22 = 44 years."
+  },
+  {
+    "text": "The present ages of three persons are in proportions 4:7:9. Eight years ago, the sum of their ages was 56. What is the present age of the eldest person?",
+    "topic": "Problems on Ages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "28 years",
+      "B": "32 years",
+      "C": "36 years",
+      "D": "40 years"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let present ages be 4x, 7x, 9x. Eight years ago: (4x - 8) + (7x - 8) + (9x - 8) = 56. 20x - 24 = 56. 20x = 80, x = 4. Eldest is 9x = 9 * 4 = 36 years."
+  },
+  {
+    "text": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3 hours",
+      "B": "4 hours",
+      "C": "5 hours",
+      "D": "6 hours"
+    },
+    "correctAnswer": "B",
+    "explanation": "Speed downstream = Speed of boat in still water + Speed of stream = 13 + 4 = 17 km/hr. Time = Distance / Speed = 68 / 17 = 4 hours."
+  },
+  {
+    "text": "A man can row 18 km/hr in still water. It takes him thrice as long to row up as to row down the river. Find the rate of the stream.",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "6 km/hr",
+      "B": "8 km/hr",
+      "C": "9 km/hr",
+      "D": "12 km/hr"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let rate of stream be v. Downstream speed = 18 + v. Upstream speed = 18 - v. Time = Distance/Speed. Time Up = 3 * Time Down. D/(18 - v) = 3 * D/(18 + v). 18 + v = 54 - 3v. 4v = 36. v = 9 km/hr."
+  },
+  {
+    "text": "A boat running downstream covers a distance of 16 km in 2 hours while for covering the same distance upstream, it takes 4 hours. What is the speed of the boat in still water?",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "4 km/hr",
+      "B": "6 km/hr",
+      "C": "8 km/hr",
+      "D": "10 km/hr"
+    },
+    "correctAnswer": "B",
+    "explanation": "Speed Downstream (D) = 16 / 2 = 8 km/hr. Speed Upstream (U) = 16 / 4 = 4 km/hr. Speed of boat in still water = (D + U) / 2 = (8 + 4) / 2 = 6 km/hr."
+  },
+  {
+    "text": "Two pipes A and B can fill a tank in 20 and 30 minutes respectively. If both pipes are used together, how long will it take to fill the tank?",
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10 mins",
+      "B": "12 mins",
+      "C": "15 mins",
+      "D": "18 mins"
+    },
+    "correctAnswer": "B",
+    "explanation": "Part filled by A in 1 min = 1/20. Part filled by B in 1 min = 1/30. Together in 1 min = (1/20) + (1/30) = (3+2)/60 = 5/60 = 1/12. It will take 12 minutes to fill the tank."
+  },
+  {
+    "text": "A pump can fill a tank with water in 2 hours. Because of a leak, it took 2.5 hours to fill the tank. How long will it take for the leak to drain all the water of a full tank?",
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "options": {
+      "A": "8 hours",
+      "B": "10 hours",
+      "C": "12 hours",
+      "D": "14 hours"
+    },
+    "correctAnswer": "B",
+    "explanation": "Work done by pump in 1 hr = 1/2. Let leak empty tank in L hours. Work done by leak in 1 hr = -1/L. Net work in 1 hr = 1/2.5 = 1/(5/2) = 2/5. Equation: 1/2 - 1/L = 2/5. 1/L = 1/2 - 2/5 = (5-4)/10 = 1/10. L = 10 hours."
+  },
+  {
+    "text": "Pipes A and B can fill a tank in 5 and 6 hours respectively. Pipe C can empty it in 12 hours. If all three are opened together, in how many hours will the tank be filled?",
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3.52 hours",
+      "B": "3.75 hours",
+      "C": "4.25 hours",
+      "D": "4.5 hours"
+    },
+    "correctAnswer": "A",
+    "explanation": "Net part filled in 1 hr = 1/5 + 1/6 - 1/12. LCM is 60. Net work = (12 + 10 - 5) / 60 = 17/60. Total time = 60/17 hours, which is approximately 3.52 hours."
+  },
+  {
+    "text": "In how many different ways can the letters of the word 'CORPORATION' be arranged so that the vowels always come together?",
+    "topic": "Permutation and Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "42000",
+      "B": "48000",
+      "C": "50400",
+      "D": "52400"
+    },
+    "correctAnswer": "C",
+    "explanation": "Vowels are O,O,A,I,O (5 letters, O repeats 3 times). Consonants are C,R,P,R,T,N (6 letters, R repeats 2 times). Treat vowels as 1 group. Total groups = 6+1 = 7. Arrangements of groups = 7! / 2! (for R). Arrangements within vowels = 5! / 3! (for O). Total = (5040 / 2) * (120 / 6) = 2520 * 20 = 50400."
+  },
+  {
+    "text": "Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?",
+    "topic": "Permutation and Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "210",
+      "B": "1050",
+      "C": "25200",
+      "D": "21400"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ways to select 3 consonants from 7 = 7C3 = 35. Ways to select 2 vowels from 4 = 4C2 = 6. Number of combinations = 35 * 6 = 210. These 5 letters can be arranged in 5! ways (120 ways). Total words = 210 * 120 = 25200."
+  },
+  {
+    "text": "In how many ways can a committee of 5 members be formed from 6 men and 4 women, consisting of exactly 2 women?",
+    "topic": "Permutation and Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "100",
+      "B": "120",
+      "C": "140",
+      "D": "160"
+    },
+    "correctAnswer": "B",
+    "explanation": "To form a committee of 5 with exactly 2 women, we must select 2 women from 4, and 3 men from 6. Ways = 4C2 * 6C3 = [4*3/2] * [6*5*4/6] = 6 * 20 = 120 ways."
+  },
+  {
+    "text": "What was the day of the week on 15th August, 1947?",
+    "topic": "Calendar",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Wednesday",
+      "B": "Thursday",
+      "C": "Friday",
+      "D": "Saturday"
+    },
+    "correctAnswer": "C",
+    "explanation": "1600 years = 0 odd days. 300 years = 1 odd day. 46 years = 11 leap + 35 ordinary = 22 + 35 = 57 odd days = 1 odd day (57%7). Jan to Aug 15 = 31+28+31+30+31+30+31+15 = 227 days. 227 % 7 = 3 odd days. Total odd days = 1 + 1 + 3 = 5. 5th day of week is Friday."
+  },
+  {
+    "text": "If today is Thursday, what will be the day after 73 days?",
+    "topic": "Calendar",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Saturday",
+      "B": "Sunday",
+      "C": "Monday",
+      "D": "Tuesday"
+    },
+    "correctAnswer": "B",
+    "explanation": "Divide the number of days by 7 to find the remainder (odd days). 73 / 7 = 10 weeks and 3 days. Three days after Thursday is Sunday."
+  },
+  {
+    "text": "What is the angle between the minute hand and the hour hand of a clock when the time is 4:20?",
+    "topic": "Clock",
+    "difficulty": "Medium",
+    "options": {
+      "A": "0 degrees",
+      "B": "10 degrees",
+      "C": "15 degrees",
+      "D": "20 degrees"
+    },
+    "correctAnswer": "B",
+    "explanation": "Angle formula = |30*H - 5.5*M|. Here H=4, M=20. Angle = |30(4) - 5.5(20)| = |120 - 110| = 10 degrees."
+  },
+  {
+    "text": "At what time between 5 and 6 o'clock are the hands of a clock exactly 3 minutes apart?",
+    "topic": "Clock",
+    "difficulty": "Medium",
+    "options": {
+      "A": "24 minutes past 5",
+      "B": "25 minutes past 5",
+      "C": "27 minutes past 5",
+      "D": "30 minutes past 5"
+    },
+    "correctAnswer": "A",
+    "explanation": "3 minutes space = 3 * 6 = 18 degrees. Angle = |30*H - 5.5*M| = 18. Case 1: 150 - 5.5M = 18 => 5.5M = 132 => M = 24. Case 2: 5.5M - 150 = 18 => M = 168/5.5 = 30.54. Since 24 is in the options, it is 24 mins past 5."
+  },
+  {
+    "text": "A, B and C enter into a partnership investing Rs. 35,000, Rs. 45,000 and Rs. 55,000 respectively. What is B's share in an annual profit of Rs. 40,500?",
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 10,500",
+      "B": "Rs. 12,500",
+      "C": "Rs. 13,500",
+      "D": "Rs. 16,500"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ratio of investments = 35:45:55 = 7:9:11. Total ratio parts = 7 + 9 + 11 = 27. Value of one part = 40500 / 27 = 1500. B's share (9 parts) = 9 * 1500 = Rs. 13,500."
+  },
+  {
+    "text": "A started a business with Rs. 21,000 and is joined afterwards by B with Rs. 36,000. After how many months did B join if the profits at the end of the year are divided equally?",
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3 months",
+      "B": "4 months",
+      "C": "5 months",
+      "D": "7 months"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let B's capital be invested for x months. For equal profit, A's investment * time = B's investment * time. 21000 * 12 = 36000 * x. x = 252000 / 36000 = 7 months. Since B was invested for 7 months, he joined after (12 - 7) = 5 months."
+  },
+  {
+    "text": "A and B invest in a business in the ratio 3:2. If 5% of the total profit goes to charity and A's share is Rs. 855, what is the total profit?",
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 1425",
+      "B": "Rs. 1500",
+      "C": "Rs. 1575",
+      "D": "Rs. 1600"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let total profit be P. Amount after charity = 95% of P = 0.95P. A's share is 3/5 of the remaining profit. So, (3/5) * 0.95P = 855. 0.57P = 855. P = 855 / 0.57 = 1500."
+  }
 ]

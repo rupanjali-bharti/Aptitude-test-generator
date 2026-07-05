@@ -1,0 +1,327 @@
+[
+  {
+    "text": "A, B, and C can together complete a piece of work in 5 days. If A alone can do it in 12 days and B alone in 15 days, in how many days can C alone complete the work?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10 days",
+      "B": "15 days",
+      "C": "20 days",
+      "D": "24 days"
+    },
+    "correctAnswer": "C",
+    "explanation": "Work done by (A+B+C) in 1 day = 1/5. Work done by A = 1/12. Work done by B = 1/15. Let C's 1-day work be 1/c. 1/12 + 1/15 + 1/c = 1/5. LCM of 12 and 15 is 60. (5 + 4)/60 + 1/c = 1/5. 9/60 + 1/c = 1/5. 1/c = 1/5 - 3/20 = (4 - 3)/20 = 1/20. C takes 20 days."
+  },
+  {
+    "text": "Two trains, 120 meters and 180 meters long, are running on parallel tracks in opposite directions at speeds of 50 km/hr and 40 km/hr respectively. How long will they take to completely cross each other?",
+    "topic": "Trains",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10 seconds",
+      "B": "12 seconds",
+      "C": "15 seconds",
+      "D": "18 seconds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Total distance = 120 + 180 = 300 m. Relative speed (opposite directions) = 50 + 40 = 90 km/hr. Convert to m/s: 90 * (5/18) = 25 m/s. Time = Distance / Speed = 300 / 25 = 12 seconds."
+  },
+  {
+    "text": "Fresh grapes contain 80% water by weight, while dry grapes contain 10% water by weight. What is the weight of dry grapes that can be obtained from 45 kg of fresh grapes?",
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "options": {
+      "A": "9 kg",
+      "B": "10 kg",
+      "C": "12 kg",
+      "D": "15 kg"
+    },
+    "correctAnswer": "B",
+    "explanation": "The quantity of the solid pulp remains constant. Pulp in fresh grapes = 20% of 45 kg = 9 kg. In dry grapes, this pulp represents (100% - 10%) = 90% of the total weight. Let total dry weight be x. 90% of x = 9 kg. 0.9x = 9 => x = 10 kg."
+  },
+  {
+    "text": "A container contains 80 liters of pure milk. From this, 8 liters of milk was removed and replaced by water. This process was repeated two more times. How much pure milk is left in the container now?",
+    "topic": "Mixtures and Alligations",
+    "difficulty": "Medium",
+    "options": {
+      "A": "56.40 liters",
+      "B": "58.32 liters",
+      "C": "60.25 liters",
+      "D": "64.80 liters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Formula: Final Amount = Initial * (1 - volume_removed / total_volume)^n. Milk left = 80 * (1 - 8/80)^3 = 80 * (1 - 1/10)^3 = 80 * (9/10)^3 = 80 * (729/1000) = 8 * 0.729 = 58.32 liters."
+  },
+  {
+    "text": "The compound interest on a certain sum for 2 years at 10% per annum is Rs. 525. What would be the simple interest on the same sum for the same period at the same rate?",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 480",
+      "B": "Rs. 500",
+      "C": "Rs. 510",
+      "D": "Rs. 515"
+    },
+    "correctAnswer": "B",
+    "explanation": "Compound Interest for 2 years at 10% yields an effective rate of 10 + 10 + (10*10)/100 = 21%. We know 21% of Principal = 525. Principal = (525 / 21) * 100 = 2500. Simple Interest for 2 years at 10% is 20%. SI = 20% of 2500 = Rs. 500."
+  },
+  {
+    "text": "The incomes of A and B are in the ratio 3:2, and their expenditures are in the ratio 5:3. If each saves Rs. 1000, find A's income.",
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 4000",
+      "B": "Rs. 5000",
+      "C": "Rs. 6000",
+      "D": "Rs. 7000"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let incomes be 3x and 2x, expenditures be 5y and 3y. Equations: 3x - 5y = 1000 (Eq 1) and 2x - 3y = 1000 (Eq 2). Multiply Eq1 by 3 and Eq2 by 5: 9x - 15y = 3000, 10x - 15y = 5000. Subtracting the two gives x = 2000. A's income = 3x = 3(2000) = Rs. 6000."
+  },
+  {
+    "text": "The average of 9 numbers is 50. The average of the first five numbers is 54 and that of the last three numbers is 52. What is the sixth number?",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "24",
+      "B": "30",
+      "C": "34",
+      "D": "44"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total sum of all 9 numbers = 9 * 50 = 450. Sum of first 5 numbers = 5 * 54 = 270. Sum of last 3 numbers = 3 * 52 = 156. Total sum of these 8 numbers = 270 + 156 = 426. The 6th number = Total sum - Sum of 8 numbers = 450 - 426 = 24."
+  },
+  {
+    "text": "If the radius of a right circular cylinder is increased by 20% and its height is decreased by 20%, what is the net percentage change in its volume?",
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "options": {
+      "A": "No change",
+      "B": "15.2% decrease",
+      "C": "15.2% increase",
+      "D": "20% increase"
+    },
+    "correctAnswer": "C",
+    "explanation": "Volume V = pi * r^2 * h. New Volume = pi * (1.2r)^2 * (0.8h) = pi * (1.44r^2) * (0.8h) = 1.152 * (pi * r^2 * h). The volume increases from 1 to 1.152, which is an increase of 15.2%."
+  },
+  {
+    "text": "The area of a rhombus is 150 sq cm, and the length of one of its diagonals is 15 cm. Find the length of the other diagonal.",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10 cm",
+      "B": "15 cm",
+      "C": "20 cm",
+      "D": "25 cm"
+    },
+    "correctAnswer": "C",
+    "explanation": "Area of a rhombus = (1/2) * d1 * d2. 150 = (1/2) * 15 * d2. 300 = 15 * d2. d2 = 300 / 15 = 20 cm."
+  },
+  {
+    "text": "What is the unit digit of the product (8^153 * 7^77)?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correctAnswer": "C",
+    "explanation": "Cyclicity of both 8 and 7 is 4. For 8^153: 153 / 4 leaves remainder 1, so the unit digit is 8^1 = 8. For 7^77: 77 / 4 leaves remainder 1, so the unit digit is 7^1 = 7. Product of the unit digits = 8 * 7 = 56. The unit digit is 6."
+  },
+  {
+    "text": "A boat can travel at 15 km/hr downstream and 9 km/hr upstream. What is the speed of the stream?",
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "3 km/hr",
+      "B": "4 km/hr",
+      "C": "6 km/hr",
+      "D": "12 km/hr"
+    },
+    "correctAnswer": "A",
+    "explanation": "Speed of the stream = (Downstream Speed - Upstream Speed) / 2 = (15 - 9) / 2 = 6 / 2 = 3 km/hr."
+  },
+  {
+    "text": "Pipe A can fill a tank in 4 hours and Pipe B can fill it in 6 hours. Pipe C can empty the full tank in 12 hours. If all three pipes are opened simultaneously, how long will it take to fill the tank?",
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2 hours",
+      "B": "2.5 hours",
+      "C": "3 hours",
+      "D": "3.5 hours"
+    },
+    "correctAnswer": "C",
+    "explanation": "Net work done in 1 hour = (1/4) + (1/6) - (1/12). LCM of 4, 6, 12 is 12. Net work = (3 + 2 - 1) / 12 = 4 / 12 = 1/3. Therefore, it will take 3 hours to fill the tank."
+  },
+  {
+    "text": "Two fair dice are thrown simultaneously. What is the probability that the sum of the numbers appearing on the dice is a multiple of 4?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/3",
+      "B": "1/4",
+      "C": "5/18",
+      "D": "7/36"
+    },
+    "correctAnswer": "B",
+    "explanation": "Possible multiples of 4 for the sum of two dice are 4, 8, and 12. Outcomes for 4 = (1,3), (2,2), (3,1) -> 3. Outcomes for 8 = (2,6), (3,5), (4,4), (5,3), (6,2) -> 5. Outcomes for 12 = (6,6) -> 1. Total favorable outcomes = 3 + 5 + 1 = 9. Total possible outcomes = 36. Probability = 9 / 36 = 1/4."
+  },
+  {
+    "text": "The ratio of the present ages of A and B is 3:4. Ten years ago, the ratio of their ages was 1:2. What is the present age of A?",
+    "topic": "Problems on Ages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "12 years",
+      "B": "15 years",
+      "C": "18 years",
+      "D": "21 years"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let present ages be 3x and 4x. Ten years ago: (3x - 10) / (4x - 10) = 1/2. Cross multiplying gives 6x - 20 = 4x - 10. 2x = 10, so x = 5. A's present age = 3x = 3(5) = 15 years."
+  },
+  {
+    "text": "A and B start a business. A invests Rs. 50,000 and B invests Rs. 70,000. B is a working partner and receives 20% of the total profit for managing the business. The remaining profit is divided according to their investments. If the total profit is Rs. 60,000, what is A's total share?",
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 20,000",
+      "B": "Rs. 24,000",
+      "C": "Rs. 25,000",
+      "D": "Rs. 28,000"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total profit = 60000. B's management share = 20% of 60000 = 12000. Remaining profit to be distributed based on investment = 60000 - 12000 = 48000. Ratio of investments A:B = 50000:70000 = 5:7. A's share = (5/12) * 48000 = 5 * 4000 = Rs. 20,000."
+  },
+  {
+    "text": "What is the angle between the hour hand and the minute hand of a clock exactly at 2:30?",
+    "topic": "Clock",
+    "difficulty": "Medium",
+    "options": {
+      "A": "90 degrees",
+      "B": "100 degrees",
+      "C": "105 degrees",
+      "D": "115 degrees"
+    },
+    "correctAnswer": "C",
+    "explanation": "Angle = |30*H - 5.5*M| = |30(2) - 5.5(30)| = |60 - 165| = |-105| = 105 degrees."
+  },
+  {
+    "text": "If January 1, 2004 was a Thursday, what day of the week was January 1, 2005?",
+    "topic": "Calendar",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Friday",
+      "B": "Saturday",
+      "C": "Sunday",
+      "D": "Monday"
+    },
+    "correctAnswer": "B",
+    "explanation": "2004 is a leap year (divisible by 4). Thus, it has 366 days, which contains 2 odd days. Therefore, January 1, 2005 will be two days after Thursday, which is Saturday."
+  },
+  {
+    "text": "Solve for x: log_2(x) + log_2(x + 2) = 3",
+    "topic": "Logarithms",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "explanation": "log_2(x(x + 2)) = 3. Convert to exponential form: x(x + 2) = 2^3 = 8. x^2 + 2x - 8 = 0. Factors are (x + 4)(x - 2) = 0. Log arguments must be positive, so x = 2."
+  },
+  {
+    "text": "Simplify: (32)^(3/5) * (81)^(-1/4)",
+    "topic": "Surds and Indices",
+    "difficulty": "Medium",
+    "options": {
+      "A": "8/3",
+      "B": "16/3",
+      "C": "8/9",
+      "D": "4/3"
+    },
+    "correctAnswer": "A",
+    "explanation": "(32)^(3/5) = (2^5)^(3/5) = 2^3 = 8. (81)^(-1/4) = (3^4)^(-1/4) = 3^(-1) = 1/3. Multiplying them gives 8 * (1/3) = 8/3."
+  },
+  {
+    "text": "How many terms of the arithmetic progression 3, 7, 11, 15... must be taken so that the sum is 210?",
+    "topic": "Progressions",
+    "difficulty": "Medium",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "correctAnswer": "B",
+    "explanation": "a = 3, d = 4, Sn = 210. Formula: Sn = (n/2)[2a + (n-1)d]. 210 = (n/2)[2(3) + (n-1)4]. 420 = n[6 + 4n - 4]. 420 = n[4n + 2]. 210 = n(2n + 1). 2n^2 + n - 210 = 0. Test options: If n=10, 2(100) + 10 = 210. Therefore, n = 10."
+  },
+  {
+    "text": "A man sells an article at a profit of 10%. If he had bought it at 10% less and sold it for Rs. 3 more, he would have gained 25%. Find the original cost price.",
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Rs. 100",
+      "B": "Rs. 110",
+      "C": "Rs. 120",
+      "D": "Rs. 130"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let original CP = 100x. Original SP = 110x. New CP = 90x. New SP = 110x + 3. New profit is 25% on new CP. So, New SP = 1.25 * (90x) = 112.5x. Equating the SPs: 110x + 3 = 112.5x. 2.5x = 3 => x = 3 / 2.5 = 1.2. Original CP = 100x = 100 * 1.2 = Rs. 120."
+  },
+  {
+    "text": "Two numbers are in the ratio 3:4 and their HCF is 15. What is their LCM?",
+    "topic": "HCF and LCM",
+    "difficulty": "Medium",
+    "options": {
+      "A": "90",
+      "B": "120",
+      "C": "150",
+      "D": "180"
+    },
+    "correctAnswer": "D",
+    "explanation": "If the numbers are in the ratio 3:4 and their HCF is x, the numbers are 3x and 4x. We know x = 15. The numbers are 3(15) = 45 and 4(15) = 60. The LCM of 45 and 60 is 180."
+  },
+  {
+    "text": "In how many ways can the letters of the word 'BANANA' be arranged?",
+    "topic": "Permutation and Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "60",
+      "B": "120",
+      "C": "360",
+      "D": "720"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word has 6 letters. 'A' repeats 3 times, 'N' repeats 2 times. Total arrangements = 6! / (3! * 2!) = (720) / (6 * 2) = 720 / 12 = 60."
+  },
+  {
+    "text": "If x + 1/x = 4, find the value of x^2 + 1/x^2.",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18"
+    },
+    "correctAnswer": "B",
+    "explanation": "Square both sides of the equation: (x + 1/x)^2 = 4^2. Expanding yields: x^2 + 2(x)(1/x) + 1/x^2 = 16. This simplifies to x^2 + 2 + 1/x^2 = 16. Therefore, x^2 + 1/x^2 = 16 - 2 = 14."
+  },
+  {
+    "text": "What is the remainder when 3^21 is divided by 5?",
+    "topic": "Number System",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctAnswer": "C",
+    "explanation": "Determine the pattern of powers of 3 modulo 5: 3^1=3 (rem 3), 3^2=9 (rem 4), 3^3=27 (rem 2), 3^4=81 (rem 1). The pattern 3, 4, 2, 1 repeats every 4 powers. Divide the exponent 21 by 4, the remainder is 1. Thus, it lands on the first step of the cycle. The remainder is 3."
+  }
+]
