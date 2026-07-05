@@ -3,15 +3,17 @@ import json
 import re
 import time
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai  # Modern google-genai SDK
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-gemini_model = genai.GenerativeModel('gemini-2.5-flash') 
 
-def automated_batch_extraction(pdf_path, topic_name, total_questions_needed=60, batch_size=15):
+# Initialize the client using the modern SDK
+client = genai.Client()
+MODEL_NAME = 'gemini-2.5-flash-lite'
+
+def automated_batch_extraction(pdf_path, topic_name, total_questions_needed=120, batch_size=15):
     print(f"1. Uploading {pdf_path} to Gemini's servers...")
-    uploaded_file = genai.upload_file(path=pdf_path)
+    uploaded_file = client.files.upload(file=pdf_path)
     time.sleep(3) # Wait for processing
     
     all_extracted_questions = []
@@ -33,13 +35,16 @@ def automated_batch_extraction(pdf_path, topic_name, total_questions_needed=60, 
                 "question": "The question text",
                 "options": {{"a": "opt1", "b": "opt2", "c": "opt3", "d": "opt4"}},
                 "correct_answer": "a",
-                "difficulty": "Medium",
+                "difficulty": "Pending",
                 "explanation": "Step by step explanation from the solutions section"
               }}
             ]
             """
             
-            response = gemini_model.generate_content([system_prompt, uploaded_file])
+            response = client.models.generate_content(
+                model=MODEL_NAME,
+                contents=[system_prompt, uploaded_file]
+            )
             match = re.search(r'\[.*\]', response.text, re.DOTALL)
             
             if match:
@@ -55,26 +60,45 @@ def automated_batch_extraction(pdf_path, topic_name, total_questions_needed=60, 
     except Exception as e:
         print(f"\n❌ Script failed: {e}")
     finally:
-        genai.delete_file(uploaded_file.name)
+        # File deletion via the updated API client layout
+        client.files.delete(name=uploaded_file.name)
         print("\nCleaned up file from Google servers.")
+        
+    # --- PROPORTIONAL DIFFICULTY MAPPING (0.3 / 0.7 method) ---
+    total_extracted = len(all_extracted_questions)
+    if total_extracted > 0:
+        print(f"\n2. Applying dynamic difficulty mapping to all {total_extracted} questions...")
+        
+        easy_limit = int(total_extracted * 0.3)
+        medium_limit = int(total_extracted * 0.7) 
+        
+        for i, question in enumerate(all_extracted_questions):
+            if i < easy_limit:
+                question["difficulty"] = "Easy"
+            elif i < medium_limit:
+                question["difficulty"] = "Medium"
+            else:
+                question["difficulty"] = "Difficult"
+                
+        print("✅ Difficulty assignment complete.")
         
     return all_extracted_questions
 
 if __name__ == "__main__":
     os.makedirs("outputs", exist_ok=True)
     
-    # Change these to whichever PDF you are currently processing!
-    pdf_file = "pdf_assets/partnership.pdf" 
-    topic_name = "partnership"
+    # Target PDF file configurations
+    pdf_file = "pdf_assets/time_work.pdf" 
+    topic_name = "time_work"
     
     if not os.path.exists(pdf_file):
         print(f"Please place {pdf_file} in the directory.")
     else:
-        # Grabs 60 questions total, 15 at a time. Change 60 to 100 if you want more!
-        final_json = automated_batch_extraction(pdf_file, topic_name, total_questions_needed=60, batch_size=15)
+        # Grabs 60 questions total, 15 at a time.
+        final_json = automated_batch_extraction(pdf_file, topic_name, total_questions_needed=120, batch_size=15)
         
         if final_json:
-            output_path = f"outputs/{topic_name}_massive.json"
+            output_path = f"outputs/{topic_name}.json"
             with open(output_path, "w") as f:
                 json.dump(final_json, f, indent=4)
             print(f"\n🎉 SUCCESS! Saved {len(final_json)} questions to {output_path}")

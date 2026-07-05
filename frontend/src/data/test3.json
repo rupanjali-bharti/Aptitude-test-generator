@@ -1,0 +1,405 @@
+[
+    {
+        "topic": "time_distance",
+        "question": "A speed of 30.6 km/hr is the same as (R.R.B., 2008)\n(a) 5.1 m/sec\n(c) 110.16 m/sec\n(b) 8.5 m/sec\n(d) None of these",
+        "options": {
+            "a": "5.1 m/sec",
+            "b": "8.5 m/sec",
+            "c": "110.16 m/sec",
+            "d": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "explanation": "30.6 km/hr = (30.6 \u00d7 5/18) m/sec = 153/18 m/sec = 8.5 m/sec."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A man riding his bicycle covers 150 metres in 25 seconds. What is his speed in km per hour?\n(S.S.C., 2005)\n(a) 20\n(c) 23\n(b) 21.6\n(d) 25",
+        "options": {
+            "a": "20",
+            "b": "21.6",
+            "c": "23",
+            "d": "25"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "explanation": "Speed = (150/25) m/sec = 6 m/sec\n= (6 \u00d7 18/5) km/hr = 108/5 km/hr = 21.6 km/hr."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A bus covers a distance of 2924 km in 43 hours. What is the speed of the bus? (Bank Recruitment, 2008)\n(a) 60 km/hr\n(c) 72 km/hr\n(e) None of these\n(b) 68 km/hr\n(d) Cannot be determined",
+        "options": {
+            "a": "60 km/hr",
+            "b": "68 km/hr",
+            "c": "72 km/hr",
+            "d": "Cannot be determined",
+            "e": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "explanation": "Speed = 2924/43 km/hr = 68 km/hr."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A is travelling at 72 km per hour on a highway while B is travelling at a speed of 25 metres per second. What is the difference in their speeds in metres per second?\n(Campus Recruitment, 2010)\n(a) 1 1/2 m/sec\n(c) 3 m/sec\n(b) 2 m/sec\n(d) 5 m/sec",
+        "options": {
+            "a": "1 1/2 m/sec",
+            "b": "2 m/sec",
+            "c": "3 m/sec",
+            "d": "5 m/sec"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "explanation": "A's speed = 72 km/hr = (72 \u00d7 5/18) m/sec = 20 m/sec.\nB's speed = 25 m/sec.\nDifference = (25 - 20) m/sec = 5 m/sec."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A motorist travelled between two towns, which are 65 km apart, in 2 hours and 10 minutes. Find the speed in metres per minute.\n(R.R.B., 2006)\n(a) 200\n(c) 600\n(b) 500\n(d) 700",
+        "options": {
+            "a": "200",
+            "b": "500",
+            "c": "600",
+            "d": "700"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "explanation": "Distance covered = 65 km = 65000 m.\nTime taken = 2 hrs 10 min = [(2 \u00d7 60) + 10] min = 130 min.\n\u2234 Speed = (65000/130) m/min = 500 m/min."
+    },
+    {
+        "topic": "time_distance",
+        "question": "In track meets both 100 yards and 100 metres are used as distances. By how many metres is 100 metres longer than 100 yards?\n(a) 0.0856 m\n(c) 1 m\n(b) 0.856 m\n(d) 8.56 m",
+        "options": {
+            "a": "0.0856 m",
+            "b": "0.856 m",
+            "c": "1 m",
+            "d": "8.56 m"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "explanation": "1 yard = 0.9144 m \u21d2 100 yards = (100 \u00d7 0.9144) m = 91.44 m.\n\u2234 Required difference = (100 \u2013 91.44) m = 8.56 m."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Which of the following trains is the fastest?\n(a) 25 m/sec\n(c) 90 km/hr\n(b) 1500 m/min\n(d) None of these",
+        "options": {
+            "a": "25 m/sec",
+            "b": "1500 m/min",
+            "c": "90 km/hr",
+            "d": "None of these"
+        },
+        "correct_answer": "d",
+        "difficulty": "Easy",
+        "explanation": "To compare, convert all speeds to km/hr:\n(a) 25 m/sec = 25 \u00d7 (18/5) km/hr = 90 km/hr.\n(b) 1500 m/min = (1500/1000) km / (1/60) hr = 1.5 \u00d7 60 km/hr = 90 km/hr.\n(c) 90 km/hr.\nSince all speeds are equal, none of them is specifically the fastest. Thus, 'None of these' is the correct answer."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?\n(a) 3.6\n(c) 8.4\n(b) 7.2\n(d) 10",
+        "options": {
+            "a": "3.6",
+            "b": "7.2",
+            "c": "8.4",
+            "d": "10"
+        },
+        "correct_answer": "b",
+        "difficulty": "Easy",
+        "explanation": "Speed = (600 / (5 \u00d7 60)) m/sec = 2 m/sec.\nTo convert to km/hr: 2 \u00d7 (18/5) km/hr = 36/5 km/hr = 7.2 km/hr."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A car covers a distance of 432 km at the speed of 48 km/hr. In how many hours will the car cover this distance?\n(Bank Recruitment, 2009)\n(a) 6 hours\n(c) 9 hours\n(e) None of these\n(b) 7 hours\n(d) 12 hours",
+        "options": {
+            "a": "6 hours",
+            "b": "7 hours",
+            "c": "9 hours",
+            "d": "12 hours",
+            "e": "None of these"
+        },
+        "correct_answer": "c",
+        "difficulty": "Easy",
+        "explanation": "Required time = Distance / Speed = 432 km / 48 km/hr = 9 hours."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A man covered a distance of 180 km in 4 hours on a bike. How much distance will be cover on a bicycle in 8 hours if he rides the bicycle at one-sixth the speed of the bike?\n(Bank Recruitment, 2010)\n(a) 54 km\n(c) 72 km\n(e) None of these\n(b) 60 km\n(d) 84 km",
+        "options": {
+            "a": "54 km",
+            "b": "60 km",
+            "c": "72 km",
+            "d": "84 km",
+            "e": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Speed of the bike = Distance / Time = 180 km / 4 hours = 45 km/hr.\nSpeed of the bicycle = (1/6) \u00d7 45 km/hr = 7.5 km/hr.\nRequired distance for bicycle = Speed \u00d7 Time = 7.5 km/hr \u00d7 8 hours = 60 km."
+    },
+    {
+        "topic": "time_distance",
+        "question": "The ratio of the speeds of a car, a train and a bus is 5:9:4. The average speed of the car, the bus and the train is 72 km/hr. What is the average speed of the car and the train together?\n(Bank P.O., 2010)\n(a) 78 km/hr\n(c) 84 km/hr\n(e) None of these\n(b) 82 km/hr\n(d) Cannot be determined",
+        "options": {
+            "a": "78 km/hr",
+            "b": "82 km/hr",
+            "c": "84 km/hr",
+            "d": "Cannot be determined",
+            "e": "None of these"
+        },
+        "correct_answer": "c",
+        "difficulty": "Medium",
+        "explanation": "Let the speeds of the car, train, and bus be 5x, 9x, and 4x km/hr respectively.\nThe average speed of the car, bus, and train is (5x + 9x + 4x) / 3 = 18x / 3 = 6x.\nGiven average speed = 72 km/hr.\nSo, 6x = 72 \u21d2 x = 12.\nSpeed of the car = 5x = 5 \u00d7 12 = 60 km/hr.\nSpeed of the train = 9x = 9 \u00d7 12 = 108 km/hr.\nAverage speed of car and train together = (60 + 108) / 2 = 168 / 2 = 84 km/hr."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Car A travels at the speed of 65 km/hr and reaches its destination in 8 hours. Car B travels at the speed of 70 km/hr and reaches its destination in 4 hours. What is the ratio of the distance covered by car A and car B respectively?\n(Bank P.O., 2010)\n(a) 7: 11\n(c) 7: 13\n(e) None of these\n(b) 13:7\n(d) 11:7",
+        "options": {
+            "a": "7: 11",
+            "b": "13:7",
+            "c": "7: 13",
+            "d": "11:7",
+            "e": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Distance covered by Car A = Speed \u00d7 Time = 65 km/hr \u00d7 8 hours = 520 km.\nDistance covered by Car B = Speed \u00d7 Time = 70 km/hr \u00d7 4 hours = 280 km.\nRequired ratio = Distance by Car A : Distance by Car B = 520 : 280.\nDivide both by 40: 520/40 : 280/40 = 13 : 7."
+    },
+    {
+        "topic": "time_distance",
+        "question": "The average speed of a bus is one-third of the speed of a train. The train covers 1125 km in 15 hours. How much distance will the bus cover in 36 minutes?\n(Bank Recruitment, 2010)\n(a) 12 km\n(c) 21 km\n(e) None of these\n(b) 18 km\n(d) 75 km",
+        "options": {
+            "a": "12 km",
+            "b": "18 km",
+            "c": "21 km",
+            "d": "75 km",
+            "e": "None of these"
+        },
+        "correct_answer": "e",
+        "difficulty": "Medium",
+        "explanation": "Speed of the train = Distance / Time = 1125 km / 15 hours = 75 km/hr.\nSpeed of the bus = (1/3) \u00d7 Speed of the train = (1/3) \u00d7 75 km/hr = 25 km/hr.\nTo find distance covered by bus in 36 minutes, first convert minutes to hours: 36 minutes = 36/60 hours = 3/5 hours.\nDistance covered by bus = Speed \u00d7 Time = 25 km/hr \u00d7 (3/5) hours = 15 km.\nSince 15 km is not among options (a), (b), (c), (d), the correct answer is (e) None of these."
+    },
+    {
+        "topic": "time_distance",
+        "question": "The mileage of a motorbike A and a motorbike B is 42 km per litre and 52 km per litre respectively. Motorbike A covered 294 km and motorbike B covered 208 km. If the cost of 1 litre of petrol is \u20b9 48, how much amount would be spent on petrol to cover the total distance by both the motor bikes together?\n(Bank P.O., 2010)\n(a) \u20b9 480\n(c) \u20b9 576\n(e) None of these\n(b) \u20b9 528\n(d) Cannot be determined",
+        "options": {
+            "a": "\u20b9 480",
+            "b": "\u20b9 528",
+            "c": "\u20b9 576",
+            "d": "Cannot be determined",
+            "e": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Petrol consumed by Motorbike A = 294 km / 42 km/litre = 7 litres.\nPetrol consumed by Motorbike B = 208 km / 52 km/litre = 4 litres.\nTotal petrol consumed = 7 litres + 4 litres = 11 litres.\nCost of 1 litre of petrol = \u20b9 48.\nTotal amount spent on petrol = 11 litres \u00d7 \u20b9 48/litre = \u20b9 528."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A train leaves Delhi at 4.10 P.M. and reaches Aligarh at 7.25 P.M. The average speed of the train is 40 km/hr. What is the distance from Delhi to Aligarh?\n(R.R.B., 2006)\n(a) 120 km\n(c) 135 km\n(b) 130 km\n(d) 140 km",
+        "options": {
+            "a": "120 km",
+            "b": "130 km",
+            "c": "135 km",
+            "d": "140 km"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Time taken by the train = 7:25 P.M. - 4:10 P.M. = 3 hours 15 minutes.\nConvert time to hours: 3 hours 15 minutes = 3 + (15/60) hours = 3 + 1/4 hours = 13/4 hours.\nAverage speed of the train = 40 km/hr.\nDistance = Average Speed \u00d7 Time Taken = 40 km/hr \u00d7 (13/4) hours = 10 \u00d7 13 km = 130 km."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A is 10 miles west of B. C is 30 miles north of B. D is 20 miles east of C. What is the distance from A to D?",
+        "options": {
+            "a": "10 miles",
+            "b": "30 miles",
+            "c": "10 \u221a10 miles",
+            "d": "10 \u221a13 miles",
+            "e": "30\u221a2 miles"
+        },
+        "correct_answer": "e",
+        "difficulty": "Medium",
+        "explanation": "Let B be at the origin (0,0).\nThen A is at (-10, 0).\nC is at (0, 30).\nD is at (20, 30).\nRequired distance = AD = \u221a((20 - (-10))\u00b2 + (30 - 0)\u00b2) = \u221a(30\u00b2 + 30\u00b2) = \u221a(900 + 900) = \u221a1800 = \u221a(900 \u00d7 2) = 30\u221a2 miles."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A plane flying north at 500 mph passes over a city at 12 noon. A plane flying east at the same altitude passes over the same city at 12 : 30 P.M. The plane is flying east at 400 mph. To the nearest hundred miles, how far apart are the two planes at 2 P.M.?",
+        "options": {
+            "a": "600 miles",
+            "b": "1000 miles",
+            "c": "1100 miles",
+            "d": "1200 miles",
+            "e": "1300 miles"
+        },
+        "correct_answer": "d",
+        "difficulty": "Medium",
+        "explanation": "Distance covered by the first plane till 2 P.M., i.e., in 2 hrs = (500 \u00d7 2) miles = 1000 miles.\nDistance covered by the second plane till 2 P.M., i.e., in 1 1/2 hrs = 400 \u00d7 1 1/2 miles = 600 miles.\nRequired distance = \u221a(1000)\u00b2 + (600)\u00b2 = \u221a1000000 + 360000 = \u221a1360000 miles = 200\u221a34 miles = 1166 miles \u2248 1200 miles."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A train travels at the speed of 65 km/hr and halts at 8 junctions for a certain time. It covers a distance of 1300 km in 1 day (24 hours). How long does the train stop at each junction, if it halts for the same period of time at all the junctions?",
+        "options": {
+            "a": "20 minutes",
+            "b": "30 minutes",
+            "c": "40 minutes",
+            "d": "60 minutes",
+            "e": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Time taken to cover 1300 km = (1300 / 65) hrs = 20 hrs.\nHalt time = (24 - 20) hrs = 4 hrs.\nHalting time at each junction = (4 \u00d7 60 / 8) min = 30 min."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Jane travelled 4/7 as many miles on foot as by water and 2/5 as many miles on horseback as by water. If she covered a total of 3036 miles, how many miles did she travel on foot?",
+        "options": {
+            "a": "1540",
+            "b": "880",
+            "c": "756",
+            "d": "616"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Suppose Jane travelled x miles by water, (4x/7) miles on foot and (2x/5) miles on horseback.\nThen, x + (4x/7) + (2x/5) = 3036\n(35x + 20x + 14x) / 35 = 3036\n69x / 35 = 3036\nx = (3036 \u00d7 35) / 69 = 1540.\nDistance travelled on foot = (4/7) \u00d7 1540 miles = 880 miles."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A star is 8.1 \u00d7 10^13 km away from the earth. Suppose light travels at the speed of 3.0 \u00d7 10^5 km per second. How long will it take the light from the star to reach the earth?",
+        "options": {
+            "a": "7.5 x 10^3 hours",
+            "b": "7.5 x 10^4 hours",
+            "c": "2.7 x 10^10 seconds",
+            "d": "2.7 x 10^11 seconds"
+        },
+        "correct_answer": "b",
+        "difficulty": "Medium",
+        "explanation": "Required time = (8.1 \u00d7 10^13) / (3.0 \u00d7 10^5) seconds = 2.7 x 10^8 sec\n= (2.7 \u00d7 10^8) / (60 \u00d7 60) hrs = 7.5 \u00d7 10^4 hrs."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Akash leaves home for school which is 12 km from his house. After the school, he goes to his club which is 7 km from his school. If his house, school and club all fall in a line, then what is the minimum distance he has to travel to get back home?",
+        "options": {
+            "a": "5 km",
+            "b": "7 km",
+            "c": "12 km",
+            "d": "17 km",
+            "e": "19 km"
+        },
+        "correct_answer": "a",
+        "difficulty": "Medium",
+        "explanation": "For the distance to be minimum, the club must lie between Akash's home and school.\nIf Home -- Club -- School is the arrangement.\nDistance (Home to School) = 12 km.\nDistance (School to Club) = 7 km.\nSo, Distance (Home to Club) = 12 - 7 = 5 km.\nHence, required distance (Club to Home) = 5 km."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A train covers a distance of 193 3/4 km in 4 1/4 hours with one stoppage of 10 minutes, two of 5 minutes and one of 3 minutes on the way. The average speed of the train is",
+        "options": {
+            "a": "48 km/hr",
+            "b": "50 km/hr",
+            "c": "55 km/hr",
+            "d": "60 km/hr",
+            "e": "None of these"
+        },
+        "correct_answer": "b",
+        "difficulty": "Difficult",
+        "explanation": "Actual time taken for the journey = 4 hrs 15 min - (10 + 2 \u00d7 5 + 3) min = 4 hrs 15 min - 23 min = 3 hrs 52 min = 3 (52/60) hrs = 3 (13/15) hrs = 58/15 hrs.\nDistance = 193 3/4 km = 775/4 km.\nAverage speed = (580/3) / (116/30) km/hr = (580/3) \u00d7 (30/116) km/hr = (580 \u00d7 10) / 116 km/hr = 50 km/hr."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Deepa rides her bike at an average speed of 30 km/hr and reaches her destination in 6 hours. Hema covers the same distance in 4 hours. If Deepa increases her average speed by 10 km/hr and Hema increases her average speed by 5 km/hr, what would be the difference in their time taken to reach the destination?",
+        "options": {
+            "a": "40 minutes",
+            "b": "45 minutes",
+            "c": "54 minutes",
+            "d": "1 hour",
+            "e": "None of these"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Deepa's original speed = 30 km/hr.\nDeepa's new speed = (30 + 10) km/hr = 40 km/hr.\nDistance = (30 \u00d7 6) km = 180 km.\nHema's original speed = (180/4) km/hr = 45 km/hr.\nHema's new speed = (45 + 5) km/hr = 50 km/hr.\nDifference in time = (180/40 - 180/50) hrs = (9/2 - 18/5) hrs = (45 - 36)/10 hrs = 9/10 hrs = (9/10 \u00d7 60) min = 54 min."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A monkey climbing up a pole ascends 6 metres and slips 3 metres in alternate minutes. If the pole is 60 metres high, how long will it take the monkey to reach the top?",
+        "options": {
+            "a": "31 min",
+            "b": "33 min",
+            "c": "35 min",
+            "d": "37 min"
+        },
+        "correct_answer": "d",
+        "difficulty": "Difficult",
+        "explanation": "Net height ascended in 2 min = (6 \u2013 3) m = 3 m.\nNet height ascended in 36 min = (3/2 \u00d7 36) m = 54 m.\nIn the 37th min, the monkey ascends 6 m and reaches the top.\nHence, total time taken = 37 minutes."
+    },
+    {
+        "topic": "time_distance",
+        "question": "An aeroplane flies twice as fast as a train which covers 60 miles in 80 minutes. What distance will the aeroplane cover in 20 minutes?",
+        "options": {
+            "a": "30 miles",
+            "b": "35 miles",
+            "c": "40 miles",
+            "d": "50 miles"
+        },
+        "correct_answer": "a",
+        "difficulty": "Difficult",
+        "explanation": "Time taken to cover 60 miles = 80 min = (80/60) hrs = 4/3 hrs.\nSpeed of the train = (60 / (4/3)) mph = (60 \u00d7 3/4) mph = 45 mph.\nSpeed of the aeroplane = (2 \u00d7 45) mph = 90 mph.\nDistance covered by the aeroplane in 60 min = 90 miles.\nDistance covered by the aeroplane in 20 min = (90/60 \u00d7 20) miles = 30 miles."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A boy is running at a speed of p kmph to cover a distance of 1 km. But, due to the slippery ground, his speed is reduced by q kmph (p > q). If he takes r hours to cover the distance, then",
+        "options": {
+            "a": "1/r = p-q",
+            "b": "r = p-q",
+            "c": "1/r = p+q",
+            "d": "r = p+q"
+        },
+        "correct_answer": "a",
+        "difficulty": "Difficult",
+        "explanation": "Speed = Distance / Time\nGiven, reduced speed = (p - q) kmph.\nDistance = 1 km.\nTime = r hours.\nSo, (p - q) = 1 / r\nTherefore, 1/r = p-q."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Ravi can walk a certain distance in 40 days when he rests 9 hours a day. How long will he take to walk twice the distance, twice as fast and rest twice as long each day?",
+        "options": {
+            "a": "40 days",
+            "b": "50 days",
+            "c": "80 days",
+            "d": "100 days"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Let the required number of days be x.\nMore distance, More days required (Direct Proportion)\nMore speed, Less days required (Indirect Proportion)\nMore resting hours, More days required (Direct Proportion)\nDistance 1 : 2\nSpeed 2 : 1\nResting hours 9 : 18 :: 40 : x\nTherefore, (1 \u00d7 2 \u00d7 9 \u00d7 x) = (2 \u00d7 1 \u00d7 18 \u00d7 40)\nx = (2 \u00d7 1 \u00d7 18 \u00d7 40) / (1 \u00d7 2 \u00d7 9) = (36 \u00d7 40) / 18 = 2 \u00d7 40 = 80."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A car is driven at the speed of 100 km/hr and stops for 10 minutes at the end of every 150 km. To cover a distance of 1000 km, it will take",
+        "options": {
+            "a": "9 hours",
+            "b": "10 hours",
+            "c": "11 hours",
+            "d": "12 hours"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Time taken to cover 150 km = (1 hr 30 min + 10 min) = 1 hr 40 min.\nTime taken to cover (150 \u00d7 6) i.e., 900 km = (1 hr 30 min \u00d7 6) hrs. = 10 hrs.\nRemaining 100 km is covered in 1 hour.\nTotal time taken = (10 + 1) hrs = 11 hrs."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A man takes 50 minutes to cover a certain distance at a speed of 6 km/hr. If he walks with a speed of 10 km/hr, he covers the same distance in",
+        "options": {
+            "a": "10 minutes",
+            "b": "20 minutes",
+            "c": "30 minutes",
+            "d": "40 minutes"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Distance = Speed x Time = (6 \u00d7 50/60) km = 5 km.\nRequired time = Distance / Speed = (5 / 10) hrs = (1/2) hrs = 30 min."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A truck covers a distance of 550 metres in 1 minute whereas a bus covers a distance of 33 kms in 45 minutes. The ratio of their speeds is",
+        "options": {
+            "a": "3:4",
+            "b": "4:3",
+            "c": "3:5",
+            "d": "50:3"
+        },
+        "correct_answer": "a",
+        "difficulty": "Difficult",
+        "explanation": "Speed of truck = 550 m / 1 min.\nSpeed of bus = 33 km / 45 min = 33000 m / 45 min.\nRatio of speeds = (550 / 1) : (33000 / 45)\n= 550 : (2200 / 3)\n= 550 \u00d7 3 : 2200\n= 1650 : 2200\n= 33 : 44 = 3 : 4."
+    }
+]

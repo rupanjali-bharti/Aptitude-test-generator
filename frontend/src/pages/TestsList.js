@@ -1,94 +1,119 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { getCompanyTests } from '../utils/api';
-import Test from '../components/Test';
-import TestResults from '../components/TestResults';
+import { useNavigate } from 'react-router-dom';
+import { getTests } from '../utils/api';
 import '../styles/TestsList.css';
 
+const loadAttemptedTests = () => {
+  try {
+    return JSON.parse(localStorage.getItem('attemptedTests') || '[]');
+  } catch {
+    return [];
+  }
+};
+
+const titleCase = (text) => text
+  .replace(/[-_]/g, ' ')
+  .split(' ')
+  .filter(Boolean)
+  .map((word) => word[0].toUpperCase() + word.slice(1))
+  .join(' ');
+
 function TestsList() {
-  const { company } = useParams();
+  const navigate = useNavigate();
   const [tests, setTests] = useState([]);
-  const [selectedTest, setSelectedTest] = useState(null);
-  const [testResult, setTestResult] = useState(null);
+  const [attemptedTests, setAttemptedTests] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
   useEffect(() => {
     fetchTests();
-  }, [company]);
+    setAttemptedTests(loadAttemptedTests());
+  }, []);
 
   const fetchTests = async () => {
     try {
-      const response = await getCompanyTests(company);
-      setTests(response.data.data);
-      setLoading(false);
+      const res = await getTests();
+      setTests(res.data || []);
     } catch (err) {
-      setError(err.response?.data?.message || 'Error loading tests');
+      console.error(err);
+      setError('Failed to load tests');
+    } finally {
       setLoading(false);
     }
   };
 
-  const handleTestComplete = (result) => {
-    setTestResult(result);
-    setSelectedTest(null);
+  const getDisplayTitle = (test, idx) => {
+    return `Quantitative Aptitude Challenge ${idx + 1}`;
   };
 
-  if (loading) {
-    return <div className="loading">Loading tests...</div>;
-  }
+  const getTopics = (test) => {
+    return Array.from(new Set((test.questions || []).map((q) => q.topic).filter(Boolean)));
+  };
 
-  if (testResult) {
-    return (
-      <div className="tests-list-container">
-        <TestResults result={testResult} onBackClick={() => setTestResult(null)} />
-      </div>
-    );
-  }
+  const handleClick = (test) => {
+    navigate(`/tests/take/${test.id}`);
+  };
 
-  if (selectedTest) {
-    return (
-      <div className="tests-list-container">
-        <button className="btn btn-secondary" onClick={() => setSelectedTest(null)}>
-          ← Back to Tests
-        </button>
-        <Test test={selectedTest} onTestComplete={handleTestComplete} />
-      </div>
-    );
-  }
+  if (loading) return <div className="loading">Loading tests...</div>;
+  if (error) return <div className="error-message">{error}</div>;
 
   return (
     <div className="tests-list-container">
       <div className="tests-header">
-        <h1>Aptitude Tests for {company}</h1>
-        <p>{tests.length} tests available</p>
+        <h1>Available Tests</h1>
+        <p>{tests.length} tests ready to try</p>
       </div>
 
-      {error && <div className="error-message">{error}</div>}
+      <div className="tests-grid">
+        {tests.map((test, idx) => {
+          const title = getDisplayTitle(test, idx);
+          const topics = getTopics(test);
+          const isAttempted = attemptedTests.includes(test.id);
 
-      {tests.length === 0 ? (
-        <div className="no-tests">
-          <p>No tests found. Generate tests first!</p>
-        </div>
-      ) : (
-        <div className="tests-grid">
-          {tests.map((test, index) => (
-            <div key={test._id} className="test-card">
-              <h3>Test {index + 1}</h3>
-              <div className="test-info">
-                <p><strong>Questions:</strong> {test.totalQuestions}</p>
-                <p><strong>Duration:</strong> {Math.floor(test.totalDuration / 60)} minutes</p>
-                <p><strong>Topics:</strong> {test.topics.join(', ')}</p>
+          return (
+            <div key={test.id} className="test-card">
+                  <div className="card-flip">
+                <div className="card-face card-front">
+                  <div className="card-front-inner">
+                    <div className="card-top-row">
+                      <h3>{title}</h3>
+                      {isAttempted && <span className="attempted-badge">Attempted</span>}
+                    </div>
+                    <div className="test-info">
+                      <p><strong>Questions:</strong> {test.totalQuestions}</p>
+                      <p><strong>Duration:</strong> 30 minutes</p>
+                    </div>
+                  </div>
+                  <button className={`btn ${isAttempted ? 'btn-secondary' : 'btn-primary'}`} onClick={() => handleClick(test)}>
+                    {isAttempted ? 'Retake Test' : 'Start Test'}
+                  </button>
+                </div>
+
+                <div className="card-face card-back">
+                  <div className="back-card-inner">
+                    <div className="overlay-title">Topics included</div>
+                    <div className="overlay-topic-cloud">
+                      {topics.length > 0 ? (
+                        topics.slice(0, 12).map((topic) => (
+                          <span key={topic} className="topic-chip overlay-chip">{topic}</span>
+                        ))
+                      ) : (
+                        <span className="topic-chip overlay-chip">General</span>
+                      )}
+                      {topics.length > 12 && (
+                        <span className="topic-chip overlay-chip more-chip">+{topics.length - 12} more</span>
+                      )}
+                    </div>
+                  </div>
+                  <button className="btn btn-primary" onClick={() => handleClick(test)}>
+                    Open Test
+                  </button>
+                </div>
               </div>
-              <button
-                className="btn btn-primary"
-                onClick={() => setSelectedTest(test)}
-              >
-                Start Test
-              </button>
             </div>
-          ))}
-        </div>
-      )}
+          );
+        })}
+      </div>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-import Test from './components/Test';
-import TestResults from './components/TestResults';
-import ResultsDashboard from './pages/ResultsDashboard';
+import TestsList from './pages/TestsList';
+import TestTaking from './pages/TestTaking';
+import ResultsView from './pages/ResultsView';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
               <Link to="/" className="nav-logo">🧠 Aptitude Studio</Link>
               <div className="nav-links">
                 <Link to="/" className="nav-link">Home</Link>
-                <Link to="/dashboard" className="nav-link">Dashboard</Link>
+                <Link to="/tests" className="nav-link">Tests</Link>
               </div>
             </div>
           </nav>
@@ -24,9 +24,9 @@ function App() {
         <main className="app-main">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/test" element={<Test />} />
-            <Route path="/results" element={<TestResults />} />
-            <Route path="/dashboard" element={<ResultsDashboard />} />
+            <Route path="/tests" element={<TestsList />} />
+            <Route path="/tests/take/:id" element={<TestTaking />} />
+            <Route path="/results" element={<ResultsView />} />
           </Routes>
         </main>
 

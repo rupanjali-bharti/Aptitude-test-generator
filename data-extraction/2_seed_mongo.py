@@ -13,7 +13,7 @@ def seed_database(json_file_path):
     client = MongoClient(MONGO_URI)
     
     # Create or connect to your database and collection
-    db = client['aptitude_db']
+    db = client['aptitude-test-generator']
     collection = db['questions']
     
     print(f"Reading {json_file_path}...")
@@ -36,7 +36,7 @@ def seed_database(json_file_path):
     print("Database indexes created successfully.")
 
 if __name__ == "__main__":
-    target_json = "outputs/number_system.json"
+    target_json = "outputs/time_distance.json"
     
     if os.path.exists(target_json):
         seed_database(target_json)

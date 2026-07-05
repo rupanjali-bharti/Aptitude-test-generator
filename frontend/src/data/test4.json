@@ -1,0 +1,118 @@
+[{
+        "topic": "time_distance",
+        "question": "An aeroplane flies twice as fast as a train which covers 60 miles in 80 minutes. What distance will the aeroplane cover in 20 minutes?",
+        "options": {
+            "a": "30 miles",
+            "b": "35 miles",
+            "c": "40 miles",
+            "d": "50 miles"
+        },
+        "correct_answer": "a",
+        "difficulty": "Difficult",
+        "explanation": "Time taken to cover 60 miles = 80 min = (80/60) hrs = 4/3 hrs.\nSpeed of the train = (60 / (4/3)) mph = (60 \u00d7 3/4) mph = 45 mph.\nSpeed of the aeroplane = (2 \u00d7 45) mph = 90 mph.\nDistance covered by the aeroplane in 60 min = 90 miles.\nDistance covered by the aeroplane in 20 min = (90/60 \u00d7 20) miles = 30 miles."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A boy is running at a speed of p kmph to cover a distance of 1 km. But, due to the slippery ground, his speed is reduced by q kmph (p > q). If he takes r hours to cover the distance, then",
+        "options": {
+            "a": "1/r = p-q",
+            "b": "r = p-q",
+            "c": "1/r = p+q",
+            "d": "r = p+q"
+        },
+        "correct_answer": "a",
+        "difficulty": "Difficult",
+        "explanation": "Speed = Distance / Time\nGiven, reduced speed = (p - q) kmph.\nDistance = 1 km.\nTime = r hours.\nSo, (p - q) = 1 / r\nTherefore, 1/r = p-q."
+    },
+    {
+        "topic": "time_distance",
+        "question": "Ravi can walk a certain distance in 40 days when he rests 9 hours a day. How long will he take to walk twice the distance, twice as fast and rest twice as long each day?",
+        "options": {
+            "a": "40 days",
+            "b": "50 days",
+            "c": "80 days",
+            "d": "100 days"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Let the required number of days be x.\nMore distance, More days required (Direct Proportion)\nMore speed, Less days required (Indirect Proportion)\nMore resting hours, More days required (Direct Proportion)\nDistance 1 : 2\nSpeed 2 : 1\nResting hours 9 : 18 :: 40 : x\nTherefore, (1 \u00d7 2 \u00d7 9 \u00d7 x) = (2 \u00d7 1 \u00d7 18 \u00d7 40)\nx = (2 \u00d7 1 \u00d7 18 \u00d7 40) / (1 \u00d7 2 \u00d7 9) = (36 \u00d7 40) / 18 = 2 \u00d7 40 = 80."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A car is driven at the speed of 100 km/hr and stops for 10 minutes at the end of every 150 km. To cover a distance of 1000 km, it will take",
+        "options": {
+            "a": "9 hours",
+            "b": "10 hours",
+            "c": "11 hours",
+            "d": "12 hours"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Time taken to cover 150 km = (1 hr 30 min + 10 min) = 1 hr 40 min.\nTime taken to cover (150 \u00d7 6) i.e., 900 km = (1 hr 30 min \u00d7 6) hrs. = 10 hrs.\nRemaining 100 km is covered in 1 hour.\nTotal time taken = (10 + 1) hrs = 11 hrs."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A man takes 50 minutes to cover a certain distance at a speed of 6 km/hr. If he walks with a speed of 10 km/hr, he covers the same distance in",
+        "options": {
+            "a": "10 minutes",
+            "b": "20 minutes",
+            "c": "30 minutes",
+            "d": "40 minutes"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Distance = Speed x Time = (6 \u00d7 50/60) km = 5 km.\nRequired time = Distance / Speed = (5 / 10) hrs = (1/2) hrs = 30 min."
+    },
+    {
+        "topic": "time_distance",
+        "question": "A truck covers a distance of 550 metres in 1 minute whereas a bus covers a distance of 33 kms in 45 minutes. The ratio of their speeds is",
+        "options": {
+            "a": "3:4",
+            "b": "4:3",
+            "c": "3:5",
+            "d": "50:3"
+        },
+        "correct_answer": "a",
+        "difficulty": "Difficult",
+        "explanation": "Speed of truck = 550 m / 1 min.\nSpeed of bus = 33 km / 45 min = 33000 m / 45 min.\nRatio of speeds = (550 / 1) : (33000 / 45)\n= 550 : (2200 / 3)\n= 550 \u00d7 3 : 2200\n= 1650 : 2200\n= 33 : 44 = 3 : 4."
+    },
+    {
+        "topic": "simple_interest",
+        "question": "A person invests money in three different schemes for 6 years, 10 years and 12 years at 10 percent, 12 percent and 15 percent simple interest respectively. At the completion of each scheme, he gets the same interest. The ratio of his investments is",
+        "options": {
+            "a": "2:3:4",
+            "b": "4:3:2",
+            "c": "3:4:6",
+            "d": "6:3:2"
+        },
+        "correct_answer": "d",
+        "difficulty": "Difficult",
+        "explanation": "Let the investments in the three schemes be P1, P2, and P3.\nFor Scheme 1: Time T1 = 6 years, Rate R1 = 10%.\nFor Scheme 2: Time T2 = 10 years, Rate R2 = 12%.\nFor Scheme 3: Time T3 = 12 years, Rate R3 = 15%.\nGiven that the interest at the completion of each scheme is the same.\nInterest1 = Interest2 = Interest3\n(P1 \u00d7 R1 \u00d7 T1) / 100 = (P2 \u00d7 R2 \u00d7 T2) / 100 = (P3 \u00d7 R3 \u00d7 T3) / 100\nP1 \u00d7 10 \u00d7 6 = P2 \u00d7 12 \u00d7 10 = P3 \u00d7 15 \u00d7 12\n60P1 = 120P2 = 180P3\nTo find the ratio P1:P2:P3, we can divide by the Least Common Multiple (LCM) of 60, 120, and 180, which is 360.\n(60P1 / 360) = (120P2 / 360) = (180P3 / 360)\nP1 / 6 = P2 / 3 = P3 / 2\nSo, P1:P2:P3 = 6:3:2."
+    },
+    {
+        "topic": "simple_interest",
+        "question": "Divide \u20b9 2379 into 3 parts so that their amounts after 2, 3 and 4 years respectively may be equal, the rate of interest being 5% per annum at simple interest. The first part is",
+        "options": {
+            "a": "\u20b9 759",
+            "b": "\u20b9 792",
+            "c": "\u20b9 818",
+            "d": "\u20b9 828"
+        },
+        "correct_answer": "d",
+        "difficulty": "Difficult",
+        "explanation": "Let the three parts be P1, P2, and P3.\nGiven P1 + P2 + P3 = \u20b9 2379.\nRate of interest (R) = 5% p.a.\nTime for P1 (T1) = 2 years.\nTime for P2 (T2) = 3 years.\nTime for P3 (T3) = 4 years.\nThe amounts after their respective periods are equal.\nAmount = Principal + Simple Interest = P + (P \u00d7 R \u00d7 T) / 100 = P (1 + RT/100)\nAmount1 = P1 (1 + 5 \u00d7 2 / 100) = P1 (1 + 10/100) = P1 (110/100) = 1.1P1\nAmount2 = P2 (1 + 5 \u00d7 3 / 100) = P2 (1 + 15/100) = P2 (115/100) = 1.15P2\nAmount3 = P3 (1 + 5 \u00d7 4 / 100) = P3 (1 + 20/100) = P3 (120/100) = 1.2P3\nSince Amount1 = Amount2 = Amount3:\n1.1P1 = 1.15P2 = 1.2P3\nTo find the ratio P1:P2:P3, we can write:\nP1 = (1.15/1.1)P2 = (115/110)P2 = (23/22)P2\nP3 = (1.15/1.2)P2 = (115/120)P2 = (23/24)P2\nSubstitute these into the total sum equation:\nP1 + P2 + P3 = 2379\n(23/22)P2 + P2 + (23/24)P2 = 2379\nTo solve for P2, find the LCM of 22 and 24, which is 264.\nMultiply the entire equation by 264:\n(23 \u00d7 12)P2 + 264P2 + (23 \u00d7 11)P2 = 2379 \u00d7 264\n276P2 + 264P2 + 253P2 = 2379 \u00d7 264\n793P2 = 2379 \u00d7 264\nP2 = (2379 \u00d7 264) / 793\nNote that 2379 / 793 = 3.\nP2 = 3 \u00d7 264 = \u20b9 792.\nNow find P1:\nP1 = (23/22)P2 = (23/22) \u00d7 792 = 23 \u00d7 36 = \u20b9 828.\n(Also, P3 = (23/24)P2 = (23/24) \u00d7 792 = 23 \u00d7 33 = \u20b9 759.)\nThe first part is \u20b9 828."
+    },
+    {
+        "topic": "simple_interest",
+        "question": "A man invested 1/3 of his capital at 7%; 1/4 at 8% and the remainder at 10%. If his annual income is \u20b9 561, the capital is",
+        "options": {
+            "a": "\u20b9 5400",
+            "b": "\u20b9 6000",
+            "c": "\u20b9 6600",
+            "d": "\u20b9 7200"
+        },
+        "correct_answer": "c",
+        "difficulty": "Difficult",
+        "explanation": "Let the total capital be x.\nPart 1: (1/3) of capital at 7%.\nPart 2: (1/4) of capital at 8%.\nRemainder: 1 - (1/3 + 1/4) = 1 - (4/12 + 3/12) = 1 - 7/12 = 5/12 of capital at 10%.\nAnnual income (total interest for 1 year) = \u20b9 561.\nInterest from Part 1 = (x/3 \u00d7 7 \u00d7 1) / 100 = 7x / 300\nInterest from Part 2 = (x/4 \u00d7 8 \u00d7 1) / 100 = 8x / 400 = 2x / 100 = x / 50\nInterest from Remainder = (5x/12 \u00d7 10 \u00d7 1) / 100 = 50x / 1200 = 5x / 120 = x / 24\nTotal annual income:\n(7x / 300) + (x / 50) + (x / 24) = 561\nTo sum these fractions, find the LCM of 300, 50, and 24. The LCM is 600.\n(14x / 600) + (12x / 600) + (25x / 600) = 561\n(14x + 12x + 25x) / 600 = 561\n51x / 600 = 561\nx = (561 \u00d7 600) / 51\nx = 11 \u00d7 600 (since 561 / 51 = 11)\nx = 6600.\nThe capital is \u20b9 6600."
+    }
+]

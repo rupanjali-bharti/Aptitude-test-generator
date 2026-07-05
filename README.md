@@ -127,12 +127,13 @@ Aptitude-test-generator/
 │   │   │   └── TestResults.js   # Post-test results view
 │   │   ├── pages/           # Page components
 │   │   │   ├── Home.js          # Landing & test configuration page
-│   │   │   └── ResultsDashboard.js  # Performance dashboard & history
+│   │   │   ├── TestsList.js     # List of available static tests
+│   │   │   ├── TestTaking.js    # Test-taking page with per-question timing
+│   │   │   └── ResultsView.js   # Results / review view for an attempt
 │   │   ├── styles/          # CSS styles
 │   │   │   ├── Home.css         # Landing page styles
 │   │   │   ├── Test.css         # Test interface styles
-│   │   │   ├── TestResults.css  # Results page styles
-│   │   │   ├── ResultsDashboard.css  # Dashboard styles
+│   │   │   └── TestResults.css  # Results page styles
 │   │   │   └── index.css
 │   │   ├── utils/           # Utility functions
 │   │   │   └── api.js       # API client wrapper
