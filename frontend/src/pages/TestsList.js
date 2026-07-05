@@ -11,13 +11,6 @@ const loadAttemptedTests = () => {
   }
 };
 
-const titleCase = (text) => text
-  .replace(/[-_]/g, ' ')
-  .split(' ')
-  .filter(Boolean)
-  .map((word) => word[0].toUpperCase() + word.slice(1))
-  .join(' ');
-
 function TestsList() {
   const navigate = useNavigate();
   const [tests, setTests] = useState([]);
