@@ -1,0 +1,327 @@
+[
+  {
+    "text": "A company’s revenue increased by 20% in the first year and decreased by 10% in the second year. If the initial revenue was ₹50 lakh, what is the revenue after two years?",
+    "topic": "Percentages",
+    "difficulty": "Medium",
+    "options": {
+      "A": "₹54 lakh",
+      "B": "₹55 lakh",
+      "C": "₹56 lakh",
+      "D": "₹60 lakh"
+    },
+    "correctAnswer": "A",
+    "explanation": "Initial revenue = ₹50 lakh. After a 20% increase: 50 × 1.20 = ₹60 lakh. After a 10% decrease: 60 × 0.90 = ₹54 lakh."
+  },
+  {
+    "text": "A trader mixes 40 litres of milk costing ₹60 per litre with 20 litres of milk costing ₹80 per litre. What is the average cost per litre of the mixture?",
+    "topic": "Mixtures & Alligation",
+    "difficulty": "Medium",
+    "options": {
+      "A": "₹64",
+      "B": "₹66.67",
+      "C": "₹68",
+      "D": "₹70"
+    },
+    "correctAnswer": "B",
+    "explanation": "Total cost = (40 × 60) + (20 × 80) = ₹4,000. Total quantity = 60 litres. Average cost = 4000 ÷ 60 = ₹66.67 per litre."
+  },
+  {
+    "text": "Three unbiased coins are tossed simultaneously. What is the probability of getting exactly two heads?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/8",
+      "B": "3/8",
+      "C": "1/2",
+      "D": "5/8"
+    },
+    "correctAnswer": "B",
+    "explanation": "Total outcomes = 2³ = 8. Favourable outcomes are HHT, HTH and THH, i.e., 3 outcomes. Probability = 3/8."
+  },
+  {
+    "text": "The average of 12 numbers is 35. If one number is excluded, the average becomes 34. What is the excluded number?",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "42",
+      "B": "45",
+      "C": "46",
+      "D": "47"
+    },
+    "correctAnswer": "C",
+    "explanation": "Total of 12 numbers = 12 × 35 = 420. Total of remaining 11 numbers = 11 × 34 = 374. Excluded number = 420 − 374 = 46."
+  },
+  {
+    "text": "A can complete a work in 24 days, B in 36 days. They work together for 8 days. What fraction of the work remains?",
+    "topic": "Time & Work",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1/9",
+      "B": "2/9",
+      "C": "1/3",
+      "D": "4/9"
+    },
+    "correctAnswer": "D",
+    "explanation": "Combined work per day = 1/24 + 1/36 = 5/72. Work completed in 8 days = 8 × 5/72 = 40/72 = 5/9. Remaining work = 1 − 5/9 = 4/9."
+  },
+  {
+    "text": "Find the next number in the series: 5, 10, 20, 35, 55, ?",
+    "topic": "Number Series",
+    "difficulty": "Medium",
+    "options": {
+      "A": "75",
+      "B": "80",
+      "C": "82",
+      "D": "85"
+    },
+    "correctAnswer": "B",
+    "explanation": "Differences are +5, +10, +15, +20. The next difference is +25. Hence, 55 + 25 = 80."
+  },
+  {
+    "text": "A train running at 72 km/h crosses another train of equal length travelling in the opposite direction at 36 km/h in 12 seconds. What is the length of each train?",
+    "topic": "Time, Speed & Distance",
+    "difficulty": "Hard",
+    "options": {
+      "A": "150 m",
+      "B": "180 m",
+      "C": "200 m",
+      "D": "240 m"
+    },
+    "correctAnswer": "B",
+    "explanation": "Relative speed = 72 + 36 = 108 km/h = 30 m/s. Total distance covered = 30 × 12 = 360 m. Since both trains are of equal length, each train is 360 ÷ 2 = 180 m."
+  },
+  {
+    "text": "The sum of two numbers is 48 and their difference is 12. What is the larger number?",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "options": {
+      "A": "24",
+      "B": "28",
+      "C": "30",
+      "D": "36"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let the larger number be x and the smaller be y. x + y = 48 and x − y = 12. Adding both equations gives 2x = 60, so x = 30."
+  },
+  {
+    "text": "If all roses are flowers and some flowers are red, which conclusion definitely follows?",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Some roses are red",
+      "B": "All flowers are roses",
+      "C": "All roses are flowers",
+      "D": "Some red objects are roses"
+    },
+    "correctAnswer": "C",
+    "explanation": "Only the statement 'All roses are flowers' is guaranteed. Nothing can be concluded about roses being red."
+  },
+  {
+    "text": "In a code language, every letter is replaced by the next letter in the English alphabet. How will 'MUSIGMA' be written?",
+    "topic": "Coding-Decoding",
+    "difficulty": "Easy",
+    "options": {
+      "A": "NVTJHNB",
+      "B": "NVTJHMB",
+      "C": "NVTJINA",
+      "D": "OVUKIOC"
+    },
+    "correctAnswer": "A",
+    "explanation": "Replace each letter with the next alphabet letter: M→N, U→V, S→T, I→J, G→H, M→N, A→B. Hence, NVTJHNB."
+  },
+  {
+    "text": "Six people A, B, C, D, E and F are sitting around a circular table facing the centre. A sits opposite B. C sits immediately clockwise of A. D sits opposite C. Who sits immediately clockwise of B?",
+    "topic": "Circular Seating Arrangement",
+    "difficulty": "Hard",
+    "options": {
+      "A": "C",
+      "B": "D",
+      "C": "E",
+      "D": "F"
+    },
+    "correctAnswer": "D",
+    "explanation": "Fix A at any position. B sits opposite A. C sits immediately clockwise of A. D sits opposite C. The remaining two seats are occupied by E and F. F ends up immediately clockwise of B."
+  },
+  {
+    "text": "In a class of 120 students, 70 study Java, 50 study Python and 20 study both. How many students study neither Java nor Python?",
+    "topic": "Venn Diagram",
+    "difficulty": "Medium",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "correctAnswer": "B",
+    "explanation": "Students studying at least one language = 70 + 50 − 20 = 100. Therefore, students studying neither = 120 − 100 = 20."
+  },
+  {
+    "text": "A person walks 5 km north and then 12 km east. How far is the person from the starting point?",
+    "topic": "Direction Sense",
+    "difficulty": "Easy",
+    "options": {
+      "A": "11 km",
+      "B": "12 km",
+      "C": "13 km",
+      "D": "17 km"
+    },
+    "correctAnswer": "C",
+    "explanation": "Using Pythagoras' theorem: Distance = √(5² + 12²) = √(25 + 144) = √169 = 13 km."
+  },
+  {
+    "text": "The table below shows the number of employees in four departments.\n\nHR: 30\nFinance: 45\nEngineering: 75\nMarketing: 50\n\nWhat percentage of the total employees work in Engineering?",
+    "topic": "Data Interpretation",
+    "difficulty": "Medium",
+    "options": {
+      "A": "30%",
+      "B": "35%",
+      "C": "37.5%",
+      "D": "40%"
+    },
+    "correctAnswer": "C",
+    "explanation": "Total employees = 30 + 45 + 75 + 50 = 200. Percentage in Engineering = (75 ÷ 200) × 100 = 37.5%."
+  },
+  {
+    "text": "A clock shows 3:30. What is the smaller angle between the hour hand and the minute hand?",
+    "topic": "Clocks",
+    "difficulty": "Medium",
+    "options": {
+      "A": "60°",
+      "B": "75°",
+      "C": "90°",
+      "D": "105°"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hour hand position = (3 × 30) + (30 × 0.5) = 105°. Minute hand position = 30 × 6 = 180°. Smaller angle = 180° − 105° = 75°."
+  }, 
+  {
+    "text": "A sum of ₹15,000 is invested at 12% per annum compounded annually. What will be the amount after 2 years?",
+    "topic": "Compound Interest",
+    "difficulty": "Medium",
+    "options": {
+      "A": "₹18,720",
+      "B": "₹18,816",
+      "C": "₹18,900",
+      "D": "₹19,020"
+    },
+    "correctAnswer": "B",
+    "explanation": "Amount = P(1 + R/100)^n = 15000 × (1.12)^2 = 15000 × 1.2544 = ₹18,816."
+  },
+  {
+    "text": "A box contains 5 green, 4 red and 3 yellow balls. Two balls are drawn one after another without replacement. What is the probability that both balls are green?",
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "5/33",
+      "B": "10/33",
+      "C": "2/11",
+      "D": "5/22"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total balls = 12. Probability = (5/12) × (4/11) = 20/132 = 5/33."
+  },
+  {
+    "text": "The average salary of 20 employees is ₹48,000. A manager whose salary is ₹72,000 leaves the company and another employee joins with a salary of ₹52,000. What is the new average salary?",
+    "topic": "Average",
+    "difficulty": "Medium",
+    "options": {
+      "A": "₹46,000",
+      "B": "₹47,000",
+      "C": "₹48,000",
+      "D": "₹49,000"
+    },
+    "correctAnswer": "B",
+    "explanation": "Original total salary = 20 × 48,000 = ₹960,000. New total = 960,000 − 72,000 + 52,000 = ₹940,000. New average = 940,000 ÷ 20 = ₹47,000."
+  },
+  {
+    "text": "Find the next number in the series: 1, 4, 9, 16, 25, ?",
+    "topic": "Number Series",
+    "difficulty": "Easy",
+    "options": {
+      "A": "30",
+      "B": "32",
+      "C": "36",
+      "D": "49"
+    },
+    "correctAnswer": "C",
+    "explanation": "The numbers are perfect squares: 1², 2², 3², 4², 5². The next number is 6² = 36."
+  },
+  {
+    "text": "A boat travels 48 km downstream in 4 hours and the same distance upstream in 6 hours. What is the speed of the stream?",
+    "topic": "Boats & Streams",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1 km/h",
+      "B": "2 km/h",
+      "C": "3 km/h",
+      "D": "4 km/h"
+    },
+    "correctAnswer": "B",
+    "explanation": "Downstream speed = 48/4 = 12 km/h. Upstream speed = 48/6 = 8 km/h. Stream speed = (12 − 8) ÷ 2 = 2 km/h."
+  },
+  {
+    "text": "How many different 3-letter words can be formed from the letters A, B, C, D and E without repeating any letter?",
+    "topic": "Permutation & Combination",
+    "difficulty": "Medium",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "60",
+      "D": "120"
+    },
+    "correctAnswer": "C",
+    "explanation": "Required arrangements = ⁵P₃ = 5 × 4 × 3 = 60."
+  },
+  {
+    "text": "Statements: All engineers are graduates. Some graduates are analysts. Conclusions: I. Some engineers are analysts. II. All engineers are graduates.",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Only I follows",
+      "B": "Only II follows",
+      "C": "Both follow",
+      "D": "Neither follows"
+    },
+    "correctAnswer": "B",
+    "explanation": "Conclusion II directly follows from the first statement. Conclusion I does not necessarily follow because no relationship between engineers and analysts is established."
+  },
+  {
+    "text": "In a family, P is the brother of Q. R is the mother of P. S is the father of R. How is S related to Q?",
+    "topic": "Blood Relations",
+    "difficulty": "Easy",
+    "options": {
+      "A": "Grandfather",
+      "B": "Father",
+      "C": "Uncle",
+      "D": "Brother"
+    },
+    "correctAnswer": "A",
+    "explanation": "P and Q are siblings. R is their mother. S is R's father. Therefore, S is Q's grandfather."
+  },
+  {
+    "text": "A student scored 72, 68, 80, 76 and 84 in five subjects. What is the median of the scores?",
+    "topic": "Statistics",
+    "difficulty": "Easy",
+    "options": {
+      "A": "72",
+      "B": "76",
+      "C": "78",
+      "D": "80"
+    },
+    "correctAnswer": "B",
+    "explanation": "Arrange the scores in ascending order: 68, 72, 76, 80, 84. The middle value is 76."
+  },
+  {
+    "text": "The bar chart below shows the number of laptops sold by a store.\n\nJanuary: 120\nFebruary: 150\nMarch: 180\nApril: 210\n\nWhat is the average number of laptops sold per month?",
+    "topic": "Data Interpretation",
+    "difficulty": "Easy",
+    "options": {
+      "A": "150",
+      "B": "160",
+      "C": "165",
+      "D": "170"
+    },
+    "correctAnswer": "C",
+    "explanation": "Average = (120 + 150 + 180 + 210) ÷ 4 = 660 ÷ 4 = 165."
+  }
+]

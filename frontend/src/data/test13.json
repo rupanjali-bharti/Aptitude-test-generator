@@ -1,0 +1,327 @@
+[
+  {
+    "text": "Choose the correct synonym of the word 'Abundant'.",
+    "topic": "Verbal Ability",
+    "difficulty": "Easy",
+    "options": {
+      "A": "Scarce",
+      "B": "Plentiful",
+      "C": "Limited",
+      "D": "Rare"
+    },
+    "correctAnswer": "B",
+    "explanation": "Abundant means available in large quantities. Plentiful is the closest synonym."
+  },
+  {
+    "text": "Choose the word that is opposite in meaning to 'Transparent'.",
+    "topic": "Verbal Ability",
+    "difficulty": "Easy",
+    "options": {
+      "A": "Clear",
+      "B": "Visible",
+      "C": "Opaque",
+      "D": "Open"
+    },
+    "correctAnswer": "C",
+    "explanation": "Transparent means allowing light to pass through or easy to understand. Opaque means not transparent."
+  },
+  {
+    "text": "Identify the grammatically correct sentence.",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "He don't like solving problems.",
+      "B": "He doesn't likes solving problems.",
+      "C": "He doesn't like solving problems.",
+      "D": "He don't likes solving problems."
+    },
+    "correctAnswer": "C",
+    "explanation": "After 'doesn't', the base form of the verb should be used. Therefore, 'doesn't like' is correct."
+  },
+  {
+    "text": "Arrange the following sentences to form a meaningful paragraph:\nP. Data has become an important resource for businesses.\nQ. Companies use analytics to make better decisions.\nR. This helps them understand customers and market trends.\nS. Therefore, data-driven strategies are becoming common.",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "P-Q-R-S",
+      "B": "Q-P-S-R",
+      "C": "P-R-Q-S",
+      "D": "S-P-Q-R"
+    },
+    "correctAnswer": "A",
+    "explanation": "The logical flow starts with the importance of data, followed by analytics usage, benefits, and conclusion."
+  },
+  {
+    "text": "A company's sales increased significantly after launching a marketing campaign. Which assumption is most reasonable?",
+    "topic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "options": {
+      "A": "The campaign had some impact on sales",
+      "B": "Sales always increase after campaigns",
+      "C": "Competitors stopped selling products",
+      "D": "Customers dislike the product"
+    },
+    "correctAnswer": "A",
+    "explanation": "The increase suggests the campaign may have contributed, but it does not prove that it is the only reason."
+  },
+  {
+    "text": "Statement: All data scientists understand statistics. Some programmers are data scientists. Conclusion: Some programmers understand statistics.\nWhich option is correct?",
+    "topic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Conclusion follows",
+      "B": "Conclusion does not follow",
+      "C": "Both statement and conclusion are false",
+      "D": "Cannot be determined"
+    },
+    "correctAnswer": "A",
+    "explanation": "Some programmers are data scientists, and all data scientists understand statistics. Therefore, those programmers understand statistics."
+  },
+  {
+    "text": "A company observes that customer complaints increased after reducing customer support staff. What is the most likely explanation?",
+    "topic": "Business Analytics",
+    "difficulty": "Easy",
+    "options": {
+      "A": "Support capacity decreased",
+      "B": "Product quality improved",
+      "C": "Customers increased profits",
+      "D": "Marketing expenses reduced"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reducing support staff can increase response times and customer dissatisfaction."
+  },
+  {
+    "text": "A retailer notices that sales are high during weekends but low on weekdays. What should be analysed first?",
+    "topic": "Business Analytics",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Customer buying patterns",
+      "B": "Employee birthdays",
+      "C": "Office furniture",
+      "D": "Company logo"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sales variation should first be analysed through customer behaviour and purchase patterns."
+  },
+  {
+    "text": "What is the output of the following pseudocode?\n\nx = 10\ny = 5\nx = x + y\nprint(x)",
+    "topic": "Programming Logic",
+    "difficulty": "Easy",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "50"
+    },
+    "correctAnswer": "C",
+    "explanation": "x becomes 10 + 5 = 15."
+  },
+  {
+    "text": "What will be the output?\n\nsum = 0\nfor i = 1 to 4\n   sum = sum + i\nprint(sum)",
+    "topic": "Programming Logic",
+    "difficulty": "Medium",
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correctAnswer": "B",
+    "explanation": "The loop adds 1+2+3+4 = 10."
+  },
+  {
+    "text": "A number is divisible by 2 and 3. Which of the following must be true?",
+    "topic": "Data Sufficiency",
+    "difficulty": "Medium",
+    "options": {
+      "A": "The number is divisible by 5",
+      "B": "The number is divisible by 6",
+      "C": "The number is odd",
+      "D": "The number is prime"
+    },
+    "correctAnswer": "B",
+    "explanation": "A number divisible by both 2 and 3 must be divisible by their LCM, which is 6."
+  },
+  {
+    "text": "What is the value of x?\n\nStatement 1: x + y = 10\nStatement 2: y = 4",
+    "topic": "Data Sufficiency",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Statement 1 alone is sufficient",
+      "B": "Statement 2 alone is sufficient",
+      "C": "Both statements together are sufficient",
+      "D": "Even both statements are insufficient"
+    },
+    "correctAnswer": "C",
+    "explanation": "Using both statements: x + 4 = 10, therefore x = 6."
+  },
+  {
+    "text": "Is n an even number?\n\nStatement 1: n is divisible by 4.\nStatement 2: n is greater than 10.",
+    "topic": "Data Sufficiency",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Statement 1 alone is sufficient",
+      "B": "Statement 2 alone is sufficient",
+      "C": "Both together are required",
+      "D": "Neither is sufficient"
+    },
+    "correctAnswer": "A",
+    "explanation": "Any number divisible by 4 must be even. Statement 1 alone is sufficient."
+  },
+  {
+    "text": "A company's profit increased despite a decrease in sales volume. Which factor could explain this?",
+    "topic": "Business Analytics",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Higher profit margin per product",
+      "B": "Lower product quality",
+      "C": "More customer complaints",
+      "D": "Higher employee turnover"
+    },
+    "correctAnswer": "A",
+    "explanation": "Profit can increase even with lower sales if each product generates a higher margin."
+  },
+  {
+    "text": "What will be the output of the following pseudocode?\n\narr = [2,4,6,8]\nprint(arr[2])",
+    "topic": "Programming Logic",
+    "difficulty": "Medium",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correctAnswer": "C",
+    "explanation": "Array indexing starts from 0. arr[2] refers to the third element, which is 6."
+  },
+  {
+    "text": "Choose the correct meaning of the idiom: 'A blessing in disguise'.",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "options": {
+      "A": "A hidden problem",
+      "B": "Something that seems bad but turns out beneficial",
+      "C": "An obvious advantage",
+      "D": "A difficult situation"
+    },
+    "correctAnswer": "B",
+    "explanation": "A blessing in disguise refers to something that appears negative initially but later proves to be beneficial."
+  },
+  {
+    "text": "Choose the correctly spelled word.",
+    "topic": "Verbal Ability",
+    "difficulty": "Easy",
+    "options": {
+      "A": "Occassion",
+      "B": "Ocassion",
+      "C": "Occasion",
+      "D": "Occassionn"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct spelling is 'Occasion'."
+  },
+  {
+    "text": "A study claims that employees who work remotely are more productive. Which additional information would strengthen this argument?",
+    "topic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Remote employees complete more tasks on average than office employees",
+      "B": "Some employees prefer working from offices",
+      "C": "The company has a large office building",
+      "D": "Remote work requires internet access"
+    },
+    "correctAnswer": "A",
+    "explanation": "Showing higher task completion directly supports the claim that remote workers are more productive."
+  },
+  {
+    "text": "Statement: A city introduced more buses and traffic congestion reduced. Which conclusion is most reasonable?",
+    "topic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "options": {
+      "A": "More public transport may reduce private vehicle usage",
+      "B": "All citizens stopped using cars",
+      "C": "Roads became wider",
+      "D": "Traffic congestion can never increase again"
+    },
+    "correctAnswer": "A",
+    "explanation": "Additional buses may encourage people to use public transport, reducing road traffic."
+  },
+  {
+    "text": "A company notices that customers who receive personalized recommendations buy more products. What should the company implement?",
+    "topic": "Business Analytics",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Recommendation system",
+      "B": "Reduce product variety",
+      "C": "Stop collecting customer data",
+      "D": "Increase employee salaries"
+    },
+    "correctAnswer": "A",
+    "explanation": "Personalized recommendations are typically implemented using recommendation systems based on customer behaviour data."
+  },
+  {
+    "text": "What is the output of the following pseudocode?\n\nx = 3\nwhile(x > 0)\n   print(x)\n   x = x - 1",
+    "topic": "Programming Logic",
+    "difficulty": "Medium",
+    "options": {
+      "A": "1 2 3",
+      "B": "3 2 1",
+      "C": "3 3 3",
+      "D": "Infinite loop"
+    },
+    "correctAnswer": "B",
+    "explanation": "The loop prints x and decreases it each time: 3, 2, 1."
+  },
+  {
+    "text": "What is the time complexity of searching for an element in a sorted array using binary search?",
+    "topic": "Programming Logic",
+    "difficulty": "Medium",
+    "options": {
+      "A": "O(1)",
+      "B": "O(n)",
+      "C": "O(log n)",
+      "D": "O(n²)"
+    },
+    "correctAnswer": "C",
+    "explanation": "Binary search reduces the search space by half at every step, giving O(log n) complexity."
+  },
+  {
+    "text": "What is the value of x?\n\nStatement 1: x² = 25\nStatement 2: x is a positive number",
+    "topic": "Data Sufficiency",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Statement 1 alone is sufficient",
+      "B": "Statement 2 alone is sufficient",
+      "C": "Both statements together are sufficient",
+      "D": "Both statements are insufficient"
+    },
+    "correctAnswer": "C",
+    "explanation": "Statement 1 gives x = ±5. Statement 2 specifies x is positive, so x = 5. Both are required."
+  },
+  {
+    "text": "Is the company profitable?\n\nStatement 1: Revenue is ₹10 lakh.\nStatement 2: Expenses are ₹8 lakh.",
+    "topic": "Data Sufficiency",
+    "difficulty": "Easy",
+    "options": {
+      "A": "Statement 1 alone is sufficient",
+      "B": "Statement 2 alone is sufficient",
+      "C": "Both statements together are sufficient",
+      "D": "Neither statement is sufficient"
+    },
+    "correctAnswer": "C",
+    "explanation": "Profit = Revenue − Expenses. Both revenue and expenses are required to determine profitability."
+  },
+  {
+    "text": "A dataset has many missing values. What should an analyst do first before building a model?",
+    "topic": "Data Analytics",
+    "difficulty": "Medium",
+    "options": {
+      "A": "Ignore all missing values",
+      "B": "Clean and preprocess the data",
+      "C": "Immediately train the model",
+      "D": "Delete the entire dataset"
+    },
+    "correctAnswer": "B",
+    "explanation": "Data cleaning and preprocessing are necessary before analysis or machine learning."
+  }
+]

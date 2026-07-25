@@ -8,8 +8,11 @@ import test7 from './test7.json';
 import test8 from './test8.json';
 import test9 from './test9.json';
 import test10 from './test10.json';
+import test11 from './test11.json';
+import test12 from './test12.json';
+import test13 from './test13.json';
 
-const sources = { test1, test2, test3, test4, test5, test6, test7, test8, test9, test10 };
+const sources = { test1, test2, test3, test4, test5, test6, test7, test8, test9, test10, test11, test12, test13 };
 
 const normalizeQuestion = (question, index) => ({
   id: `${question.topic || 'question'}-${index}`,
